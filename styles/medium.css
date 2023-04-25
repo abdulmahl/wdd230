@@ -1,0 +1,18 @@
+
+:root {
+    --platinum: #E0E0E0;
+    --battleship-gray: #7A7A71;
+    --smokey-black: #141301;
+    --outer-space: #44474A;
+
+}
+
+/* Tablet view 
+************** */
+@media only screen and (min-width: 48em) {
+  
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
