@@ -21,7 +21,7 @@ header, footer {
 }
 
 main {
-    max-width: 800px;
+    max-width: 767px;
     font-size: .8em;
 	margin: .9rem;
 	padding: 0 1rem;
@@ -86,7 +86,7 @@ h1 {
 
 .image-text {
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 25%;
 	color: var(--white);
 	font-size: 3.9em;
