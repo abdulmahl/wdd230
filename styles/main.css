@@ -1,0 +1,85 @@
+:root {
+    --rich-black: #00171F;
+    --prussian-blue: #003459;
+    --blood-red: #69140E;
+    --white: #ffff;
+    --saffron: #EFBC06;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  height: 100%;
+  font-family: Dongle, Arial, Helvetica, sans-serif;
+}
+
+header, nav, main, footer, div {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: var(--prussian-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 30px var(--rich-black);
+    font-size: 24px;
+}
+header {
+    padding: 1.5rem;
+    display: flex;
+}
+
+footer {
+    padding: 1.5rem;
+    font-size: 1.9em;
+}
+
+span {
+    font-size: 23px;
+}
+
+#year {
+    font-size: 1em
+  }
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 30px var(--rich-black);
+    float: right;
+}
+
+nav {
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--saffron);
+}
+
+h1 {
+    font-size: 4rem;
+    margin: .15rem;
+    margin-block-start: 0.67em;
+    margin-inline-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 45px 85px;
+    display: block;
+    text-shadow: 2px 2px 30px var(--rich-black);
+}
+
+h2 {
+    font-size: 3.3rem;
+    text-shadow: 2px 2px 5px var(--rich-black);
+    color: var(--rich-black);
+    margin-bottom: .5rem;
+    border-bottom: 1px solid var(--saffron);
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+li a {
+    text-decoration: none;
+}
