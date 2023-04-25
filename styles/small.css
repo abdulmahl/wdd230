@@ -85,10 +85,10 @@ h1 {
 
 .image-text {
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 25%;
 	color: var(--white);
-	font-size: 3.6em;
+	font-size: 3.9em;
 	text-align: center;
 	transform: translate(-16%);
 	background: rgba(192, 195, 190, 0.5);
