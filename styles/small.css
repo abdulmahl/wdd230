@@ -20,7 +20,7 @@ header, footer {
     color: var(--platinum);
 }
 
-main {
+.first-section {
     max-width: 767px;
     font-size: .8em;
 	margin: .9rem;
@@ -68,7 +68,7 @@ h1 {
 	margin: 1em 0px;
 }
 
-#logo {
+#logo-millhaven {
 	width: 5em;
 	padding-top: 1em;
 }
@@ -79,7 +79,7 @@ h1 {
 	padding-top: .7em;
 }
 
-#main-image {
+#main-image1 {
 	width: 100%;
 	height: auto;
 }
@@ -122,4 +122,47 @@ h1 {
 	border-bottom: solid;
 	border-left: solid;
 	border-right: solid;
+}
+
+.second-section {
+	max-width: 767px;
+    font-size: .8em;
+	margin: .9rem;
+	padding: 0 1rem;
+	background-color: var(--platinum);
+    border-radius: 7px 7px 0 0;
+	border: 1px solid var(--outer-space);
+}
+
+#heading-rul {
+	background-color: var(--outer-space);
+	padding-top: .1em;
+	margin-right: -16px;
+	margin-left: -16px;
+	border-radius: 7px 7px 0 0;
+	color: var(--platinum);
+}
+
+#logo-bnb {
+	width: 5em;
+	padding: 20px;
+	display: flex;
+	position: relative;
+	bottom: -20px;
+	z-index: 1;
+}
+
+#main-image2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom: 40px;
+}
+
+.bnb-image-text {
+	font-size: 28px;
+	color: var(--white);
+	position: relative;
+	bottom: 120px;
+	text-align: center;
 }
