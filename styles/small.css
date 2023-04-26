@@ -148,7 +148,6 @@ h1 {
 	padding: 20px;
 	display: flex;
 	position: relative;
-	bottom: -20px;
 	z-index: 1;
 }
 
@@ -157,13 +156,19 @@ h1 {
 	height: auto;
 	position: relative;
 	bottom: 40px;
+	top: -5em;
+}
+
+#background-white {
+	background-color: white;
+	border: 1px solid;
 }
 
 .bnb-image-text {
 	font-size: 28px;
 	color: var(--white);
 	position: relative;
-	bottom: 120px;
+	bottom: 150px;
 	text-align: center;
 }
 
@@ -174,7 +179,7 @@ h1 {
 }
 
 #destination {
-	width: 80%;
+	width: 79.5%;
 	height: 35px;
 	position: absolute;
 	bottom: -65%;
@@ -191,7 +196,7 @@ h1 {
 	position: absolute;
 	bottom: -74%;
 	left: 12pc;
-	width: 41%;
+	width: 40.5%;
 	height: 35px;
 }
 
@@ -217,13 +222,13 @@ h1 {
 	position: absolute;
 	bottom: -81.6%;
 	height: 35px;
-	width: 80%;
+	width: 79.5%;
 }
 
 #search-btn {
 	position: absolute;
 	bottom: -89%;
-	width: 80%;
+	width: 79.5%;
 	height: 2.5em;
 	background-color: #f95a5a;
 	font-weight: bolder;
@@ -236,14 +241,54 @@ h1 {
 }
 
 #image1, #image2, #image3 {
-	width: 100%;
+	width: 200px;
 	height: auto;
 }
 
+#image3 {
+	position: relative;
+	right: 5em;
+	width: 216.12px;
+	height: 200px
+}
+
+#image2 {
+	width: 226.58px;
+	height: 200px;
+	position: relative;
+	right: 1em;
+}
+
+#image1 {
+	width: 160px;
+	height: 200px;
+}
 
 #flexbox-images {
 	display: flex;
-	gap: 40px;
 	overflow: auto;
-	
+}
+
+.stays {
+	position: relative;
+	top: 220px;
+	right: 100px;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.Experiences {
+	position: relative;
+	top: 220px;
+	right: 125px;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.adventures {
+	position: relative;
+	top: 220px;
+	right: 178px;
+	font-weight: bolder;
+	font-size: 14px;
 }
