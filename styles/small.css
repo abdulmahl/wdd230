@@ -75,7 +75,7 @@ h1 {
 
 
 .contact {
-	padding-left: 4em;
+	padding-left: 6em;
 	padding-top: .7em;
 }
 
@@ -165,4 +165,85 @@ h1 {
 	position: relative;
 	bottom: 120px;
 	text-align: center;
+}
+
+#label1 {
+	position: absolute;
+	bottom: -60%;
+	font-weight: bolder;
+}
+
+#destination {
+	width: 80%;
+	height: 35px;
+	position: absolute;
+	bottom: -65%;
+}
+
+.check-out {
+	position: absolute;
+	right: 7.7pc;
+	bottom: -69%;
+	font-weight: bolder;
+}
+
+#checkout {
+	position: absolute;
+	bottom: -74%;
+	left: 12pc;
+	width: 41%;
+	height: 35px;
+}
+
+.check-in {
+	position: absolute;
+	bottom: -69%;
+	font-weight: bolder;
+}
+
+#checkin {
+	height: 35px;
+	position: absolute;
+	bottom: -74%;
+}
+
+.guests-label {
+	position: absolute;
+	bottom: -77%;
+	font-weight: bolder;
+}
+
+#guests {
+	position: absolute;
+	bottom: -81.6%;
+	height: 35px;
+	width: 80%;
+}
+
+#search-btn {
+	position: absolute;
+	bottom: -89%;
+	width: 80%;
+	height: 2.5em;
+	background-color: #f95a5a;
+	font-weight: bolder;
+}
+
+.explore {
+	font-weight: bolder;
+	font-size: 23px;
+	padding-bottom: 1em;
+}
+
+#image1, #image2, #image3 {
+	width: 100%;
+	height: auto;
+}
+
+
+#flexbox-images {
+	display: flex;
+	gap: 40px;
+	overflow: auto;
+	
 }
