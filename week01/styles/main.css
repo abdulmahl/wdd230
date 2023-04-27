@@ -1,3 +1,5 @@
+/* Small screen responsive styling (Default styling) */
+
 :root {
     --rich-black: #00171F;
     --prussian-blue: #003459;
@@ -19,34 +21,29 @@ body {
   font-family: "Dongle", Arial, Helvetica, sans-serif;
 }
 
-header, nav, main, footer, div {
-    margin: 1.25rem auto;
-}
-
 header, footer {
+    max-width: 767px;
+    margin: 0 auto;
     background-color: var(--prussian-blue);
     color: var(--white);
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 30px var(--rich-black);
 }
 header {
-    padding: 1.5rem;
     display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-/*     grid-template-columns: 100px 1fr; */
-/*     justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
-    padding: 1.5rem;
     font-size: 1.9em;
+    text-align: center;
 }
 
-span {
-    font-size: 1.3rem;
+main {
+    font-size: 1.5rem;
+    margin: 10px auto;
+    max-width: 290px;
 }
 
 #year {
@@ -54,16 +51,12 @@ span {
   }
 
 img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    position: relative;
+    top: 8px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 0 30px var(--rich-black);
-  
-}
-
-nav {
-    font-size: 1.5rem;
-    border-bottom: 1px solid var(--saffron);
 }
 
 li a {
