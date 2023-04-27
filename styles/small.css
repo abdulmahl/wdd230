@@ -179,7 +179,7 @@ h1 {
 }
 
 #destination {
-	width: 79.5%;
+	width: 82%;
 	height: 35px;
 	position: absolute;
 	bottom: -65%;
@@ -222,13 +222,13 @@ h1 {
 	position: absolute;
 	bottom: -81.6%;
 	height: 35px;
-	width: 79.5%;
+	width: 82%;
 }
 
 #search-btn {
 	position: absolute;
 	bottom: -89%;
-	width: 79.5%;
+	width: 82%;
 	height: 2.5em;
 	background-color: #f95a5a;
 	font-weight: bolder;
@@ -238,11 +238,6 @@ h1 {
 	font-weight: bolder;
 	font-size: 23px;
 	padding-bottom: 1em;
-}
-
-#image1, #image2, #image3 {
-	width: 200px;
-	height: auto;
 }
 
 #image3 {
