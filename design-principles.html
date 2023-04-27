@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles Document | Abdul Mahl</title>
     <meta name="description" content="Design Principles Document">
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -20,7 +20,7 @@
     </header>
     <main>
         <section class="first-section">
-            <aside id="heading-rep"><h1>Repetition</h1></aside>
+            <div id="heading-rep"><h1>Repetition</h1></div>
             <h3>Millhaven Homes</h3>
             <a class="link" href="https://millhavenhomes.com/" target="_blank">millhavenhomes.com</a>
             <div class="card">
@@ -32,10 +32,8 @@
                 <img id="main-image1" src="images/grey-house.jpg" alt="house-image">
                 <div class="image-text">QUALITY ON EVERY LEVEL</div>
                 <div><img id="round-image" src="images/architect.jpeg" alt="architect-image"></div>
-                <p>
                     <h1 class="main-msg">Our Unique Approach</h1>
-                    Building a home is an exciting and memorable experience that should be cherished 
-                </p>
+                <p>Building a home is an exciting and memorable experience that should be cherished</p>
             </div>
             <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -60,15 +58,15 @@
 
                 <div>
                     <form action="design-principles.html">
-                      <span id="label1" for="destination">WHERE</span><br><br>
+                      <label id="label1" for="destination">WHERE</label><br><br>
                       <input type="text" id="destination" name="place" placeholder="Anywhere"><br><br>
                   
-                      <span class="check-in" for="checkin">CHECK IN <Input:btn></Input:btn> </span><br><br>
+                      <label class="check-in" for="checkin">CHECK IN</label><br><br>
                       <input type="text" id="checkin" name="checkIn" placeholder="DD, MM DATE">
-                      <span class="check-out" for="checkout">CHECK OUT<Input:btn></Input:btn> </span><br><br>
+                      <label class="check-out" for="checkout">CHECK OUT</label><br><br>
                       <input type="text" id="checkout" name="checkOut" placeholder="DD, MM DATE"><br><br>
                   
-                      <span class="guests-label" for="guests">GUESTS</span><br><br>
+                      <label class="guests-label" for="guests">GUESTS</label><br><br>
                       <select id="guests" name="guests">
                         <option value="guests1">2 guests</option>
                         <option value="guests2">4 guests</option>
