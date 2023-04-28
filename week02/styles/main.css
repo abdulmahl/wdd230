@@ -41,7 +41,7 @@ header, footer {
     font-size: 23px;
 }
 
-#heading-rep {
+#heading-hicks {
 	background-color: var(--outer-space);
 	padding-top: .1em;
 	margin-right: -16px;
@@ -73,4 +73,42 @@ img {
 	text-align: left;
 	position: relative;
 	top: 50px;
+}
+
+.second-section {
+	max-width: 767px;
+	margin: 0.9em;
+	padding: 0 1rem;
+	background-color: var(--platinum);
+    border-radius: 7px 7px 0 0;
+	border: 1px solid var(--outer-space);
+	height: 58em;
+}
+
+#heading-visual-hier {
+	background-color: var(--outer-space);
+	padding-top: .1em;
+	margin-right: -16px;
+	margin-left: -16px;
+	border-radius: 7px 7px 0 0;
+	color: var(--platinum);
+}
+
+.third-section {
+	max-width: 767px;
+	margin: 0.9em;
+	padding: 0 1rem;
+	background-color: var(--platinum);
+    border-radius: 7px 7px 0 0;
+	border: 1px solid var(--outer-space);
+	height: 58em;
+}
+
+#heading-fitts {
+	background-color: var(--outer-space);
+	padding-top: .1em;
+	margin-right: -16px;
+	margin-left: -16px;
+	border-radius: 7px 7px 0 0;
+	color: var(--platinum);
 }
