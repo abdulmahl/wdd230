@@ -80,3 +80,8 @@ li a {
 span {
   font-size: 1.4rem;
 }
+
+aside {
+  position: relative;
+  bottom: 17px;
+}
