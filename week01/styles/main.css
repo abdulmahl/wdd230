@@ -15,9 +15,6 @@
 }
 
 body {
-  font-size: 18px;
-  line-height: 1.5;
-  height: 100%;
   font-family: "Dongle", Arial, Helvetica, sans-serif;
 }
 
@@ -36,14 +33,24 @@ header {
 }
 
 footer {
-    font-size: 1.9em;
+    font-size: 2em;
     text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid var(--saffron);
+  text-shadow: 0 0 10px var(--rich-black);
 }
 
 main {
     font-size: 1.5rem;
     margin: 10px auto;
     max-width: 290px;
+    border-bottom: 1px solid var(--saffron);
+}
+
+li {
+  margin-left: 20px; 
 }
 
 #year {
@@ -54,11 +61,21 @@ img {
     width: 150px;
     height: auto;
     position: relative;
-    top: 8px;
+    top: 15px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 0 30px var(--rich-black);
 }
 
+h1 {
+  position: relative;
+  top: 7px;
+  font-size: 3em;
+}
+
 li a {
     text-decoration: none;
+}
+
+span {
+  font-size: 1.4rem;
 }
