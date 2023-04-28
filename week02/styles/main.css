@@ -16,6 +16,7 @@ body {
 }
 
 header, footer {
+	margin: 0 auto;
     background-color: var(--smokey-black);
     text-align: center;
     color: var(--platinum);
@@ -27,12 +28,15 @@ header, footer {
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 65em;
+	height: 57em;
 }
 
 main {
 	display: grid;
 	grid-template-columns: 1fr;
+	max-width: 85%;
+	width: 960px;
+	margin: 0 auto;
 }
 
 #title {
@@ -86,7 +90,7 @@ h1 {
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 65em;
+	height: 57em;
 }
 
 #heading-visual-hier {
@@ -123,7 +127,7 @@ h1 {
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 65em;
+	height: 57em;
 }
 
 #heading-fitts {
