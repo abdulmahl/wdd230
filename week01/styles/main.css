@@ -40,7 +40,7 @@ footer {
 h2 {
   border-bottom: 1px solid var(--saffron);
   text-shadow: 0 0 10px var(--rich-black);
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 main {
