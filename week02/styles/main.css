@@ -57,12 +57,13 @@ h1 {
     font-size: 1.2em;
 }
 
-.link {
+.link-hicks {
 	position: relative;
-	top: 15px
+	top: 15px;
+	text-decoration: none;
 }
 
-img {
+#image1 {
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -94,6 +95,19 @@ img {
 	color: var(--platinum);
 }
 
+.link-hier {
+	position: relative;
+	top: 15px;
+	text-decoration: none;
+}
+
+#image2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 45px;
+}
+
 .nonsense-para2 {
 	text-align: left;
 	position: relative;
@@ -117,6 +131,19 @@ img {
 	margin-left: -16px;
 	border-radius: 7px 7px 0 0;
 	color: var(--platinum);
+}
+
+.link-fitts {
+	position: relative;
+	top: 15px;
+	text-decoration: none;
+}
+
+#image3 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 45px;
 }
 
 .nonsense-para3 {
