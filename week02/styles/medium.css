@@ -9,7 +9,7 @@
 
 /* Tablet view 
 ************** */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   
     main {
         grid-template-columns: repeat(2, 1fr);
@@ -17,6 +17,12 @@
 
     section:nth-child(3) {
         grid-column: span 2;
+    }
+
+    .link-hicks {
+        position: absolute;
+        top: 175px;
+        text-decoration: none;
     }
 
 }

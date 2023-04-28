@@ -8,7 +8,7 @@
 }
 /* Desktop view 
 ***************** */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
     main {
         grid-template-columns: repeat(3, 1fr);
@@ -16,6 +16,12 @@
 
     section:nth-child(3) {
         grid-column: span 1;
+    }
+
+    .link-hicks {
+        position: absolute;
+        top: 170px;
+        text-decoration: none;
     }
 
 }
