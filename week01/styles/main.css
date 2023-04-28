@@ -42,11 +42,13 @@ h2 {
   border-bottom: 1px solid var(--saffron);
   text-shadow: 0 0 10px var(--rich-black);
   font-size: 1.3em;
+  position: relative;
+  bottom: 15px;
 }
 
 main {
     font-size: 1.5rem;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 290px;
     border-bottom: 1px solid var(--saffron);
 }
