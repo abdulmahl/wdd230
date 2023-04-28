@@ -40,6 +40,11 @@
         max-width: 767px;
     }
 
+    li {
+        position: relative;
+        bottom: 10px;
+    }
+
     footer {
         font-size: 2.5em;
         padding: 10px;
