@@ -69,10 +69,10 @@ img {
 	top: 45px;
 }
 
-.nonsense-para {
+.nonsense-para1 {
 	text-align: left;
 	position: relative;
-	top: 50px;
+	top: 55px;
 }
 
 .second-section {
@@ -94,6 +94,12 @@ img {
 	color: var(--platinum);
 }
 
+.nonsense-para2 {
+	text-align: left;
+	position: relative;
+	top: 55px;
+}
+
 .third-section {
 	max-width: 767px;
 	margin: 0.9em;
@@ -111,4 +117,10 @@ img {
 	margin-left: -16px;
 	border-radius: 7px 7px 0 0;
 	color: var(--platinum);
+}
+
+.nonsense-para3 {
+	text-align: left;
+	position: relative;
+	top: 55px;
 }
