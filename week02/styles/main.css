@@ -22,13 +22,17 @@ header, footer {
 }
 
 .first-section {
-	max-width: 767px;
 	margin: 0.9em;
 	padding: 0 1rem;
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 58em;
+	height: 65em;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 #title {
@@ -77,13 +81,12 @@ h1 {
 }
 
 .second-section {
-	max-width: 767px;
 	margin: 0.9em;
 	padding: 0 1rem;
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 58em;
+	height: 65em;
 }
 
 #heading-visual-hier {
@@ -115,13 +118,12 @@ h1 {
 }
 
 .third-section {
-	max-width: 767px;
 	margin: 0.9em;
 	padding: 0 1rem;
 	background-color: var(--platinum);
     border-radius: 7px 7px 0 0;
 	border: 1px solid var(--outer-space);
-	height: 58em;
+	height: 65em;
 }
 
 #heading-fitts {
