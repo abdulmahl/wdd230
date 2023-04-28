@@ -64,8 +64,8 @@ h1 {
 }
 
 .link-hicks {
-	position: absolute;
-	top: 210px;
+	position: relative;
+	top: 12px;
 	text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ h1 {
 	width: 100%;
 	height: auto;
 	position: relative;
-	top: 40px;
+	top: 27px;
 }
 
 .nonsense-para1 {
