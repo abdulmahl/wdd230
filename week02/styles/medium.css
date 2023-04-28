@@ -18,11 +18,4 @@
     section:nth-child(3) {
         grid-column: span 2;
     }
-
-    .link-hicks {
-        position: absolute;
-        top: 175px;
-        text-decoration: none;
-    }
-
 }
