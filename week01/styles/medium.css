@@ -44,4 +44,13 @@
         position: relative;
         right: 2%;
       }
+
+    h2 {
+        font-size: 2em;
+    }  
+
+    aside {
+        position: relative;
+        bottom: 20px;
+    }
 }
