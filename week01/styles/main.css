@@ -25,6 +25,7 @@ header, footer {
     color: var(--white);
     box-shadow: 0px 0px 30px var(--rich-black);
 }
+
 header {
     display: flex;
     flex-direction: column;
