@@ -19,7 +19,7 @@
         background-color: var(--prussian-blue);
         color: var(--white);
         box-shadow: 0px 0px 30px var(--rich-black);
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
 
     img {
@@ -29,7 +29,7 @@
         position: relative;
         top: 25%;
         right: 5%;
-        border-radius: 10px 10px 10px 10px;
+        /* border-radius: 10px 10px 10px 10px; */
         box-shadow: 0 0 30px var(--rich-black);
     }
 

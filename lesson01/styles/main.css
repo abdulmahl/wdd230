@@ -69,7 +69,7 @@ img {
     height: auto;
     position: relative;
     top: 15px;
-    border-radius: 10px 10px 10px 10px;
+    /* border-radius: 10px 10px 10px 10px; */
     box-shadow: 0 0 30px var(--rich-black);
 }
 
