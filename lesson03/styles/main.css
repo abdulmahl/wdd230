@@ -5,6 +5,7 @@
     --gunmetal: #123640;
     --raisin-black: #28282A;
     --selective-yellow: #FFBA08;
+    --lavender: #DFD9E2;
 }
 
 * {
@@ -20,26 +21,46 @@ body {
 
 #logo {
     width: 100%;
+	height: auto;
 }
 
-header {
-    background-color: var(--gunmetal);
+header, nav, main, footer {
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .social a img {
     display: none;
 }
 
-header {
-}
-
 header nav {
-    background-color: var(--gunmetal);
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-items: center;
-    padding: 20px;
+}
+
+nav {
+    background-color: var(--raisin-black);
+	text-align: center;
+	box-shadow: 0 0 30px var(--gunmetal);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	bottom: 6px;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    color: var(--lavender);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: .9em;
 }
 
 
