@@ -1,0 +1,46 @@
+/* Base / cell-phone view */
+
+
+:root {
+    --gunmetal: #123640;
+    --raisin-black: #28282A;
+    --selective-yellow: #FFBA08;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#logo {
+    width: 100%;
+}
+
+header {
+    background-color: var(--gunmetal);
+}
+
+.social a img {
+    display: none;
+}
+
+header {
+}
+
+header nav {
+    background-color: var(--gunmetal);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+
+
