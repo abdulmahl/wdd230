@@ -2,9 +2,9 @@
 
 
 :root {
-    --gunmetal: #123640;
+    --honolulu-blue: #0077B6;
     --raisin-black: #28282A;
-    --selective-yellow: #FFBA08;
+    --mindaro: #F8FA90;
     --lavender: #DFD9E2;
 }
 
@@ -43,7 +43,7 @@ header nav {
 nav {
     background-color: var(--raisin-black);
 	text-align: center;
-	box-shadow: 0 0 30px var(--gunmetal);
+	box-shadow: 0 0 30px var(--honolulu-blue);
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -61,6 +61,11 @@ nav a {
     padding: 15px;
     text-decoration: none;
     font-size: .9em;
+}
+
+nav a:hover {
+	background-color: var(--honolulu-blue);
+	color: var(--mindaro);
 }
 
 
