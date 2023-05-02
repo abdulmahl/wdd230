@@ -79,6 +79,12 @@ picture img {
 	bottom: 50px;
 }
 
+.cci-msg {
+	position: relative;
+	bottom: 600px;
+	left: 22px;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
