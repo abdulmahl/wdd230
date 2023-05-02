@@ -15,18 +15,26 @@
 }
 
 body {
-    font-family: 'Rajdhani', sans-serif;
-    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #logo {
-    width: 100%;
+    width: 40%;
 	height: auto;
+	padding: 20px;
+/* 	position: relative; */
+/* 	left: px; */
+	border-radius: 360px;
 }
 
 header, nav, main, footer {
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+header, footer {
+	background-color: var(--honolulu-blue);
 }
 
 .social a img {
@@ -46,8 +54,6 @@ nav {
 	box-shadow: 0 0 30px var(--honolulu-blue);
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	bottom: 6px;
 }
 
 nav div {
@@ -66,6 +72,13 @@ nav a {
 nav a:hover {
 	background-color: var(--honolulu-blue);
 	color: var(--mindaro);
+}
+
+footer {
+	/* display: flex; */
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
 }
 
 
