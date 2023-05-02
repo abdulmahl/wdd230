@@ -1,5 +1,9 @@
 let date = new Date();
 
-let fullDate = `${date.toDateString()} @ ${date.toLocaleTimeString()}`
+let fullDateandTime = `${date.toLocaleString("en-US", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    hour12: false,
+})}`;
 document.querySelector("#year").textContent = date.getFullYear();
-document.querySelector("#dateTime").textContent = fullDate;
+document.querySelector("#dateTime").textContent = fullDateandTime;
