@@ -5,5 +5,6 @@ let fullDateandTime = `${date.toLocaleString("en-US", {
     timeStyle: "short",
     hour12: false,
 })}`;
+
 document.querySelector("#year").textContent = date.getFullYear();
 document.querySelector("#dateTime").textContent = fullDateandTime;
