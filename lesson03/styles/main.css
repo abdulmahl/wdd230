@@ -15,17 +15,14 @@
 }
 
 body {
-    /* font-family: 'Rajdhani', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
 }
 
 #logo {
-    width: 40%;
+    width: 100%;
 	height: auto;
-	padding: 20px;
-/* 	position: relative; */
-/* 	left: px; */
-	border-radius: 360px;
+	position: relative;
+	left: px;
 }
 
 header, nav, main, footer {
@@ -51,9 +48,10 @@ header nav {
 nav {
     background-color: var(--raisin-black);
 	text-align: center;
-	box-shadow: 0 0 30px var(--honolulu-blue);
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	bottom: 50px;
 }
 
 nav div {
