@@ -71,12 +71,17 @@ nav a:hover {
 	color: var(--mindaro);
 }
 
+picture img {
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	position: relative;
+	bottom: 50px;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
 	font-weight: 700;
 }
-
-
-
