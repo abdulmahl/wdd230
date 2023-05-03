@@ -115,6 +115,7 @@ nav a:hover {
 .typo-example1 {
   font-family: "Ubuntu";
   text-align: center;
+  padding: 5px;
 }
 
 .typo-example2 {
