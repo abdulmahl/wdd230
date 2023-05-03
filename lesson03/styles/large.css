@@ -1,0 +1,25 @@
+
+/* Desktop view ****** */
+
+@media only screen and (min-width: 902px) {
+
+    #logo {
+        width: 26%;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+	#name {
+        font-size: 3.6em;
+	}
+
+    header, footer, main, nav {
+        max-width: 902px;
+        margin: 0 auto;
+    }
+}
