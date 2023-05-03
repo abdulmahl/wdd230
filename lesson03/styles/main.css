@@ -30,7 +30,6 @@ body {
 
 #name {
 	font-size: 25px;
-	color: var(--ecru);
 }
 
 header, footer {
@@ -50,10 +49,18 @@ header {
 	padding: 20px;
 }
 
-footer {
-    font-size: 18px;
-    text-align: center;
-	padding: 20px;
+.cci-header {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bolder;
+	font-family: "Ubuntu";
+	padding: 10px;
+}
+
+main div {
+	font-family: "Rajdhani";
+	text-align: left;
+	padding: 10px;
 }
 
 .social a img {
@@ -68,7 +75,6 @@ nav {
 	position: relative;
 }
 
-
 nav a {
     display: block;
     color: var(--lavender);
@@ -81,4 +87,10 @@ nav a {
 nav a:hover {
 	background-color: var(--honolulu-blue);
 	color: var(--mindaro);
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+	padding: 20px;
 }
