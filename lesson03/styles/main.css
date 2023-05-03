@@ -6,10 +6,6 @@
     --raisin-black: #28282A;
     --mindaro: #F8FA90;
     --lavender: #DFD9E2;
-	--air-superior-blue: #84A9C0;
-    --dark-purple: #27233A;
-    --ecru: #DCC48E;
-	--davys-gray: #505168;
 }
 
 * {
@@ -80,6 +76,19 @@ header {
 	padding: 10px;
 	background-color: var(--lavender);
 	text-align: center;
+}
+
+.typo {
+	font-size: 19px;
+	font-weight: bolder;
+	font-family: "Ubuntu";
+	padding: 10px;
+	background-color: var(--lavender);
+	text-align: center;
+}
+
+.typo-headers, .typo-elements, .typo-fonts, .typo-samples {
+	display: none;
 }
 
 main div {
