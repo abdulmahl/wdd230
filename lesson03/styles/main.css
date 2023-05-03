@@ -23,29 +23,41 @@ body {
 }
 
 #logo {
-    width: 100%;
+    width: 150px;
 	height: auto;
-	position: relative;
+	border-radius: 360px;
 }
 
-header, nav, main, footer {
-	max-width: 960px;
-	margin: 0 auto;
+#name {
+	font-size: 25px;
+	color: var(--ecru);
 }
 
 header, footer {
-	background-color: var(--honolulu-blue);
+	background-color: var(--lavender);
+}
+
+header, footer {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 20px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+	padding: 20px;
 }
 
 .social a img {
     display: none;
-}
-
-header nav {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-items: center;
 }
 
 nav {
@@ -54,12 +66,8 @@ nav {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	bottom: 50px;
 }
 
-nav div {
-    flex: 1 1 auto;
-}
 
 nav a {
     display: block;
@@ -73,25 +81,4 @@ nav a {
 nav a:hover {
 	background-color: var(--honolulu-blue);
 	color: var(--mindaro);
-}
-
-picture img {
-	width: 100%;
-	height: auto;
-	padding: 15px;
-	position: relative;
-	bottom: 50px;
-}
-
-.cci-msg {
-	position: relative;
-	bottom: 600px;
-	left: 22px;
-}
-
-footer {
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem;
-	font-weight: 700;
 }
