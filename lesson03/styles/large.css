@@ -3,6 +3,14 @@
 
 @media only screen and (min-width: 902px) {
 
+    :root {
+        --honolulu-blue: #0077b6;
+        --raisin-black: #28282a;
+        --mindaro: #f8fa90;
+        --lavender: #dfd9e2;
+        --davys-gray: #505168;
+    }
+    
     #logo {
         width: 26%;
         height: auto;

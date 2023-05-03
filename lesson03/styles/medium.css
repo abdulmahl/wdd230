@@ -3,6 +3,14 @@
 
 @media only screen and  (min-width: 768px) {
 
+    :root {
+        --honolulu-blue: #0077b6;
+        --raisin-black: #28282a;
+        --mindaro: #f8fa90;
+        --lavender: #dfd9e2;
+        --davys-gray: #505168;
+    }
+
     #logo {
         width: 20%;
         height: auto;
@@ -24,10 +32,8 @@
     }
 
     nav {
-    background-color: var(--raisin-black);
-	display: flex;
-	flex-direction: row;
+        background-color: var(--raisin-black);
+        display: flex;
+        flex-direction: row;
     }
-
-    
 }
