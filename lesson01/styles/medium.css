@@ -2,6 +2,14 @@
 
 @media screen and (min-width: 640px) {
 
+    :root {
+        --rich-black: #00171F;
+        --prussian-blue: #003459;
+        --blood-red: #69140E;
+        --white: #ffff;
+        --saffron: #EFBC06;
+    }
+    
     header, footer {
         max-width: 767px;
         margin: 0 auto;
