@@ -6,7 +6,7 @@
   --mindaro: #f8fa90;
   --lavender: #dfd9e2;
   --davys-gray: #505168;
-  --white: #ffff;
+  --ghost-white: #E8E9F3;
 }
 
 * {
@@ -141,7 +141,7 @@ nav a:hover {
 }
 .colors th {
   background-color: var(--davys-gray);
-  color: var(--white);
+  color: var(--ghost-white);
 }
 .colors td {
   width: 25%;
@@ -157,7 +157,7 @@ nav a:hover {
 }
 .accent1 {
   background-color: var(--honolulu-blue);
-  color: var(--white);
+  color: var(--ghost-white);
 }
 .accent2 {
   background-color: var(--mindaro);
