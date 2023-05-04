@@ -40,5 +40,7 @@
         background-color: var(--raisin-black);
         display: flex;
         flex-direction: row;
+        padding: 5px;
+        justify-content: center;
     }
 }
