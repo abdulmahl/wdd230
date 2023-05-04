@@ -138,6 +138,7 @@ nav a:hover {
 }
 .colors th {
   background-color: var(--davys-gray);
+  color: var(--lavender);
 }
 .colors td {
   width: 25%;
@@ -149,6 +150,7 @@ nav a:hover {
 }
 .secondary {
   background-color: var(--raisin-black);
+  color: var(--lavender);
 }
 .accent1 {
   background-color: var(--honolulu-blue);
