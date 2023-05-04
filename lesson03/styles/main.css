@@ -6,6 +6,7 @@
   --mindaro: #f8fa90;
   --lavender: #dfd9e2;
   --davys-gray: #505168;
+  --white: #ffff;
 }
 
 * {
@@ -73,8 +74,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: var(--honolulu-blue);
-  color: var(--mindaro);
+/*   background-color: var(--honolulu-blue); */
+  color: var(--honolulu-blue);
 }
 
 .cci-header {
@@ -132,13 +133,13 @@ nav a:hover {
 
 .colors {
   width: 100%;
-  min-width: 350px;
+  min-width: 30px;
   margin: 30px auto;
   text-align: center;
 }
 .colors th {
   background-color: var(--davys-gray);
-  color: var(--lavender);
+  color: var(--white);
 }
 .colors td {
   width: 25%;
@@ -154,6 +155,7 @@ nav a:hover {
 }
 .accent1 {
   background-color: var(--honolulu-blue);
+  color: var(--white);
 }
 .accent2 {
   background-color: var(--mindaro);
@@ -162,10 +164,13 @@ nav a:hover {
 .persona1-name,
 .persona2-name {
   padding-top: 15px;
+  padding: 10px;
   font-family: "Ubuntu";
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--lavender);
+  background-color: var(--raisin-black);
 }
 
 footer {
