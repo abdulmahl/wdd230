@@ -161,7 +161,11 @@ nav a:hover {
 
 .persona1-name,
 .persona2-name {
-  padding: 25px;
+  padding-top: 15px;
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
