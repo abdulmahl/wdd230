@@ -33,7 +33,21 @@
         <div>
             Explain how the specificity of competing selectors is calculated
         </div>
-        <p></p>
+        <p>
+            The mechanism of specificity in web browsers is employed to determine 
+            the most appropriate CSS declaration for an element. This process, in turn, 
+            helps to decide the corresponding property value to be assigned to that element. 
+            To determine which rule from conflicting CSS declarations takes precedence over 
+            others, the specificity algorithm computes the weight of a CSS selector.
+        </p>
+        <p>
+            Specificity is an algorithm that calculates the weight that is applied to a 
+            given CSS declaration. The weight is determined by the number of selectors of 
+            each weight category in the selector matching the element (or pseudo-element). 
+            If there are two or more declarations providing different property values for 
+            the same element, the declaration value in the style block having the matching 
+            selector with the greatest algorithmic weight gets applied.
+        </p>
     </main>
     <footer>
         <p>&COPY; <span id="year"></span> &bull; CSS Specificity &bull; All Rights Reserved</p>
