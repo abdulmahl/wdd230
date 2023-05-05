@@ -82,7 +82,6 @@ nav ul li a {
 }
 
 nav a:hover {
-/*   background-color: var(--honolulu-blue); */
   color: var(--honolulu-blue);
 }
 
