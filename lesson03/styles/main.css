@@ -115,15 +115,65 @@ nav a:hover {
   text-align: center;
 }
 
-.typo-example1 {
-  font-family: "Ubuntu";
-  text-align: center;
-  padding: 5px;
+#typo-table  {
+  margin: 10px;
+  font-size: 10px;
 }
 
-.typo-example2 {
-  font-family: "Rajdhani";
-  text-align: center;
+#typo-table tbody tr th {
+  font-size: large;
+  font-weight: bolder;
+  background-color: var(--davys-gray);
+  color: var(--ghost-white);
+}
+
+#typo-table tbody tr th, #typo-table tr td  {
+  border: 1px solid #000;
+  padding: 15px;
+  width: 200px;
+}
+
+#typo-table tbody tr th:nth-child(3),
+#typo-table tbody tr th:nth-child(4),
+#typo-table tbody tr th:nth-child(5) {
+  display: none;
+}
+
+#typo-table tr td:nth-child(3),
+#typo-table tr td:nth-child(4),
+#typo-table tr td:nth-child(5) {
+  display: none;
+}
+
+#typo-table tr td:nth-child(1),
+#typo-table tr td:nth-child(2) {
+  font-size: 13px;
+}
+
+
+.color-sample1 {
+  background-color: var(--lavender);
+  color: var(--raisin-black);
+  font-size: 25px;
+}
+
+.color-sample2 {
+  background-color: var(--lavender);
+  color: var(--raisin-black);
+  font-size: 19px;
+}
+
+.color-sample3, .color-sample4 {
+  background-color: var(--raisin-black);
+  color: var(--lavender);
+  font-size: 18px;
+}
+
+.color-sample4 {
+  background-color: var(--raisin-black);
+  color: var(--lavender);
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 .schema {

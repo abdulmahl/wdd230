@@ -43,4 +43,26 @@
         padding: 5px;
         justify-content: center;
     }
+
+    #typo-table tbody tr th:nth-child(3),
+    #typo-table tbody tr th:nth-child(4),
+    #typo-table tbody tr th:nth-child(5) {
+        display: revert;
+    }
+
+    #typo-table tr td:nth-child(3),
+    #typo-table tr td:nth-child(4),
+    #typo-table tr td:nth-child(5) {
+        display: revert;
+    }
+
+    #typo-table tr td:nth-child(1),
+    #typo-table tr td:nth-child(2),
+    #typo-table tr td:nth-child(3),
+    #typo-table tr td:nth-child(4),
+    #typo-table tr td:nth-child(5) {
+      font-size: 15px;
+      padding: 15px;
+      text-align: center;
+    }
 }
