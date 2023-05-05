@@ -36,12 +36,12 @@
         min-width: 350px;
     }
 
-    nav {
+    nav ul {
         background-color: var(--raisin-black);
         display: flex;
         flex-direction: row;
-        padding: 5px;
         justify-content: center;
+        padding: 7px;
     }
 
     #typo-table tbody tr th:nth-child(3),

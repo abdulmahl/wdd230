@@ -66,7 +66,13 @@ nav {
   flex-direction: column;
 }
 
-nav a {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
   display: block;
   color: var(--lavender);
   text-align: left;
@@ -176,6 +182,10 @@ nav a:hover {
   font-weight: bolder;
 }
 
+.color-sample5 {
+  font-size: 13px;
+}
+
 .schema {
   font-family: "Ubuntu";
   padding: 10px;
@@ -207,7 +217,7 @@ nav a:hover {
 }
 .accent1 {
   background-color: var(--honolulu-blue);
-  color: var(--ghost-white);
+  color: #fff;
 }
 .accent2 {
   background-color: var(--mindaro);
