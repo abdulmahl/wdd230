@@ -30,7 +30,19 @@
         <div>
             Discuss how selectors are used to target HTML elements for styling
         </div>
-        <p></p>
+        <p>
+            Instead of using !important, consider using cascade layers and using 
+            low weight specificity throughout your CSS so that styles are easily 
+            overridden with slightly more specific rules. Using semantic HTML helps 
+            provide anchors from which to apply styling.
+            By indicating the section of the document you're styling before the 
+            element you're selecting, the rule becomes more specific. Depending on 
+            how you add it, you can add some, a lot, or no specificity, as shown 
+            below:
+        </p>
+        <picture>
+            <img src="images/Screenshot1.png" alt="screen-shot-mdn">
+        </picture>
     </main>
     <footer>
         <p>&COPY; <span id="year"></span> &bull; CSS Specificity &bull; All Rights Reserved</p>
