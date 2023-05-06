@@ -25,6 +25,10 @@ body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+header h1 {
+    font-size: 38px;
+}
+
 nav {
     background-color: var(--baby-powder);
 }
@@ -94,11 +98,19 @@ picture img {
 
 header, footer {
     background-color: var(--jet);
-    padding: 20px;
     text-align: center;
     font-family: "Instrument Serif", sans-serif;
     font-size: 25px;
     color: var(--baby-powder);
+}
+
+header {
+    padding: 38px;
+}
+
+footer {
+    padding: 27px;
+    font-size: 20px;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
