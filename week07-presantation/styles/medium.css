@@ -1,23 +1,33 @@
 /* Tablet Display Medium Viewport *****/
 
 @media only screen and (min-width: 40em) {
+    :root {
+        --cobalt-blue: #1446A0;
+        --celestial-blue: #2892D7;
+        --night: #071108;
+        --white: #FFFFFF;
+        --orange: #FFB140;
+    }
+
     nav button {
         display: none;
     }
 
-    header h1, h2, main, footer {
-        margin-left: 2vw;
-    }
-
     nav ul#primaryNav {
         display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, .3);
+        align-items: center;
+        justify-content: center;
+        background-color: var(--orange);
+    }
+
+    nav ul li a:hover {
+        background-color: var(--cobalt-blue);
+        color: var(--orange);
     }
 
     nav ul li a {
         border: none;
-        border-right: 1px solid rgba(0, 0, 0, .3);
     }
+    
 
 }  /* End of Medium. */

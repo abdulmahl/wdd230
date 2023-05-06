@@ -51,10 +51,10 @@ nav ul li a {
     border-top: 1px solid var(--night);;
 }
 
-/* nav ul li.active a {
-    background-color: var(--night);
+.active {
+    background-color: var(--cobalt-blue);
     color: var(--white);
-} */
+}
 
 nav ul li a:hover {
     background-color: var(--cobalt-blue);
@@ -76,6 +76,11 @@ header, nav, main, footer {
 
 main {
     padding: 18px;
+}
+
+picture img {
+    width: 100%;
+    padding-top: 20px;
 }
 
 header, footer {
