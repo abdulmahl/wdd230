@@ -39,13 +39,13 @@
     .active a {
         background-color: var(--silver);
         color: var(--night);
-        border-left: 1px solid var(--jet);
-        border-right: 1px solid var(--jet);
     }
 
     nav ul li a {
         border: none;
         color: var(--night);
+        border-left: 1px solid var(--jet);
+        border-right: 1px solid var(--jet);
     }
     
 }  /* End of Medium. */
