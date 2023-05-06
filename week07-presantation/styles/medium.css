@@ -19,7 +19,17 @@
         justify-content: center;
         background-color: var(--orange);
     }
+
+    nav ul li a:hover {
+        background-color: var(--cobalt-blue);
+        color: var(--orange);
+    }
     
+    .active {
+        background-color: var(--orange);
+        color: var(--cobalt-blue);
+    }
+
     nav ul li a {
         border: none;
     }
