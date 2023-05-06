@@ -56,8 +56,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: var(--orange-peel);
-    color: var(--night);
+    background-color: var(--jet);
+    color: var(--orange-peel);
+}
+
+.active a:hover {
+    background-color: var(--silver);
+    color: var(--baby-powder);
 }
 
 .active a {
