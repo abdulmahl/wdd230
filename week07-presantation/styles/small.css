@@ -1,11 +1,11 @@
 /* Base view mobile-phone default viewport ******/
 
 :root {
-    --cobalt-blue: #1446A0;
-    --celestial-blue: #2892D7;
     --night: #071108;
-    --white: #FFFFFF;
-    --orange: #FFB140;
+    --orange-peel: #FF990A;
+    --jet: #2D2A25;
+    --baby-powder: #FDFFFC;
+    --silver: #CACCCE;
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-    background-color: var(--white);
+    background-color: var(--baby-powder);
 }
 
 nav button {
@@ -51,18 +51,18 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    /* color: var(--night); */
+    color: var(--night);
     border-top: 1px solid var(--night);
 }
 
 nav ul li a:hover {
-    background-color: var(--cobalt-blue);
-    color: var(--orange);
+    background-color: var(--orange-peel);
+    color: var(--night);
 }
 
-.active {
-    background-color: var(--orange);
-    color: var(--cobalt-blue);
+.active a {
+    background-color: var(--silver);
+    color: var(--night);
 }
 
 nav ul {
@@ -88,11 +88,12 @@ picture img {
 }
 
 header, footer {
-    background-color: var(--celestial-blue);
+    background-color: var(--jet);
     padding: 20px;
     text-align: center;
     font-family: "Instrument Serif", sans-serif;
     font-size: 25px;
+    color: var(--baby-powder);
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}

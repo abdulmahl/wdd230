@@ -2,11 +2,11 @@
 
 @media only screen and (min-width: 40em) {
     :root {
-        --cobalt-blue: #1446A0;
-        --celestial-blue: #2892D7;
         --night: #071108;
         --white: #FFFFFF;
-        --orange: #FFB140;
+        --orange-peel: #FF990A;
+        --jet: #2D2A25;
+        --silver: #CACCCE;
     }
 
     nav button {
@@ -17,21 +17,30 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--orange);
+        background-color: var(--orange-peel);
+        color: var(--night);
+        border: 1px solid var(--jet);
     }
 
     nav ul li a:hover {
-        background-color: var(--cobalt-blue);
+        background-color: var(--silver);
         color: var(--orange);
     }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
     
-    .active {
-        background-color: var(--orange);
-        color: var(--cobalt-blue);
+    .active a {
+        background-color: var(--silver);
+        color: var(--night);
+        border-left: 1px solid var(--jet);
+        border-right: 1px solid var(--jet);
     }
 
     nav ul li a {
         border: none;
+        color: var(--night);
     }
     
 
