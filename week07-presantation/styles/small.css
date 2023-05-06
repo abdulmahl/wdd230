@@ -43,6 +43,10 @@ nav ul {
     margin: 0;
 }
 
+nav ul li {
+    flex: 1 1 auto;
+}
+
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
@@ -51,14 +55,14 @@ nav ul li a {
     border-top: 1px solid var(--night);;
 }
 
-.active {
-    background-color: var(--cobalt-blue);
-    color: var(--white);
-}
-
 nav ul li a:hover {
     background-color: var(--cobalt-blue);
     color: var(--orange);
+}
+
+nav ul li.active a {
+    background-color: var(--orange);
+    color: var(--cobalt-blue);
 }
 
 nav ul {

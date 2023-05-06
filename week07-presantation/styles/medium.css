@@ -19,12 +19,7 @@
         justify-content: center;
         background-color: var(--orange);
     }
-
-    nav ul li a:hover {
-        background-color: var(--cobalt-blue);
-        color: var(--orange);
-    }
-
+    
     nav ul li a {
         border: none;
     }
