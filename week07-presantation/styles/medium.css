@@ -3,7 +3,7 @@
 @media only screen and (min-width: 40em) {
     :root {
         --night: #071108;
-        --white: #FFFFFF;
+        --baby-powder: #FDFFFC;
         --orange-peel: #FF990A;
         --jet: #2D2A25;
         --silver: #CACCCE;
@@ -17,14 +17,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--orange-peel);
+        background-color: var(--baby-powder);
         color: var(--night);
         border: 1px solid var(--jet);
     }
 
     nav ul li a:hover {
-        background-color: var(--silver);
-        color: var(--orange);
+        background-color: var(--jet);
+        color: var(--orange-peel);
     }
 
     nav ul li {
