@@ -167,11 +167,11 @@ footer {
 }
 
 footer p:first-of-type {
-	font-size: 20px;
+	font-size: 14px;
 }
 
 footer p:nth-child(2) {
-	font-size: 14px;
+	font-size: 12px;
 	padding: 7px;
 }
 
