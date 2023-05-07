@@ -20,6 +20,9 @@ header, footer {
     background-color: var(--smokey-black);
     text-align: center;
     color: var(--platinum);
+}
+
+header {
 	padding: 30px;
 }
 
@@ -156,3 +159,19 @@ h1 {
 	position: relative;
 	top: 40px;
 }
+
+footer {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p:first-of-type {
+	font-size: 20px;
+}
+
+footer p:nth-child(2) {
+	font-size: 14px;
+	padding: 7px;
+}
+

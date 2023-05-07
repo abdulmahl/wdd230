@@ -27,17 +27,14 @@
         background-color: var(--prussian-blue);
         color: var(--white);
         box-shadow: 0px 0px 30px var(--rich-black);
-        /* border-radius: 20px; */
     }
 
     img {
         width: 150px;
         height: auto;
         margin: 20px;
-        position: relative;
         top: 25%;
         right: 5%;
-        /* border-radius: 10px 10px 10px 10px; */
         box-shadow: 0 0 30px var(--rich-black);
     }
 
@@ -56,27 +53,19 @@
     }
 
     footer {
-        font-size: 2.5em;
-        padding: 10px;
-        position: relative;
-        top: -3px;
-        bottom: 5px;
+        font-size: 28px;
+    }
+
+    footer p:first-of-type {
+        font-size: 38px;
     }
 
     h1 {
         font-size: 3.5em;
-        position: relative;
-        right: 2%;
       }
 
     h2 {
         font-size: 2em;
-        position: relative;
-        bottom: 20px;
     }  
 
-    aside {
-        position: relative;
-        bottom: 20px;
-    }
 }
