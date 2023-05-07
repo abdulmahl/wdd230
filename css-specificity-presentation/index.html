@@ -30,6 +30,14 @@
             font-size: 20px;
         }
 
+        p:first-of-type {
+            color: blue;
+        }
+
+        .main p {
+            color: red;
+        }
+
     </style>
 </head>
 <body id="home">
@@ -38,8 +46,9 @@
         <h2>WDD 230 Presentation</h2>
         <h3>CSS Specificity</h3>
     </header>
-    <main class="mechanism">
+    <main class="main">
         <h1 class="title" id="main-title">CSS specificity</h1>
+        <br>
         <p>
             &sup1; The mechanism of specificity in web browsers is employed to determine 
             the most appropriate CSS declaration for an element. This process, in 
@@ -57,9 +66,10 @@
             takes precedence over others, the specificity algorithm computes the weight 
             of a CSS selector.
         </p>
-        <li>link 1</li>
-        <li>link 2</li>
-        <li>link 3</li>
+        <br>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
     </main>
     <footer>
         <p style="color: #FDFFFC;">&COPY; <span id="year"></span> &bull; CSS Specificity &bull; All Rights Reserved</p>
