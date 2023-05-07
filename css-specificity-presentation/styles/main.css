@@ -12,23 +12,10 @@ body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-main {
-    padding: 18px;
-}
-
 header, footer {
     background-color: var(--jet);
     text-align: center;
     font-family: "Instrument Serif", sans-serif;
     font-size: 25px;
     color: var(--baby-powder);
-}
-
-header {
-    padding: 38px;
-}
-
-footer {
-    padding: 27px;
-    font-size: 20px;
 }
