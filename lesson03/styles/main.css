@@ -85,8 +85,9 @@ nav a:hover {
   color: var(--honolulu-blue);
 }
 
-.active {
-  
+nav ul li.active a {
+  background-color: var(--mindaro);
+  color: var(--raisin-black);
 }
 
 .cci-header {
