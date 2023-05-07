@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 07 - Presentation - Abdul Mahl</title>
+    <meta name="description" content="Presentation - Week 07 - CSS Specificity">
+    <style>
+        /* ***************************************************************
+                                                        attributes          
+                                                        psuedo-class     pseudo-element
+                !important        inline          id      classes         tag(type)
+    #Abdul            0              0            1           0              0
+
+    p (para)          0              0            0           0              1
+
+    .blue             0              0            0           1              0
+
+    a (href)          0              0            0           1              1
+
+    a> span           0              0            0           0              2
+
+    .blue .orange     0              0            0           2              0
+        *************************************************************** */
+
+        html {
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M. Abdul Mahlangu</h1>
+        <h2>WDD 230 Presentation</h2>
+        <h3>CSS Specificity</h3>
+    </header>
+    <main>
+        <div>Briefly introduce the topic of CSS specificity</div>
+        <div>
+            Explain why understanding specificity is important for web developers
+        </div>
+        <p>
+            The mechanism of specificity in web browsers is employed to determine 
+            the most appropriate CSS declaration for an element. This process, in 
+            turn, helps to decide the corresponding property value to be assigned 
+            to that element. To determine which rule from conflicting CSS declarations 
+            takes precedence over others, the specificity algorithm computes the weight 
+            of a CSS selector.
+        </p>
+    </main>
+    <footer>
+        <p>&COPY; <span id="year"></span> &bull; CSS Specificity &bull; All Rights Reserved</p>
+        <p style="color: #FF990A;">Last Updated: <span id="dateTime"></span></p>
+    </footer>
+</body>
+</html>
