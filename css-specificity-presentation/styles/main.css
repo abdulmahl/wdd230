@@ -8,25 +8,8 @@
     --silver: #CACCCE;
 }
 
-html {
-    -webkit-text-size-adjust: 100%; 
-    -ms-text-size-adjust: 100%;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
-}
-
-li {
-    padding-left: 40px;
 }
 
 main {

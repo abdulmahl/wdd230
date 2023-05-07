@@ -27,12 +27,25 @@
         *************************************************************** */
 
         html {
+            -webkit-text-size-adjust: 100%; 
+            -ms-text-size-adjust: 100%;
             font-size: 20px;
         }
 
+        p:first-of-type {
+            color: gold !important;
+        }
 
         main[lang] p {
             color: red;
+        }
+
+        #home p {
+            color: rebeccapurple;
+        }
+
+        body aside ul li a {
+            text-decoration: overline;
         }
 
     </style>
@@ -46,7 +59,7 @@
     <main class="main" lang="en">
         <h1 class="title" id="main-title">CSS specificity</h1>
         <br>
-        <p>
+        <p style="color: lightgreen;">
             &sup1; The mechanism of specificity in web browsers is employed to determine 
             the most appropriate CSS declaration for an element. This process, in 
             turn, helps to decide the corresponding property value to be assigned 
@@ -64,9 +77,13 @@
             of a CSS selector.
         </p>
         <br>
-        <li><a href="#">link 1</a></li>
-        <li><a href="#">link 2</a></li>
-        <li><a href="#">link 3</a></li>
+        <aside class="ads">
+            <ul id="ad-bar">
+                <li class="ad-item"><a href="#" class="ad-link">ad link 1</a></li>
+                <li class="ad-item"><a href="#" class="ad-link"></a>ad link 2</li>
+                <li class="ad-item"><a href="#" class="ad-link"></a>ad link 3</li>
+            </ul>
+        </aside>
     </main>
     <footer>
         <p style="color: #FDFFFC;">&COPY; <span id="year"></span> &bull; CSS Specificity &bull; All Rights Reserved</p>
