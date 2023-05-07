@@ -85,6 +85,10 @@ nav a:hover {
   color: var(--honolulu-blue);
 }
 
+.active {
+  
+}
+
 .cci-header {
   text-align: center;
   font-family: "Ubuntu";
