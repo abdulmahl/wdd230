@@ -14,15 +14,10 @@
                                                     psuedo-class   pseudo-element
                 !important     inline        id      classes        tag(type)
     #Abdul            0          0            1         0             0
-
     p (para)          0          0            0         0             1
-
     .blue             0          0            0         1             0
-
     a (href)          0          0            0         1             1
-
     a> span           0          0            0         0             2
-
     .blue .orange     0          0            0         2             0
         *************************************************************** */
 
@@ -30,22 +25,6 @@
             -webkit-text-size-adjust: 100%; 
             -ms-text-size-adjust: 100%;
             font-size: 20px;
-        }
-
-        p:first-of-type {
-            color: gold !important;
-        }
-
-        main[lang] p {
-            color: red;
-        }
-
-        #home p {
-            color: rebeccapurple;
-        }
-
-        body aside ul li a {
-            text-decoration: overline;
         }
 
     </style>
@@ -58,8 +37,7 @@
     </header>
     <main class="main" lang="en">
         <h1 class="title" id="main-title">CSS specificity</h1>
-        <br>
-        <p style="color: lightgreen;">
+        <p style="">
             &sup1; The mechanism of specificity in web browsers is employed to determine 
             the most appropriate CSS declaration for an element. This process, in 
             turn, helps to decide the corresponding property value to be assigned 
@@ -67,7 +45,6 @@
             takes precedence over others, the specificity algorithm computes the weight 
             of a CSS selector.
         </p>
-        <br>
         <p>
             &sup2; The mechanism of specificity in web browsers is employed to determine 
             the most appropriate CSS declaration for an element. This process, in 
@@ -76,12 +53,16 @@
             takes precedence over others, the specificity algorithm computes the weight 
             of a CSS selector.
         </p>
-        <br>
         <aside class="ads">
             <ul id="ad-bar">
-                <li class="ad-item"><a href="#" class="ad-link">ad link 1</a></li>
-                <li class="ad-item"><a href="#" class="ad-link"></a>ad link 2</li>
-                <li class="ad-item"><a href="#" class="ad-link"></a>ad link 3</li>
+                <li class="ad-item">
+                    <a href="#" class="ad-link">ad link 1</a>
+                </li>
+                <li class="ad-item">
+                    <a href="#" class="ad-link">ad link 2</a>
+                </li>
+                <li class="ad-item"><a href="#" class="ad-link">ad link 3</a>
+                </li>
             </ul>
         </aside>
     </main>
