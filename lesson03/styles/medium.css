@@ -19,7 +19,7 @@
     header {
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     #name {
@@ -41,8 +41,30 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 7px;
     }
+
+    nav ul li a {
+        display: block;
+        color: var(--lavender);
+        text-align: left;
+        padding: 13px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: var(--lavender);
+        color: var(--raisin-black);
+      }
+      
+      .active a {
+        background-color: var(--honolulu-blue);
+        color: var(--raisin-black);
+      }
+      
+      .active a:hover {
+        background-color: var(--honolulu-blue);
+        color: var(--lavender);
+      }
 
     #typo-table tbody tr th:nth-child(3),
     #typo-table tbody tr th:nth-child(4),
