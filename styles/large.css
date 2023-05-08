@@ -59,7 +59,10 @@
         font-size: 38px;
     }
 
-    h1 { font-size: 6em; }
+    h1 { 
+        font-size: 6em;
+        padding-top: 40px; 
+    }
 
     h2 {
         border-bottom: 1px solid var(--saffron);
