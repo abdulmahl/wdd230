@@ -71,4 +71,8 @@ footer {
   padding: 25px;
 }
 
-footer p:first-of-type { font-size: 35px; }
+footer p:first-of-type { font-size: 23px; }
+
+p:nth-child(2) {
+  font-size: 20px;
+}
