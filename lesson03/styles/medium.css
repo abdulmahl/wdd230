@@ -44,9 +44,7 @@
     }
 
     nav ul li a {
-        display: block;
         color: var(--lavender);
-        text-align: left;
         padding: 13px;
         text-decoration: none;
       }
