@@ -21,6 +21,8 @@
     header {
         display: flex;
         flex-direction: row;
+        padding-bottom: 30px;
+        gap: 25px;
     }
 
     header, footer {
@@ -33,14 +35,13 @@
         width: 150px;
         height: auto;
         margin: 20px;
-        top: 25%;
-        right: 5%;
-        box-shadow: 0 0 30px var(--rich-black);
+    }
+
+    .my-name {
+        text-shadow: 0 0 30px var(--saffron);
     }
 
     main {
-        font-size: 1.5rem;
-        margin: 25px auto;
         border-bottom: 1px solid var(--saffron);
         max-width: 767px;
     }
@@ -51,8 +52,13 @@
 
     footer p:first-of-type { font-size: 38px; }
 
-    h1 { font-size: 3.5em; }
+    h1 { font-size: 4em; }
 
-    h2 { font-size: 2em; }  
+    h2 {
+        border-bottom: 1px solid var(--saffron);
+        text-shadow: 0 0 10px var(--rich-black);
+        font-size: 2em;
+        padding-left: 33px;
+    }
 
 }
