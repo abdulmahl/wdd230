@@ -1,0 +1,47 @@
+/* Small display mobile viewport */
+
+:root {
+    --byzantine-blue: #2851CC;
+    --jet: #2F2F2F;
+    --silver: #BFB5AF;
+    --eerie-black: #0F1A12;
+    --flame: #ED5D31;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Gruppo', cursive; */
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+header {
+    background-color: var(--silver);
+    padding: 5px 0;
+    
+}
+
+header #logo {
+    width: 150px;
+    height: auto;
+}
+
+.facebook, .linkedin {
+    width: 30px;
+    height: auto;
+}
+
+nav ul {
+    display: none;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
