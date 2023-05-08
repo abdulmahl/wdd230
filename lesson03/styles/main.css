@@ -6,6 +6,7 @@
   --mindaro: #f8fa90;
   --lavender: #dfd9e2;
   --davys-gray: #505168;
+  --silver: #CACCCE;
   --ghost-white: #E8E9F3;
 }
 
@@ -86,6 +87,10 @@ li a:hover {
   color: var(--raisin-black);
 }
 
+.active a:hover {
+  background-color: var(--honolulu-blue);
+  color: var(--lavender);
+}
 
 .cci-header {
   text-align: center;
