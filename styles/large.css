@@ -45,11 +45,17 @@
         max-width: 767px;
     }
 
-    li { margin-left: 35px; }
+    li { 
+        margin-left: 35px;
+        font-size: 2rem;
+    }
 
     footer { font-size: 33px; }
 
-    footer p:first-of-type { font-size: 45px; }
+    footer p:first-of-type { 
+        font-size: 45px;
+        padding-top: 20px;
+    }
 
     h1 { font-size: 5.5em; }
 
