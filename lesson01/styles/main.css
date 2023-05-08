@@ -38,53 +38,38 @@ h2 {
 border-bottom: 1px solid var(--saffron);
 text-shadow: 0 0 10px var(--rich-black);
 font-size: 1.3em;
-position: relative;
-bottom: 15px;
 }
 
 main {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 20px auto;
   max-width: 290px;
   border-bottom: 1px solid var(--saffron);
 }
 
-nav ul li a {
-margin-left: 30px;
-position: relative;
-bottom: 6px;
-margin: 1% 0;
-}
+nav ul { list-style: none;}
 
-#year {
-  font-size: 1em;
-}
+nav ul li a { margin: 1%; }
+
+#year { font-size: 1em; }
 
 img {
-  width: 150px;
+  width: 175px;
   height: auto;
-  position: relative;
-  top: 15px;
-  /* border-radius: 10px 10px 10px 10px; */
-  box-shadow: 0 0 30px var(--rich-black);
+  padding-top: 30px;
 }
 
 h1 {
-position: relative;
-top: 7px;
-font-size: 3em;
+  padding-top: 15px;
+  font-size: 3em;
 }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
 footer {
-font-size: 18px;
-text-align: center;
-padding: 20px;
+  font-size: 22px;
+  text-align: center;
+  padding: 25px;
 }
 
-footer p:first-of-type {
-font-size: 24px;
-}
+footer p:first-of-type { font-size: 35px; }
