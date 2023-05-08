@@ -22,13 +22,28 @@ a (href)          0          0        0         1             1
 a> span           0          0        0         0             2
 .blue .orange     0          0        0         2             0
     *************************************************************** */
-    
+    html {
+        font-size: 20px;
+    }
+
+    .main p {
+        color: red;
+    }
+
+    p:first-of-type {
+        color: blue !important;
+    }
+
+    #home p{
+        color: purple;
+    }
+
     </style>
 </head>
 <body id="home">
     <main class="main" lang="en">
         <h1 class="title" id="main-title">CSS specificity</h1>
-        <p>
+        <p style="color: green;">
             &sup1; The mechanism of specificity in web browsers is employed to determine 
             the most appropriate CSS declaration for an element. This process, in 
             turn, helps to decide the corresponding property value to be assigned 
