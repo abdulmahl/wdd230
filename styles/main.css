@@ -54,11 +54,10 @@ nav ul li a { margin: 1%; }
 img {
   width: 175px;
   height: auto;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 h1 {
-  padding-top: 15px;
   font-size: 3em;
   text-shadow: 0 0 35px var(--saffron);
 }

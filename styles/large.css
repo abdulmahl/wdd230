@@ -50,18 +50,20 @@
         font-size: 2rem;
     }
 
-    footer { font-size: 33px; }
-
     footer p:first-of-type { 
         font-size: 49px;
         padding-top: 20px;
     }
 
-    h1 { font-size: 5.5em; }
+    p:nth-child(2) {
+        font-size: 38px;
+    }
+
+    h1 { font-size: 6em; }
 
     h2 {
         border-bottom: 1px solid var(--saffron);
-        text-shadow: 0 0 40px var(--rich-black);
+        text-shadow: 0 0 10px var(--rich-black);
         font-size: 3em;
         padding-left: 33px;
     }
