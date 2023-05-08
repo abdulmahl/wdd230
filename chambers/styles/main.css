@@ -22,26 +22,66 @@ body {
 }
 
 header {
+    display: flex;
     background-color: var(--silver);
-    padding: 5px 0;
-    
+    padding: 20px 0;
+    gap: 10px;
 }
 
-header #logo {
-    width: 150px;
+#logo {
+    width: 40px;
     height: auto;
-}
-
-.facebook, .linkedin {
-    width: 30px;
-    height: auto;
+    border-radius: 36px;
+    margin-left: 10px;
 }
 
 nav ul {
     display: none;
 }
 
-.headings {
+.headings1 {
     display: flex;
     flex-direction: column;
 }
+
+.headings2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+
+
+.facebook {
+    width: 22px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.linkedin {
+    width: 22px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 30px;
+    margin-top: 8px;
+    
+}
+
+#hamburgerBtn {
+    margin-left: 11px;
+    margin-top: 5px;
+    width: 25px;
+    height: 28px;
+}
+
+.dateAndTime {
+    background-color: var(--jet);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--silver);
+}
+
