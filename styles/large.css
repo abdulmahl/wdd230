@@ -1,6 +1,7 @@
-/* Media query added for screen of min width of 640px */
+/* Large diplay, Desktop viewport */
+/* Media query added for screen of min width of 1028px */
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1028px) {
 
     :root {
         --rich-black: #00171F;
@@ -10,7 +11,7 @@
     }
     
     header, footer {
-        max-width: 767px;
+        max-width: 888px;
         margin: 0 auto;
         background-color: var(--prussian-blue);
         color: var(--white);
@@ -31,13 +32,12 @@
     }
 
     img {
-        width: 150px;
+        width: 200px;
         height: auto;
-        margin: 20px;
     }
 
     .my-name {
-        text-shadow: 0 0 30px var(--saffron);
+        text-shadow: 0 0 40px var(--saffron);
     }
 
     main {
@@ -47,16 +47,16 @@
 
     li { margin-left: 35px; }
 
-    footer { font-size: 28px; }
+    footer { font-size: 33px; }
 
-    footer p:first-of-type { font-size: 38px; }
+    footer p:first-of-type { font-size: 45px; }
 
-    h1 { font-size: 4em; }
+    h1 { font-size: 5.5em; }
 
     h2 {
         border-bottom: 1px solid var(--saffron);
-        text-shadow: 0 0 10px var(--rich-black);
-        font-size: 2em;
+        text-shadow: 0 0 40px var(--rich-black);
+        font-size: 3em;
         padding-left: 33px;
     }
 
