@@ -64,6 +64,10 @@
         color: var(--lavender);
       }
 
+      .target {
+        padding: 12px;
+      }
+
     #typo-table tbody tr th:nth-child(3),
     #typo-table tbody tr th:nth-child(4),
     #typo-table tbody tr th:nth-child(5) {
