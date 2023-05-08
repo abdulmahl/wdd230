@@ -55,10 +55,6 @@ main div {
   padding: 10px;
 }
 
-.social a img {
-  display: none;
-}
-
 nav {
   background-color: var(--raisin-black);
   text-align: center;
@@ -76,19 +72,20 @@ nav ul li a {
   display: block;
   color: var(--lavender);
   text-align: left;
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 0.9em;
 }
 
-nav a:hover {
-  color: var(--honolulu-blue);
-}
-
-nav ul li.active a {
-  background-color: var(--mindaro);
+li a:hover {
+  background-color: var(--lavender);
   color: var(--raisin-black);
 }
+
+.active a {
+  background-color: var(--honolulu-blue);
+  color: var(--raisin-black);
+}
+
 
 .cci-header {
   text-align: center;
