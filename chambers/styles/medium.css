@@ -1,0 +1,126 @@
+@media only screen and (min-width: 560px) {
+  
+    :root {
+        --byzantine-blue: #2851CC;
+        --jet: #2F2F2F;
+        --silver: #BFB5AF;
+        --eerie-black: #0F1A12;
+        --flame: #ED5D31;
+    }
+    
+    header h1, h2, main, footer {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 30px 0;
+        gap: 15px;
+    }
+
+    #header-logo {
+        width: 120px;
+        height: auto;
+        border-radius: 360px;
+    }
+
+    .headings1 {
+        padding-top: 35px;
+        text-shadow: 0 0 30px var(--eerie-black);
+    }
+
+       h1 {
+        font-size: 47px;
+    }
+
+    .headings1 div {
+        font-size: 16px;
+    }
+
+    .header-social {
+        text-align: center;
+    }
+
+    .header-facebook {
+        width: 20%;
+        height: auto;
+        border-radius: 360px;
+    }
+
+    .header-linkedin {
+        width: 20%;
+        height: auto;
+        border-radius: 360px;
+    }
+
+    .header-twitter {
+        width: 20%;
+        height: auto;
+        border-radius: 360px;
+    }
+
+    #hamburgerBtn {
+        background: transparent;
+        border: none;
+        font-size: 2.3rem;
+        color: var(--jet);
+    }
+
+    .dateAndTime {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 1.2rem 3vw;
+        text-decoration: none;
+        color: var(--jet);
+        font-weight: bolder;
+        border-top: 1px solid var(--jet);
+    }
+    
+    nav ul li a:hover {
+        background-color: var(--eerie-black);
+        color: var(--silver);
+    }
+    
+    nav ul li.active a {
+        background-color: var(--silver);
+        color: var(--flame);
+    }
+
+    .active a:hover {
+        color: var(--eerie-black);
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav ul.open {
+        display: block;
+        max-width: 700px;
+    }
+    
+    #hamburgerBtn span:nth-child(1) {display: block;}
+    #hamburgerBtn span:nth-child(2) {display: none;}
+    
+    #hamburgerBtn.open span:nth-child(1) {display: none;}
+    #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+    #footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        box-shadow: 0 0 30px var(--flame);
+    }
+    
+}
