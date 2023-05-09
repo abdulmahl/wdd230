@@ -98,6 +98,10 @@ nav ul.open {
     flex-direction: column;
 }
 
+.header-social {
+    margin-left: 40px;
+}
+
 .header-facebook {
     width: 22px;
     height: auto;
@@ -185,7 +189,7 @@ main section {
     height: auto;
     border-radius: 360px;
     margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 31px;
     margin-bottom: 20px;
 }
 
@@ -199,6 +203,10 @@ main section {
     padding-top: 10px;
 }
 
-.footings1 h3, p {
-    padding: 2px;
+.footings1 p {
+    padding: 12px;
+}
+
+h3 {
+    font-size: 20px;
 }
