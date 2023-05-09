@@ -46,13 +46,12 @@ header {
 }
 
 
-nav button {
+#hamburgerBtn {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--jet);
-    margin-left: 140px;
 }
 
 nav ul {
@@ -69,13 +68,13 @@ nav ul li a {
     border-top: 1px solid var(--jet);
 }
 
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, .3) ;
+}
+
 nav ul li.active a {
     background-color: rgba(0, 0, 0, .20);
     color: #fff;
-}
-
-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, .3) ;
 }
 
 nav ul {
@@ -84,6 +83,7 @@ nav ul {
 
 nav ul.open {
     display: block;
+/*     text-align: center; */
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -101,25 +101,20 @@ nav ul.open {
 .header-facebook {
     width: 22px;
     height: auto;
-    margin-left: 15px;
-    border-radius: 30px;
-    margin-top: 8px;
+    border-radius: 360px;
+    margin-top: 10px;
 }
 
 .header-linkedin {
     width: 22px;
     height: auto;
-    margin-left: 15px;
-    border-radius: 30px;
-    margin-top: 8px;
+    border-radius: 360px;
 }
 
 .header-twitter {
     width: 22px;
     height: auto;
-    margin-left: 15px;
-    border-radius: 30px;
-    margin-top: 8px;
+    border-radius: 360px;
 }
 
 section a {
@@ -173,7 +168,7 @@ main section {
     width: 90px;
     height: auto;
     border-radius: 360px;
-    margin-left: 111px;
+    margin-left: 121px;
     margin-top: 13px;
 }
 
@@ -201,8 +196,9 @@ main section {
 
 .footings2 p:nth-child(2) {
     text-align: center;
+    padding-top: 10px;
 }
 
 .footings1 h3, p {
-    padding: 5px;
+    padding: 2px;
 }
