@@ -80,6 +80,10 @@ header {
     border-radius: 360px;
 }
 
+.header-whatsapp {
+    display: none;
+}
+
 section a {
     text-decoration: none;
 }

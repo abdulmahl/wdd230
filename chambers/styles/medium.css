@@ -8,13 +8,12 @@
         --flame: #ED5D31;
     }
     
-    header h1, h2, main, footer {
+    header, nav, main, footer {
         max-width: 768px;
         margin: 0 auto;
     }
 
     header {
-        max-width: 768px;
         padding: 30px 0;
         gap: 15px;
     }
@@ -26,7 +25,7 @@
     }
 
     .headings1 {
-        padding-top: 35px;
+        padding-top: 30px;
         text-shadow: 0 0 30px var(--eerie-black);
     }
 
@@ -58,6 +57,10 @@
         width: 10%;
         height: auto;
         border-radius: 360px;
+    }
+
+    .header-whatsapp {
+        display: none;
     }
 
     #hamburgerBtn {
