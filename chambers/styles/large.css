@@ -15,7 +15,7 @@
 
     header {
         padding: 40px 20px;
-        gap: 49px;
+        gap: 44px;
     }
 
     #header-logo {
@@ -24,16 +24,16 @@
     }
 
     .headings1 {
-        padding-top: 47px;
+        margin-top: 33px;
         text-shadow: 0 0 10px var(--eerie-black);
     }
 
     .headings1 h1 {
-        font-size: 55px;
+        font-size: 35px;
     }
 
     .headings1 div {
-        font-size: 23px;
+        font-size: 13px;
     }
 
     .header-social {
@@ -41,27 +41,31 @@
     }
 
     .header-facebook {
-        width: 12%;
+        width: 3%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-linkedin {
-        width: 12%;
+        width: 3%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-twitter {
-        width: 12%;
+        width: 3%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-whatsapp {
         display: revert;
-        width: 12%;
+        width: 3%;
         height: auto;
         border-radius: 360px;
+    }
+
+    #hamburgerBtn {
+        display: none;
     }
 }
