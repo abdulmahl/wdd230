@@ -30,7 +30,7 @@
         text-shadow: 0 0 30px var(--eerie-black);
     }
 
-       h1 {
+    h1 {
         font-size: 47px;
     }
 
@@ -130,7 +130,6 @@
         border: 1px solid var(--silver);
     }
 
-
     .sportlites {
         height: 270px;
         padding: 10px;
@@ -151,33 +150,41 @@
         height: 250px;
     }
 
-    footer {
+    #top-footer {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
     }
 
-
      #footer-logo {
-         display: block;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 0 0 30px var(--flame);
+        width: 160px;
+        box-shadow: none;
     }
 
     .footings1 {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: left;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    h3 {
+        padding-left: 4px;
+    }
+
+    h3:nth-child(1) {
+        font-size: 2.8em;
+    }
+
+    h3:nth-child(2) {
+        font-size: 1.2em;
     }
 
     .footings2 {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+        flex-direction: column;
+        align-items: end;
+        margin-left: 70px;
     }
 
     hr, br { display: none;}
@@ -190,17 +197,14 @@
     }
 
     .bottom-footer p:first-of-type {
-        font-size: 19px;
-        font-style: oblique;
+        font-size: 15px;
         font-weight: bolder;
     }
 
     .bottom-footer p:nth-child(2) {
         text-shadow: 0 0 20px var(--flame);
         padding: 15px;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bolder;
     }
-
-    
 }
