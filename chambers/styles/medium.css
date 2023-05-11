@@ -125,6 +125,7 @@
         width: 400px;
         height: 200px;
         padding: 10px;
+        background-color: var(--eerie-black);
         border: 1px solid var(--silver);
     }
 

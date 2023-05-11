@@ -30,9 +30,7 @@ const firstSection = headerElement.querySelector("section:first-of-type");
 //     headerElement.insertBefore(navElement, nextSibling);
 // }
 
-if (window.innerWidth > 1020 && firstSection) {
+if (window.innerWidth > 996 && firstSection) {
     const nextSibling = firstSection.nextElementSibling;
-    headerElement.insertBefore(navElement, nextSibling);
-  } else {
     headerElement.insertBefore(navElement, nextSibling);
   }
