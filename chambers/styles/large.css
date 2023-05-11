@@ -14,53 +14,34 @@
     }
 
     header {
-        padding: 40px 20px;
-        gap: 44px;
-    }
-
-    #header-logo {
-        width: 120%;
-        height: auto;
+        padding: 10px 20px;
     }
 
     .headings1 {
-        margin-top: 33px;
         text-shadow: 0 0 10px var(--eerie-black);
     }
 
-    .headings1 h1 {
-        font-size: 35px;
-    }
-
-    .headings1 div {
-        font-size: 13px;
-    }
-
-    .header-social {
-        text-align: right;
-    }
-
     .header-facebook {
-        width: 3%;
+        width: 12%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-linkedin {
-        width: 3%;
+        width: 12%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-twitter {
-        width: 3%;
+        width: 12%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-whatsapp {
         display: revert;
-        width: 3%;
+        width: 12%;
         height: auto;
         border-radius: 360px;
     }
@@ -68,4 +49,45 @@
     #hamburgerBtn {
         display: none;
     }
+
+    nav ul#primaryNav {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+     .dateAndTime {
+         font-size: x-large;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        padding: 1.2rem 2.7vw;
+        color: var(--eerie-black);
+        font-weight: bolder;
+    }
+
+    nav ul li a:hover {
+        background-color: var(--eerie-black);
+        color: var(--silver);
+    }
+    
+    nav ul li.active a {
+        background-color: var(--silver);
+        color: var(--flame);
+    }
+
+    .active a:hover {
+        color: var(--eerie-black);
+    }
+    
 }

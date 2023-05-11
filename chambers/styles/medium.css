@@ -1,4 +1,4 @@
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 768px) {
   
     :root {
         --byzantine-blue: #2851CC;
@@ -8,7 +8,7 @@
         --flame: #ED5D31;
     }
     
-    header, nav, main, footer {
+    header, nav, .dateAndTime, main, footer {
         max-width: 768px;
         margin: 0 auto;
     }
@@ -68,11 +68,6 @@
         border: none;
         font-size: 2.3rem;
         color: var(--jet);
-    }
-
-    .dateAndTime {
-        max-width: 768px;
-        margin: 0 auto;
     }
 
     nav ul {

@@ -21,3 +21,18 @@ const x = document.querySelector("#hamburgerBtn");
 x.onclick = toggleMenu;
 
 
+const navElement = document.querySelector("nav");
+const headerElement = document.querySelector("header");
+const firstSection = headerElement.querySelector("section:first-of-type");
+
+// if (firstSection) {
+//     const nextSibling = firstSection.nextElementSibling;
+//     headerElement.insertBefore(navElement, nextSibling);
+// }
+
+if (window.innerWidth > 1020 && firstSection) {
+    const nextSibling = firstSection.nextElementSibling;
+    headerElement.insertBefore(navElement, nextSibling);
+  } else {
+    headerElement.insertBefore(navElement, nextSibling);
+  }
