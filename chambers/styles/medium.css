@@ -8,7 +8,7 @@
         --flame: #ED5D31;
     }
     
-    header, nav, .dateAndTime, main, footer {
+    header, nav, .dateAndTime, main, footer, .bottom-footer {
         max-width: 768px;
         margin: 0 auto;
     }
@@ -153,6 +153,7 @@
         align-items: center;
         justify-content: center;
         gap: 5px;
+        background-color: var(--lapis-lazuli);
     }
 
      #footer-logo {
@@ -182,7 +183,7 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        margin-left: 70px;
+        margin-left: 200px;
     }
 
     hr, br { display: none;}
@@ -192,17 +193,16 @@
         text-align: center;
         border-top: 1px solid var(--jet);
         padding: 20px;
+        background-color: var(--gold-metalic);
     }
 
     .bottom-footer p:first-of-type {
-        font-size: 15px;
         font-weight: bolder;
     }
 
     .bottom-footer p:nth-child(2) {
-        text-shadow: 0 0 20px var(--flame);
+        text-shadow: 0 0 3px var(--lapis-lazuli);
         padding: 15px;
-        font-size: 13px;
         font-weight: bolder;
     }
 }
