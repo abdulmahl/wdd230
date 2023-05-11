@@ -108,6 +108,10 @@ section a {
     color: var(--beige);
 }
 
+.largeView-nav {
+    display: none;
+}
+
 #hamburgerBtn {
     cursor: context-menu;
     display: block;

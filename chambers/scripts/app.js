@@ -25,12 +25,10 @@ const navElement = document.querySelector("nav");
 const headerElement = document.querySelector("header");
 const firstSection = headerElement.querySelector("section:first-of-type");
 
-// if (firstSection) {
-//     const nextSibling = firstSection.nextElementSibling;
-//     headerElement.insertBefore(navElement, nextSibling);
-// }
 
-if (window.innerWidth > 996 && firstSection) {
+if (window.innerWidth > 996) {
     const nextSibling = firstSection.nextElementSibling;
     headerElement.insertBefore(navElement, nextSibling);
+  } else if (window.innerWidth < 996) {
+    
   }
