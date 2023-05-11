@@ -111,6 +111,10 @@
         display: grid;
     }
 
+    main, section {
+        display: none;
+    }
+
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }

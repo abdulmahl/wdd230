@@ -119,6 +119,10 @@
     #hamburgerBtn.open span:nth-child(1) {display: none;}
     #hamburgerBtn.open span:nth-child(2) {display: block;}
     
+    .grid-container {
+        display: none;
+    }
+
     .events {
         display: flex;
         height: 230px;
