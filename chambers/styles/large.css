@@ -1,11 +1,13 @@
 @media only screen and (min-width: 996px) {
 
     :root {
-        --byzantine-blue: #2851CC;
+        --lapis-lazuli: #42608A;
         --jet: #2F2F2F;
         --silver: #BFB5AF;
+        --beige: #F3FAE1;
         --eerie-black: #0F1A12;
         --flame: #ED5D31;
+        --gold-metalic: #D9B208;
     }
 
     header, nav, .dateAndTime, main, footer, .bottom-footer {
@@ -50,6 +52,10 @@
         display: none;
     }
 
+    #primaryNav2 {
+        display: none;
+    }
+
     .largeView-nav {
         display: revert;
     }
@@ -81,12 +87,18 @@
     }
 
     nav ul li a:hover {
-        background-color: var(--eerie-black);
-        color: var(--silver);
+        background-color: var(--gold-metalic);
+        color: var(--beige);
+        text-shadow: 0 0 3px var(--lapis-lazuli);
     }
     
     nav ul li.active a {
-        background-color: var(--silver);
+        background-color: var(--gold-metalic);
+        color: var(--flame);
+    }
+    
+    nav ul li.active a {
+        background-color: var();
         color: var(--flame);
     }
 
@@ -134,7 +146,7 @@
     }
 
     .bottom-footer p:nth-child(2) {
-        text-shadow: 0 0 3px var(--lapis-lazuli);
+        text-shadow: 0 0 7px var(--lapis-lazuli);
         padding: 15px;
         font-weight: bolder;
     }

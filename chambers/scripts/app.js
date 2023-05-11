@@ -13,22 +13,9 @@ let dateString = new Intl.DateTimeFormat('en-ZA', { dateStyle: 'full' }).format(
 document.querySelector(".dateAndTime").textContent = dateString;
 
 let toggleMenu = function() {
-    document.querySelector("#primaryNav").classList.toggle("open");
+    document.querySelector("#primaryNav2").classList.toggle("open");
     document.querySelector("#hamburgerBtn").classList.toggle("open");
 }
 
 const x = document.querySelector("#hamburgerBtn");
 x.onclick = toggleMenu;
-
-
-const navElement = document.querySelector("nav");
-const headerElement = document.querySelector("header");
-const firstSection = headerElement.querySelector("section:first-of-type");
-
-
-if (window.innerWidth > 996) {
-    const nextSibling = firstSection.nextElementSibling;
-    headerElement.insertBefore(navElement, nextSibling);
-  } else if (window.innerWidth < 996) {
-    
-  }

@@ -1,13 +1,14 @@
 @media only screen and (min-width: 768px) {
   
     :root {
-        --byzantine-blue: #2851CC;
+        --lapis-lazuli: #42608A;
         --jet: #2F2F2F;
         --silver: #BFB5AF;
+        --beige: #F3FAE1;
         --eerie-black: #0F1A12;
         --flame: #ED5D31;
+        --gold-metalic: #D9B208;
     }
-    
     header, nav, .dateAndTime, main, footer, .bottom-footer {
         max-width: 768px;
         margin: 0 auto;
