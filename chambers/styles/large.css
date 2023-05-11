@@ -24,26 +24,27 @@
     }
 
     .header-facebook {
-        width: 12%;
+        width: 20%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-linkedin {
-        width: 12%;
+        width: 20%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-twitter {
-        width: 12%;
+        display: none;
+        width: 20%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-whatsapp {
         display: revert;
-        width: 12%;
+        width: 20%;
         height: auto;
         border-radius: 360px;
     }
@@ -82,14 +83,14 @@
     
     nav ul li a {
         padding: 1.2rem 2.7vw;
-        color: var(--eerie-black);
+        color: var(--beige);
         font-weight: bolder;
     }
 
     nav ul li a:hover {
         background-color: var(--gold-metalic);
-        color: var(--beige);
-        text-shadow: 0 0 3px var(--lapis-lazuli);
+        color: var(--eerie-black);
+        text-shadow: 10px 10px 30px var(--lapis-lazuli);
     }
     
     nav ul li.active a {
@@ -104,6 +105,14 @@
 
     .active a:hover {
         color: var(--eerie-black);
+    }
+
+    main {
+        display: grid;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 
      #footer-logo {
@@ -146,7 +155,7 @@
     }
 
     .bottom-footer p:nth-child(2) {
-        text-shadow: 0 0 7px var(--lapis-lazuli);
+        text-shadow: 0 0 3px var(--lapis-lazuli);
         padding: 15px;
         font-weight: bolder;
     }
