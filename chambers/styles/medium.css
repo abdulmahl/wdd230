@@ -147,8 +147,8 @@
     
     .sportlite1 {
         background-color: var(--eerie-black);
-        width: -webkit-fill-available;
-        height: -webkit-fill-available;
+        width: 650px;
+        height: 250px;
         border: 1px solid var(--silver);
         padding: 15px;
     }
