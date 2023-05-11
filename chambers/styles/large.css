@@ -103,20 +103,77 @@
     
     nav ul li.active a {
         background-color: var();
-        color: var(--flame);
+        color: var(--beige);
     }
 
     .active a:hover {
         color: var(--eerie-black);
     }
 
-    main, section {
+    section, .hero, .weather-section, .events,
+    .news-releases, .sportlites {
         display: none;
     }
 
     .grid-container {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px 0;
     }
+
+    .item {
+        background-color: var(--lapis-lazuli);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--beige);
+      }
+      
+      .item1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 250px;
+        height: 250px;
+      }
+      
+      .item2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 4;
+        width: 450px;
+        height: 520px;
+      }
+      
+      .item3 {
+        grid-column: 5 / 6;
+        grid-row: 1 / 6;
+        width: 250px;
+        height: 780px;
+      }
+      
+      .item4 {
+        grid-column: 3 / 4;
+        grid-row: 4 / 6;
+        width: 450px;
+        height: 250px;
+      }
+      
+      .item5 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 6;
+          width: 250px;
+        height: 250px;
+      }
+      
+      .item6 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+          width: 250px;
+        height: 250;
+      }
 
      #footer-logo {
         width: 200px;

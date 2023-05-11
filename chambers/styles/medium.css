@@ -91,8 +91,8 @@
     }
     
     nav ul li a:hover {
-        background-color: var(--eerie-black);
-        color: var(--silver);
+        background-color: var(--lapis-lazuli);
+        color: var(--beige);
     }
     
     nav ul li.active a {
