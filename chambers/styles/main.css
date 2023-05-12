@@ -99,7 +99,7 @@ div a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--beige);
+    color: var(--turquoise);
 }
 
 .largeView-nav {
@@ -173,7 +173,7 @@ main section {
     background-color: var(--lapis-lazuli);
     height: 230px;
     margin: 5px 7px;
-    color: var(--beige);
+    color: var(--turquoise);
     padding: 13px;
 }
 
@@ -214,6 +214,7 @@ main section {
 
 .footings1 p {
     padding: 5px;
+    text-align: center;
 }
 
 .footings2 p {
@@ -224,7 +225,7 @@ main section {
 
 .location-pin {
     color: var(--turquoise);
-    text-shadow: 0 0 10px var(--beige);
+    /* text-shadow: 0 0 10px var(--beige); */
 }
 
 .bottom-footer {

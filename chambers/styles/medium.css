@@ -216,6 +216,11 @@
         align-items: start;
     }
 
+    .footings1 p {
+        padding: 5px;
+        text-align: left;
+    }
+
     h3 {
         padding-left: 4px;
     }
