@@ -7,6 +7,7 @@
     --beige: #F3FAE1;
     --eerie-black: #0F1A12;
     --flame: #ED5D31;
+    --turquoise: #40e0d0;
     --gold-metalic: #D9B208;
 }
 
@@ -176,7 +177,9 @@ main section {
     padding: 13px;
 }
 
-.sportlites2 {
+.news-med, .event1, .event2, .event-weather,
+.sportlites2, .join-med, .sportlite-med1, 
+.sportlite-med2 {
     display: none;
 }
 
@@ -220,8 +223,8 @@ main section {
 }
 
 .location-pin {
-    color: var(--eerie-black);
-    text-shadow: 0 0 10px var(--gold-metalic);
+    color: var(--turquoise);
+    text-shadow: 0 0 10px var(--beige);
 }
 
 .bottom-footer {
