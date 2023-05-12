@@ -1,7 +1,7 @@
 /* Medium display, Tablet viewport  */
 /* Media query added for screen of min width of 640px */
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
 
     :root {
         --rich-black: #00171F;
@@ -11,11 +11,14 @@
     }
     
     header, footer {
-        max-width: 767px;
-        margin: 0 auto;
         background-color: var(--prussian-blue);
         color: var(--white);
         box-shadow: 0px 0px 30px var(--rich-black);
+    }
+
+    header, nav, main, footer {
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     header {
@@ -43,7 +46,6 @@
 
     main {
         border-bottom: 1px solid var(--saffron);
-        max-width: 767px;
     }
 
     li { margin-left: 35px; }
