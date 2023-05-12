@@ -176,7 +176,11 @@ main section {
     padding: 13px;
 }
 
-.sportlites {
+.sportlites2 {
+    display: none;
+}
+
+.sportlites1 {
     height: 430px;
     padding: 10px;
 }

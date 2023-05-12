@@ -73,7 +73,6 @@
 
      .dateAndTime {
         background-color: var(--beige);
-        padding: 35px 0;
         color: var(--lapis-lazuli);
         font-size: x-large;
         text-shadow: 0 0 5px var(--gold-metalic);
