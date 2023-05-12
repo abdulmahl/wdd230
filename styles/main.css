@@ -5,6 +5,7 @@
   --prussian-blue: #003459;
   --white: #ffff;
   --saffron: #EFBC06;
+  --beige: #F3FAE1;
 }
 
 * {
@@ -14,7 +15,8 @@
 }
 
 body {
-font-family: "Dongle", Arial, Helvetica, sans-serif;
+  background-color: var(--beige);
+  font-family: "Dongle", Arial, Helvetica, sans-serif;
 }
 
 header, footer {
