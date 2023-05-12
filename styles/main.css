@@ -37,6 +37,9 @@ header {
   justify-content: center;
 }
 
+.my-name {
+  color: var(--beige);
+}
 
 h2 {
   border-bottom: 1px solid var(--saffron);
@@ -74,7 +77,10 @@ footer {
   padding: 25px;
 }
 
-footer p:first-of-type { font-size: 23px; }
+footer p:first-of-type {
+  font-size: 23px;
+  color: var(--beige); 
+}
 
 p:nth-child(2) {
   font-size: 20px;

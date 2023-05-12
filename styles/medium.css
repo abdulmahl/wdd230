@@ -42,6 +42,7 @@
     }
 
     .my-name {
+        color: var(--beige);
         text-shadow: 0 0 10px var(--saffron);
     }
 
