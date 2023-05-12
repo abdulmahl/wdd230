@@ -103,7 +103,7 @@
     }
 
     .active a:hover {
-        color: var(--beige);
+        text-shadow: none;
     }
 
     section, .hero, .weather-section, .events,
