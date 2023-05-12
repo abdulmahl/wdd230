@@ -16,7 +16,7 @@
         box-shadow: 0px 0px 30px var(--rich-black);
     }
 
-    header, nav, main, footer {
+    header, main, footer {
         max-width: 768px;
         margin: 0 auto;
     }

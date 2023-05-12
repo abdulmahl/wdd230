@@ -11,11 +11,14 @@
     }
     
     header, footer {
-        max-width: 888px;
-        margin: 0 auto;
         background-color: var(--prussian-blue);
         color: var(--white);
         box-shadow: 0px 0px 30px var(--rich-black);
+    }
+
+    header, main, footer {
+        max-width: 1028px;
+        margin: 0 auto;
     }
 
     header {
@@ -42,11 +45,10 @@
 
     main {
         border-bottom: 1px solid var(--saffron);
-        max-width: 767px;
     }
 
     li { 
-        margin-left: 35px;
+        /* margin: 10px; */
         font-size: 2rem;
     }
 
