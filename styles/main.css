@@ -69,7 +69,15 @@ h1 {
   text-shadow: 0 0 35px var(--saffron);
 }
 
-a { text-decoration: none; }
+a:hover {
+  background-color: var(--saffron);
+  text-shadow: 3px 3px 10px var(--saffron);
+}
+
+a { 
+  text-decoration: none;
+  color: var(--prussian-blue);
+}
 
 footer {
   font-size: 22px;
