@@ -70,8 +70,7 @@ h1 {
 }
 
 a:hover {
-  background-color: var(--saffron);
-  text-shadow: 3px 3px 10px var(--saffron);
+  text-shadow: 5px 5px 10px var(--saffron);
 }
 
 a { 
