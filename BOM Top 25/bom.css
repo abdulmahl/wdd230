@@ -7,13 +7,22 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header, footer {
+    text-shadow: 0 0 10px;
+}
+
 main {
     background-color: #b2f8b2;
+    height: 375px;
+    padding: 20px;
 }
 
 main div {
+    height: 300px;
+    max-width: 400px;
     border: 1px solid gray;
     background-color:  #b2f8b2;
+    margin: 15px auto;
 }
 
 #enter-book-and-chapter {
@@ -27,4 +36,10 @@ main div {
 input:nth-child(3) {
     height: 35px;
     width: 80px;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
 }
