@@ -3,7 +3,7 @@ body {
 }
 
 header, main, footer {
-    max-width: 455px;
+    max-width: 480px;
     margin: 0 auto;
 }
 
@@ -14,7 +14,21 @@ header, footer {
 main {
     background-color: #b2f8b2;
     height: 375px;
-    padding: 20px;
+    padding: 15px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+#fav-chap {
+    height: 35px;
+    padding: 3px;
+}
+
+button {
+    height: 36px;
+    padding: 5px;
 }
 
 #list {
@@ -22,19 +36,7 @@ main {
     max-width: 400px;
     border: 1px solid gray;
     background-color:  #b2f8b2;
-    margin: 15px auto;
-}
-
-#enter-book-and-chapter {
-    font-weight: bolder;
-}
-
-#book-and-chapter-type {
-    height: 35px;
-}
-
-button {
-    height: 41px;
+    margin: 15px;
 }
 
 footer {
