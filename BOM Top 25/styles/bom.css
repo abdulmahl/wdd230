@@ -3,8 +3,12 @@ body {
 }
 
 header, main, footer {
-    max-width: 480px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5em;
 }
 
 header, footer {
@@ -12,31 +16,28 @@ header, footer {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     background-color: #b2f8b2;
-    height: 375px;
-    padding: 15px;
+    height: auto;
 }
 
 label {
     font-weight: bolder;
-}
-
-#fav-chap {
-    height: 35px;
     padding: 3px;
 }
 
-button {
-    height: 36px;
-    padding: 5px;
+input {
+    width: 22em;
+    align-self: center;
+    padding: 15px;
 }
 
-#list {
-    height: 300px;
-    max-width: 400px;
-    border: 1px solid gray;
-    background-color:  #b2f8b2;
-    margin: 15px;
+button {
+    height: 40px;
+    width: 21em;
+    align-self: center;
+    margin-top: 20px;
 }
 
 footer {

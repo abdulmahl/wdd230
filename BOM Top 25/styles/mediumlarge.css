@@ -1,0 +1,49 @@
+@media screen and (min-width: 560px) {
+    body {
+        font-family: "Architects Daughter", sans-serif;
+    }
+    
+    header, main, footer {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    
+    header, footer {
+        text-shadow: 0 0 10px;
+    }
+    
+    main {
+        display: block;
+        background-color: #b2f8b2;
+        height: 375px;
+    }
+    
+    label {
+        font-weight: bolder;
+    }
+    
+    #fav-chap {
+        height: 35px;
+        padding: 3px;
+    }
+    
+    button {
+        height: 36px;
+        /* padding: 5px; */
+    }
+    
+    #list {
+        height: 300px;
+        max-width: 400px;
+        border: 1px solid gray;
+        background-color:  #b2f8b2;
+        margin: 15px;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+    }
+
+}
