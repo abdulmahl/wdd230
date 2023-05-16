@@ -1,4 +1,4 @@
-@media only screen and (min-width: 996px) {
+@media only screen and (min-width: 1020px) {
 
     :root {
         --lapis-lazuli: #42608A;
@@ -15,36 +15,42 @@
         margin: 0 auto;
     }
 
+    header, footer, .bottom-footer {
+        max-width: 100%;
+    }
+
     header {
-        padding: 10px 20px;
+        padding: 40px 20px;
+    }
+
+    #header-logo {
+        width: 200px;
     }
 
     .headings1 {
         text-shadow: 0 0 10px var(--eerie-black);
+        padding-top: 66px;
     }
 
     .header-facebook {
-        width: 20%;
+        width: 10%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-linkedin {
-        width: 20%;
+        width: 10%;
         height: auto;
         border-radius: 360px;
     }
 
     .header-twitter {
         display: none;
-        width: 20%;
-        height: auto;
-        border-radius: 360px;
     }
 
     .header-whatsapp {
         display: revert;
-        width: 20%;
+        width: 10%;
         height: auto;
         border-radius: 360px;
     }
@@ -59,12 +65,14 @@
 
     .largeView-nav {
         display: revert;
+        justify-content: center;
+        align-items: center;
     }
 
     nav ul#primaryNav1 {
         display: flex;
         margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 25px;
     }
 
     nav ul li a {
@@ -74,14 +82,8 @@
      .dateAndTime {
         background-color: var(--beige);
         color: var(--lapis-lazuli);
-        font-size: x-large;
+        font-size: xx-large;
         text-shadow: 0 0 5px var(--gold-metalic);
-    }
-
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
     }
     
     nav ul li a {
@@ -218,11 +220,17 @@
       }
 
      #footer-logo {
-        width: 200px;
+        width: 300px;
     }
 
     .footings1 {
         margin-left: 10px;
+    }
+
+    .footings1 p{
+        position: relative;
+        bottom: 25px;
+        white-space: pre-line;
     }
 
     h3:nth-child(1) {

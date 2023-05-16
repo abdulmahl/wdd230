@@ -14,6 +14,10 @@
         margin: 0 auto;
     }
 
+    header, footer, .bottom-footer, .dateAndTime {
+        max-width: 100%;
+    }
+
     header {
         padding: 30px 0;
         gap: 15px;
@@ -36,6 +40,10 @@
 
     .headings1 div {
         font-size: 16px;
+    }
+
+    .dateAndTime {
+        font-size: x-large;
     }
 
     .header-social {
