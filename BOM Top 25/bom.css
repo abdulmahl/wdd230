@@ -33,9 +33,9 @@ main div {
     height: 35px;
 }
 
-input:nth-child(3) {
-    height: 35px;
-    width: 80px;
+button {
+    height: 41px;
+    width: 100px;
 }
 
 footer {
