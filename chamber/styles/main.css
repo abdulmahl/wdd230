@@ -161,13 +161,12 @@ nav ul.open {
 }
 
 .welcome-msg, .join-us {
-    position: relative;
+    position: absolute;
 }
 
 .welcome-msg {
-    bottom: 187px;
-    margin-bottom: -50px;
-    text-align: center;
+    top: 265px;
+    margin-left: 20px;
     color: var(--eerie-black);
     font-family: "Gruppo", sans-serif;
     font-size: xx-large;
@@ -175,26 +174,20 @@ nav ul.open {
 }
 
 .join-us {
-    bottom: 40px;
+    left: 130px;
+    bottom: 310px;
     color: var(--eerie-black);
     font-family: "Gruppo", sans-serif;
     font-size: 27px;
     font-weight: bolder;
     text-decoration: none;
-    margin-left: 87px;
     background-color: var(--lapis-lazuli);
     padding: 10px 5px;
     border-radius: 7px;
     opacity: .9;
 }
 
-.events1 {
-    max-width: 560px;
-    background-color: var(--lapis-lazuli);
-}
-
-.news {
-    max-width: 560px;
+.news, .events1 {
     background-color: var(--lapis-lazuli);
 }
 
@@ -223,7 +216,6 @@ main section {
 }
 
 .sportlites1, .event-weather {
-    max-width: 560px;
     background-color: var(--lapis-lazuli);
     margin: 10px auto;
 }
@@ -273,8 +265,8 @@ main section {
 }
 
 .lorem {
-    text-align: center;
     color: var(--beige);
+    padding: 10px;
 }
 
 .sportlites1 {
@@ -283,25 +275,22 @@ main section {
 
 .sportlite1, .sportlite2 {
     background-color: white;
-    height: 200px;
-    border: 1px solid var(--beige);
-    padding: 15px;
+    height: 250px;
+    border: 1px solid var(--jet);
 }
 
 .truck-image , .pencils {
-    position: relative;
+    position: absolute;
 }
 
 .truck-image {
-    top: 140px;
-    margin-top: -100px;
+    top: 78em;
     margin-left: 140px;
     width: 20%;
 }
 
 .pencils {
-    top: 110px;
-    margin-top: -120px;
+    top: 94em;
     margin-left: 140px;
     width: 25%;
 }
