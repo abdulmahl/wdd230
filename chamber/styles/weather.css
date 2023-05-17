@@ -41,13 +41,11 @@ button:hover {
 }
 
 .card {
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+    color: var(--beige);
 }
 
-.weather-icon {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .description {
     text-transform: capitalize;
