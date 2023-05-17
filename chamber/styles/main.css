@@ -155,6 +155,36 @@ nav ul.open {
     max-width: 560px;
 }
 
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.welcome-msg, .join-us {
+    position: relative;
+}
+
+.welcome-msg {
+    bottom: 187px;
+    text-align: center;
+    color: var(--eerie-black);
+    font-family: "Gruppo", sans-serif;
+    font-size: xx-large;
+}
+
+.join-us {
+    bottom: 87px;
+    color: var(--eerie-black);
+    font-family: "Gruppo", sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 87px;
+    background-color: var(--lapis-lazuli);
+    padding: 10px 5px;
+    border-radius: 7px;
+    opacity: .9;
+}
+
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
 
@@ -170,11 +200,14 @@ footer {
 }
 
 main section {
-    background-color: var(--lapis-lazuli);
-    height: 230px;
-    margin: 5px 7px;
     color: var(--turquoise);
-    padding: 13px;
+}
+
+.events1, .events2, .news, 
+.sportlites1, .event-weather {
+    background-color: var(--lapis-lazuli);
+    margin: 5px 7px;
+    height: 230px;
 }
 
 .news-med, .event1, .event2, .event-weather,
