@@ -1,27 +1,3 @@
-let date = new Date();
-let fullDateandTime = `${date.toLocaleString("en-ZA", {
-    dateStyle: "medium",
-    timeStyle: "short",
-    hour12: false,
-})}`;
-
-document.querySelector("#dateTime").textContent = fullDateandTime;
-document.querySelector("#year").textContent = date.getFullYear();
-
-let dateString = new Intl.DateTimeFormat('en-ZA', { dateStyle: 'full' }).format(date);
-
-document.querySelector(".dateAndTime").textContent = dateString;
-
-let toggleMenu = function() {
-    document.querySelector("#primaryNav2").classList.toggle("open");
-    document.querySelector("#hamburgerBtn").classList.toggle("open");
-}
-
-const x = document.querySelector("#hamburgerBtn");
-x.onclick = toggleMenu;
-
-
-// W
 let weather = {
     apiKey: "4fed1c1f13441350cc57b7327e7c8a00",
     getWeather: function(city) {

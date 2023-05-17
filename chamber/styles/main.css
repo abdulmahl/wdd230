@@ -170,13 +170,15 @@ nav ul.open {
     color: var(--eerie-black);
     font-family: "Gruppo", sans-serif;
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .join-us {
     bottom: 87px;
     color: var(--eerie-black);
     font-family: "Gruppo", sans-serif;
-    font-size: x-large;
+    font-size: 27px;
+    font-weight: bolder;
     text-decoration: none;
     margin-left: 87px;
     background-color: var(--lapis-lazuli);
@@ -213,6 +215,36 @@ main section {
 .news-med, .event1, .event2, .event-weather,
 .sportlites2, .join-med, .sportlite-med1, 
 .sportlite-med2 {
+    display: none;
+}
+
+.events1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.cutting {
+    color: var(--gold-metalic);
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.the-shack {
+    color: var(--beige);
+    font-size: 21px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.join-shack {
+    color: var(--beige);
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.weather1 {
     display: none;
 }
 
