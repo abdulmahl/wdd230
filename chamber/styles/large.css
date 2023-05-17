@@ -24,12 +24,25 @@
     }
 
     #header-logo {
-        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 250px;
     }
 
     .headings1 {
         text-shadow: 0 0 10px var(--eerie-black);
-        padding-top: 66px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: x-large;
+    }
+
+    .headings1 div {
+        font-size: x-large;
+    }
+
+    .header-social {
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .header-facebook {
@@ -65,8 +78,9 @@
 
     .largeView-nav {
         display: revert;
-        justify-content: center;
-        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 100px;
     }
 
     nav ul#primaryNav1 {
@@ -95,7 +109,7 @@
     nav ul li a:hover {
         background-color: var(--gold-metalic);
         color: var(--lapis-lazuli);
-        text-shadow: 5px 5px 10px var(--lapis-lazuli);
+        text-decoration: overline;
     }
     
     nav ul li.active a {
@@ -114,6 +128,7 @@
     }
 
     .grid-container {
+        max-width: 420px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -258,6 +273,10 @@
         border-top: 1px solid var(--jet);
         padding: 20px;
         background-color: var(--gold-metalic);
+    }
+
+    .bottom-footer p {
+        font-size: x-large;
     }
 
     .bottom-footer p:first-of-type {
