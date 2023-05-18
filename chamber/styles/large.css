@@ -47,6 +47,7 @@
     .social {
         margin-top: auto;
         margin-bottom: auto;
+        margin-left: 40px;
     }
 
     .facebook {
@@ -73,7 +74,7 @@
         display: revert;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     nav ul#primaryNav1 {
@@ -115,11 +116,6 @@
         text-shadow: none;
     }
 
-    section, .hero, .weather-section, .events,
-    .news-releases, .sportlites {
-        display: none;
-    }
-
     .large-container {
         max-width: 520px;
         display: grid;
@@ -134,7 +130,7 @@
         font-size: 24px;
         font-weight: bold;
         color: var(--turquoise);
-      }
+    }
       
     .large-ribbon {
         grid-column: 1 / 2;
@@ -240,7 +236,7 @@
         height: 250px;
         padding: 20px;
         font-size: 15px;
-      }
+    }
       
     .large-join-card {
         grid-column: 1 / 2;
@@ -248,7 +244,7 @@
         width: 250px;
         height: 250px;
         padding: 10px;
-      }
+    }
       
     .large-weather-card {
         grid-column: 1 / 2;
@@ -256,20 +252,22 @@
         width: 250px;
         height: 250px;
         padding: 10px;
-      }
+    }
 
-     #footer-logo {
-        width: 300px;
+    #footer-logo {
+        width: 210px;
+        height: auto;
     }
 
     .footings1 {
-        margin-left: 10px;
+        margin-right: 350px;
     }
 
     .footings1 p{
         position: relative;
         bottom: 25px;
         white-space: pre-line;
+        text-align: left;
     }
 
     h3:nth-child(1) {
@@ -285,8 +283,10 @@
     }
 
     .footings2 {
-       font-size: larger;
+        font-size: larger;
         font-weight: bolder;
+        text-align: end;
+        margin-right: 185px;
     }
 
     hr, br { display: none;}
