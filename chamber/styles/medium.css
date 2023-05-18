@@ -10,11 +10,11 @@
         --gold-metalic: #D9B208;
     }
     header, nav, .dateAndTime, main, footer, .bottom-footer {
-        max-width: 1019px;
+        max-width: 768px;
         margin: 0 auto;
     }
 
-    header, footer, .bottom-footer, .dateAndTime {
+    header, nav, footer, .bottom-footer, .dateAndTime {
         max-width: 100%;
     }
 
@@ -46,8 +46,8 @@
         font-size: x-large;
     }
 
-    .header-social {
-        text-align: center;
+    .social {
+        margin-left: auto;
     }
 
     .header-facebook {
@@ -62,18 +62,12 @@
         border-radius: 360px;
     }
 
-    .header-twitter {
-        width: 10%;
-        height: auto;
-        border-radius: 360px;
-    }
-
-    .header-whatsapp {
-        display: none;
-    }
-
     .largeView-nav {
         display: none;
+    }
+
+    nav ul.open {
+        max-width: 100%;
     }
 
     #top-footer {

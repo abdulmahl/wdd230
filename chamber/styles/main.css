@@ -23,8 +23,12 @@ body {
     background-color: var(--beige);
 }
 
+.large-container {
+    display: none;
+}
+
 header, nav, main, .dateAndTime, footer, .bottom-footer, .events1 {
-    max-width: 767px;
+    max-width: 560px;
     margin: 0 auto;
 }
 
@@ -60,10 +64,10 @@ header {
     font-size: 2.4em;
 }
 
-.header-social {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.social {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .facebook, .linkedin {
@@ -80,6 +84,71 @@ header {
     align-items: center;
     justify-content: center;
     color: var(--turquoise);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .welcome-msg {
+    position: absolute;
+    top: 15%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 27px;
+    font-family: "monospace";
+    font-weight: bolder;
+}
+
+.hero .join-msg {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    text-align: right;
+    font-size: 16px;
+    font-family: "monospace";
+    font-weight: bolder;
+    color: var(--eerie-black);
+}
+
+.ribbon {
+    background-color: var(--lapis-lazuli);
+    padding: 20px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.ribbon h1 {
+    padding-bottom: 15px;
+    color: var(--gold-metalic);
+    text-shadow: 0 0 20px var(--eerie-black);
+}
+
+.shack {
+    padding-bottom: 20px;
+    color: var(--beige);
+}
+
+.shack-msg {
+    padding-bottom: 10px;
+    color: var(--beige);
+}
+
+.info {
+    color: var(--gold-metalic);
+    text-shadow: 0 0 20px var(--eerie-black);
+}
+
+.weather-card {
+    background-color: var(--lapis-lazuli);
+    padding: 15px;
+    margin: 5px 45px;
 }
 
 #hamburgerBtn {
@@ -128,7 +197,7 @@ nav ul {
 nav ul.open {
     display: block;
     margin: 0 auto;
-    max-width: 767px;
+    max-width: 560px;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}

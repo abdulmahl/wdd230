@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 992px) {
 
     :root {
         --lapis-lazuli: #42608A;
@@ -11,7 +11,7 @@
     }
 
     header, nav, .dateAndTime, main, footer, .bottom-footer {
-        max-width: 1020px;
+        max-width: 992px;
         margin: 0 auto;
     }
 
@@ -127,8 +127,8 @@
         display: none;
     }
 
-    .grid-container-large {
-        max-width: 420px;
+    .large-container {
+        max-width: 520px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
