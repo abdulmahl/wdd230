@@ -125,6 +125,7 @@
 
     .medium-spotlights {
         display: flex;
+        justify-content: center;
         background-color: var(--lapis-lazuli);
         margin: 10px 0;
         padding: 10px;
@@ -137,20 +138,22 @@
     }
 
     .medium-spotlights img {
-        width: 100px;
+        width: 200px;
         height: auto;
-        padding: 10px;
     }
-
-    
 
     .medium-co-name {
         color: var(--gold-metalic);
         font-family: "monospace";
+        font-size: 36px;
+        
     }
 
-    .medium-co-name h1:nth-child(1) {
-        font-size: 18px;
+    .medium-co-name1 {
+        display: inline;
+         color: var(--gold-metalic);
+        font-family: "monospace";
+        font-size: 30px;
     }
 
     .medium-slogan {
@@ -159,12 +162,62 @@
         margin: 15px;
     }
 
+    .medium-join-card {
+        background-color: var(--lapis-lazuli);
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .medium-join-card h1 {
+        padding: 20px;
+        background-color: var(--gold-metalic);
+        color: var(--beige);
+        border-radius: 25px;
+        font-family: "monospace";
+    }
+
+    .medium-join-card p {
+        font-size: larger;
+        color: var(--eerie-black);
+        font-family: "monospace";
+        padding: 15px;
+    }
+
+    .medium-weather-ribbon-card {
+        display: flex;
+        background-color: var(--lapis-lazuli);
+        padding: 10px;
+        margin: 10px 0;
+        gap: 10px;
+    }
+
+    .medium-ribbon {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+    }
+
+    .medium-ribbon {
+        width: 500px;
+        height: auto;
+        border: 1px solid var(--jet);
+        padding: 10px;
+    }
+
+    .medium-weather-card {
+        width: 350px;
+        height: auto;
+        border: 1px solid var(--jet);
+        text-align: center;
+        padding: 10px;
+    }
 
     #top-footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 5px;
         background-color: var(--lapis-lazuli);
     }
 
@@ -177,11 +230,6 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-    }
-
-    .footings1 p {
-        padding: 5px;
-        text-align: left;
     }
 
     h3 {
@@ -200,7 +248,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        margin-left: 200px;
     }
 
     hr, br { display: none;}
