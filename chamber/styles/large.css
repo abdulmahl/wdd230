@@ -9,6 +9,10 @@
         --flame: #ED5D31;
         --gold-metalic: #D9B208;
     }
+    
+    .banner {
+        font-size: large;
+    }
 
     .medium-container {
         display: none;
@@ -30,13 +34,13 @@
     #header-logo {
         margin-top: auto;
         margin-bottom: auto;
-        width: 250px;
+        width: 150px;
     }
 
     .headings1 {
         text-shadow: 0 0 10px var(--eerie-black);
         margin-top: auto;
-        margin-bottom: auto;
+        margin-bottom: 40px;
         font-size: x-large;
     }
 
@@ -47,17 +51,17 @@
     .social {
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 40px;
+        margin-right: 150px;
     }
 
     .facebook {
-        width: 10%;
+        width: 45px;
         height: auto;
         border-radius: 360px;
     }
 
     .linkedin {
-        width: 10%;
+        width: 45px;
         height: auto;
         border-radius: 360px;
     }
@@ -74,7 +78,8 @@
         display: revert;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 70px;
+        margin-left: 20px;
+        font-size: large;
     }
 
     nav ul#primaryNav1 {
@@ -257,7 +262,7 @@
     }
 
     #footer-logo {
-        width: 210px;
+        width: 140px;
         height: auto;
     }
 
@@ -273,11 +278,12 @@
     }
 
     h3:nth-child(1) {
-        font-size: 4.7em;
+        font-size: 3.5em;
+        margin-top: 35px;
     }
 
     h3:nth-child(2) {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .footings1 p {
@@ -314,5 +320,4 @@
         padding: 15px;
         font-weight: bolder;
     }
-    
 }

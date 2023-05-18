@@ -19,3 +19,18 @@ let toggleMenu = function() {
 
 const x = document.querySelector("#hamburgerBtn");
 x.onclick = toggleMenu;
+
+const dayOfWeek = date.getDay();
+
+if (dayOfWeek === 1 || dayOfWeek === 4) {
+  const banner = document.createElement('div');
+  banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 19H00";
+  banner.style.color = 'black';
+  banner.style.padding = '10px';
+  banner.style.fontWeight = 'bold';
+  banner.style.textAlign = 'center';
+  
+  const header = document.querySelector('header');
+  header.parentNode.insertBefore(banner, header.nextSibling);
+}
+  
