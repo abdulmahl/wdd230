@@ -151,15 +151,26 @@
 
     .large-welcome-msg {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 47%;
+        right: -30%;
         transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-family: "monospace";
+        font-weight: bolder;
+        color: var(--eerie-black);
     }
 
     .large-join-msg {
         position: absolute;
-        top: 60%;
-        left: 50%;
+        top: 80%;
+        left: 5%;
+        font-size: 26px;
+        font-family: "monospace";
+        font-weight: bolder;
+        color: var(--lapis-lazuli);
+        background-color: var(--gold-metalic);
+        padding: 10px 5px;
+        border-radius: 10px;
     }
       
     .large-hero {
