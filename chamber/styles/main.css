@@ -60,7 +60,7 @@ header {
     text-shadow: 0 0 30px var(--lapis-lazuli);
 }
 
-.headings1 h1 {
+.headings1 h2 {
     font-size: 2.4em;
 }
 
@@ -127,7 +127,7 @@ header {
     margin: 5px 0;
 }
 
-.base-ribbon h1 {
+.base-ribbon h2 {
     padding-bottom: 15px;
     color: var(--gold-metalic);
     text-shadow: 0 0 20px var(--eerie-black);
@@ -162,7 +162,7 @@ header {
     padding: 10px;
 }
 
-.base-news-card h1 {
+.base-news-card h2 {
     text-align: center;
     padding: 10px;
     font-family: "monospace";

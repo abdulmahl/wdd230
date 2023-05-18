@@ -39,7 +39,7 @@
         text-shadow: 0 0 30px var(--eerie-black);
     }
 
-    h1 {
+    h2 {
         font-size: 47px;
     }
 
@@ -169,7 +169,7 @@
         text-align: center;
     }
 
-    .medium-join-card h1 {
+    .medium-join-card h2 {
         padding: 20px;
         background-color: var(--gold-metalic);
         color: var(--beige);
