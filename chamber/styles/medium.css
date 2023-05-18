@@ -9,13 +9,18 @@
         --flame: #ED5D31;
         --gold-metalic: #D9B208;
     }
+
+    .base-container {
+        display: none;
+    }
+
+    .medium-container {
+        display: revert;
+    }
+
     header, nav, .dateAndTime, main, footer, .bottom-footer {
         max-width: 768px;
         margin: 0 auto;
-    }
-
-    header, nav, footer, .bottom-footer, .dateAndTime {
-        max-width: 100%;
     }
 
     header {
@@ -69,6 +74,91 @@
     nav ul.open {
         max-width: 100%;
     }
+
+    .medium-hero {
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .medium-hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .medium-hero .medium-welcome-msg {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        font-family: "monospace";
+        font-weight: bolder;
+    }
+
+    .medium-hero .medium-join-msg {
+        position: absolute;
+        top: 38%;
+        left: 65%;
+        font-size: 27px;
+        font-family: "monospace";
+        font-weight: bolder;
+        color: var(--lapis-lazuli);
+        background-color: var(--gold-metalic);
+        padding: 10px 5px;
+        border-radius: 15px;
+    }
+
+    .medium-news-card {
+        background-color: var(--lapis-lazuli);
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .medium-news-card h1 {
+        text-align: center;
+        padding: 25px;
+        font-family: "monospace";
+        color: var(--gold-metalic);
+        text-shadow: 0 10px 10px var(--eerie-black);
+    }
+
+    .medium-spotlights {
+        display: flex;
+        background-color: var(--lapis-lazuli);
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .medium-first-spot, .medium-second-spot {
+        border: 1px solid var(--eerie-black);
+        padding: 10px
+    }
+
+    .medium-spotlights img {
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+
+    
+
+    .medium-co-name {
+        color: var(--gold-metalic);
+        font-family: "monospace";
+    }
+
+    .medium-co-name h1:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .medium-slogan {
+        border-bottom: 1px solid var(--gold-metalic);
+        padding-bottom: 15px;
+        margin: 15px;
+    }
+
 
     #top-footer {
         display: flex;

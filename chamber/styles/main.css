@@ -23,12 +23,12 @@ body {
     background-color: var(--beige);
 }
 
-.large-container {
+.large-container, .medium-container {
     display: none;
 }
 
 header, nav, main, .dateAndTime, footer, .bottom-footer, .events1 {
-    max-width: 560px;
+    max-width: 767px;
     margin: 0 auto;
 }
 
@@ -86,19 +86,19 @@ header {
     color: var(--turquoise);
 }
 
-.hero {
+.base-hero {
     position: relative;
 }
 
-.hero img {
+.base-hero img {
     width: 100%;
     height: auto;
 }
 
-.hero .welcome-msg {
+.base-hero .base-welcome-msg {
     position: absolute;
     top: 15%;
-    right: -5%;
+    right: -9%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 27px;
@@ -106,7 +106,7 @@ header {
     font-weight: bolder;
 }
 
-.hero .join-msg {
+.base-hero .base-join-msg {
     position: absolute;
     top: 30%;
     left: 60%;
@@ -114,41 +114,87 @@ header {
     font-size: 16px;
     font-family: "monospace";
     font-weight: bolder;
-    color: var(--eerie-black);
+    color: var(--lapis-lazuli);
+    background-color: var(--gold-metalic);
+    padding: 10px 5px;
+    border-radius: 10px;
 }
 
-.ribbon {
+.base-ribbon {
     background-color: var(--lapis-lazuli);
     padding: 20px;
     text-align: center;
     margin: 5px 0;
 }
 
-.ribbon h1 {
+.base-ribbon h1 {
     padding-bottom: 15px;
     color: var(--gold-metalic);
     text-shadow: 0 0 20px var(--eerie-black);
+    font-family: "monospace";
 }
 
-.shack {
+.base-shack {
     padding-bottom: 20px;
     color: var(--beige);
+    font-family: "monospace";
 }
 
-.shack-msg {
+.base-shack-msg {
     padding-bottom: 10px;
     color: var(--beige);
 }
 
-.info {
+.base-info {
     color: var(--gold-metalic);
     text-shadow: 0 0 20px var(--eerie-black);
 }
 
-.weather-card {
+.base-weather-card {
     background-color: var(--lapis-lazuli);
     padding: 15px;
     margin: 5px 45px;
+}
+
+.base-news-card {
+    background-color: var(--lapis-lazuli);
+    margin: 5px 0;
+}
+
+.base-news-card h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: "monospace";
+    color: var(--gold-metalic);
+    text-shadow: 0 0 20px var(--eerie-black);
+}
+
+.base-spotlights img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.base-first-spot, .base-second-spot {
+    background-color: var(--beige);
+    border: 1px solid var(--jet);
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+}
+
+.base-co-name {
+    color: var(--eerie-black);
+    font-family: "monospace";
+}
+
+.base-slogan {
+    border-bottom: 1px solid var(--gold-metalic);
+    padding-bottom: 15px;
+    margin: 15px;
 }
 
 #hamburgerBtn {
@@ -197,7 +243,7 @@ nav ul {
 nav ul.open {
     display: block;
     margin: 0 auto;
-    max-width: 560px;
+    max-width: 767px;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
