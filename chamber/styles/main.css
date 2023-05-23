@@ -201,11 +201,6 @@ header {
     margin: 15px;
 }
 
-.city {
-    text-align: center;
-    padding: 10px;
-}
-
 #hamburgerBtn {
     cursor: context-menu;
     display: block;

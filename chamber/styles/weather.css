@@ -9,10 +9,6 @@
     --gold-metalic: #D9B208;
 }
 
-body {
-    font-family: 'Gruppo', sans-serif;
-}
-
 input.search-bar {
     border: none;
     outline: none;
@@ -21,7 +17,6 @@ input.search-bar {
     font-size: 19px;
     font-family: inherit;
     color: var(--eerie-black);
-
 }
 
 button {

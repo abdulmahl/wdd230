@@ -192,11 +192,6 @@
         gap: 10px;
     }
 
-    .city {
-        text-align: center;
-        padding: 15px;
-    }
-
     .medium-ribbon {
         display: flex;
         flex-direction: column;
