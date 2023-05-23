@@ -261,6 +261,11 @@
         padding: 10px;
     }
 
+    .city {
+        text-align: center;
+        padding: 20px;
+    }
+
     #footer-logo {
         width: 140px;
         height: auto;
