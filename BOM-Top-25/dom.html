@@ -3,59 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list example</title>
+    <title>simple DOM Traversal</title>
     <style>
-      li {
-        margin-bottom: 10px;
+      body {
+        margin: 0;
       }
 
-      li button {
-        font-size: 10px;
-        margin-left: 20px;
-        color: #666;
+      div {
+        display: flex;
+        margin: .5rem;
+        padding: 1rem;
+        border: 3px solid black;
+        min-height: 1rem;
+        flex-grow: 1;
+      }
+
+      .grandparent {
+        background-color: hsl(0, 50%, 50%);
+        flex-direction: column;
+      }
+
+      .parent {
+       background-color:hsl(100, 50%, 50%);
+      }
+
+      .child {
+        background-color: hsl(200, 50%, 50%);
       }
     </style>
   </head>
   <body>
-
-    <h1>My shopping list</h1>
-
-    <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button>Add item</button>
+    <div class="grandparent" id="grandparent-id">
+      <div class="parent">
+        <div class="child" id="child-id1"></div>
+        <div class="child" id="child-id2"></div>
+      </div>
+      <div class="parent">
+        <div class="child" id="child-id3"></div>
+        <div class="child" id="child-id4"></div>
+      </div>
     </div>
-
-    <ul>
-
-    </ul>
-
-    <script>
-        let list = document.querySelector("ul");
-        let input = document.querySelector("input");
-        let button = document.querySelector("button");
-
-        button.addEventListener("click", () => {
-            const myItem = input.value;
-            input.value = "";
-
-            let listItem = document.createElement("li");
-            let listText = document.createElement("span");
-            let listBtn = document.createElement("button");
-
-            listItem.append(listText);
-            listText.textContent = myItem;
-            listItem.append(listBtn);
-            listBtn.textContent = "Delete";
-            list.append(listItem);
-
-            listBtn.addEventListener("click", () => {
-                list.removeChild(listItem);
-            });
-
-            input.focus();
-        });
-
-    </script>
+    <script src="scripts/app.js"></script>
   </body>
   </html>
