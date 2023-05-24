@@ -258,7 +258,22 @@
         grid-row: 2/4;
         width: 250px;
         height: 250px;
-        padding: 10px;
+    }
+
+    .large-weather-card {
+        background-color: var(--lapis-lazuli);
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    .large-weather-card input.search-bar {
+        border: none;
+        outline: none;
+        padding: .5em .25em;
+        border-radius: 15px;
+        font-size: 17px;
+        font-family: inherit;
+        color: var(--eerie-black);
     }
 
     #footer-logo {
