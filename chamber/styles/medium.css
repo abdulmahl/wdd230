@@ -55,13 +55,13 @@
         margin-left: auto;
     }
 
-    .header-facebook {
+    .facebook {
         width: 10%;
         height: auto;
         border-radius: 360px;
     }
 
-    .header-linkedin {
+    .linkedin {
         width: 10%;
         height: auto;
         border-radius: 360px;
@@ -75,19 +75,19 @@
         max-width: 100%;
     }
 
-    .medium-hero {
+    .hero {
         position: relative;
         margin: 10px 0;
     }
 
-    .medium-hero img {
+    .hero img {
         width: 100%;
         height: auto;
     }
     
-    .medium-hero .medium-welcome-msg {
+    .hero .welcome-msg {
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 30%;
         transform: translate(-50%, -50%);
         font-size: 45px;
@@ -95,10 +95,8 @@
         font-weight: bolder;
     }
 
-    .medium-hero .medium-join-msg {
+    .hero .join-msg {
         position: absolute;
-        top: 38%;
-        left: 65%;
         font-size: 27px;
         font-family: "monospace";
         font-weight: bolder;
@@ -108,14 +106,14 @@
         border-radius: 15px;
     }
 
-    .medium-news-card {
+    .news-card {
         background-color: var(--lapis-lazuli);
         padding: 10px;
         margin: 10px 0;
         text-align: center;
     }
 
-    .medium-news-card h1 {
+    .news-card h1 {
         text-align: center;
         padding: 25px;
         font-family: "monospace";
@@ -123,7 +121,7 @@
         text-shadow: 0 10px 10px var(--eerie-black);
     }
 
-    .medium-spotlights {
+    .spotlights {
         display: flex;
         justify-content: center;
         background-color: var(--lapis-lazuli);
@@ -132,44 +130,44 @@
         text-align: center;
     }
 
-    .medium-first-spot, .medium-second-spot {
+    .first-spot, .second-spot {
         border: 1px solid var(--eerie-black);
         padding: 10px
     }
 
-    .medium-spotlights img {
+    .spotlights img {
         width: 200px;
         height: auto;
     }
 
-    .medium-co-name {
+    .co-name {
         color: var(--gold-metalic);
         font-family: "monospace";
         font-size: 36px;
         
     }
 
-    .medium-co-name1 {
+    .co-name1 {
         display: inline;
          color: var(--gold-metalic);
         font-family: "monospace";
         font-size: 30px;
     }
 
-    .medium-slogan {
+    .slogan {
         border-bottom: 1px solid var(--gold-metalic);
         padding-bottom: 15px;
         margin: 15px;
     }
 
-    .medium-join-card {
+    .join-card {
         background-color: var(--lapis-lazuli);
         padding: 10px;
         margin: 10px 0;
         text-align: center;
     }
 
-    .medium-join-card h2 {
+    .join-card h2 {
         padding: 20px;
         background-color: var(--gold-metalic);
         color: var(--beige);
@@ -177,40 +175,31 @@
         font-family: "monospace";
     }
 
-    .medium-join-card p {
+    .join-card p {
         font-size: larger;
         color: var(--eerie-black);
         font-family: "monospace";
         padding: 15px;
     }
 
-    .medium-weather-ribbon-card {
-        display: flex;
-        background-color: var(--lapis-lazuli);
-        padding: 10px;
-        margin: 10px 0;
-        gap: 10px;
-    }
-
-    .medium-ribbon {
+    .ribbon {
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
-        align-items: start;
-        justify-content: left;
-    }
-
-    .medium-ribbon {
-        width: 500px;
-        height: auto;
+        align-items: center;
         border: 1px solid var(--jet);
         padding: 10px;
     }
 
-    .medium-weather-card {
-        width: 350px;
+    .weather-card {
+        width: 65%;
         height: auto;
+        margin: 0 auto;
         border: 1px solid var(--jet);
         padding: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     #top-footer {

@@ -85,16 +85,16 @@ header {
     color: var(--turquoise);
 }
 
-.base-hero {
+.hero {
     position: relative;
 }
 
-.base-hero img {
+.hero img {
     width: 100%;
     height: auto;
 }
 
-.base-hero .base-welcome-msg {
+.hero .welcome-msg {
     position: absolute;
     top: 15%;
     right: -9%;
@@ -105,9 +105,9 @@ header {
     font-weight: bolder;
 }
 
-.base-hero .base-join-msg {
+.hero .join-msg {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 60%;
     text-align: right;
     font-size: 16px;
@@ -119,49 +119,61 @@ header {
     border-radius: 10px;
 }
 
-.base-ribbon {
+.ribbon {
     background-color: var(--lapis-lazuli);
     padding: 20px;
     text-align: center;
     margin: 5px 0;
 }
 
-.base-ribbon h2 {
+.ribbon h2 {
     padding-bottom: 15px;
     color: var(--gold-metalic);
     text-shadow: 0 0 20px var(--eerie-black);
     font-family: "monospace";
 }
 
-.base-shack {
+.shack {
     padding-bottom: 20px;
     color: var(--beige);
     font-family: "monospace";
 }
 
-.base-shack-msg {
+.shack-msg {
     padding-bottom: 10px;
     color: var(--beige);
 }
 
-.base-info {
+.info {
     color: var(--gold-metalic);
     text-shadow: 0 0 20px var(--eerie-black);
 }
 
-.base-weather-card {
+.weather-card {
+    display: flex;
     background-color: var(--lapis-lazuli);
     padding: 15px;
     margin: 5px 45px;
+    align-items: center;
+    justify-content: center;
 }
 
-.base-news-card {
+.weather-card .flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather-card .wind, .wind-chill {
+    padding: 5px;
+}
+
+.news-card {
     background-color: var(--lapis-lazuli);
     margin: 5px 0;
     padding: 10px;
 }
 
-.base-news-card h2 {
+.news-card h2 {
     text-align: center;
     padding: 10px;
     font-family: "monospace";
@@ -169,11 +181,11 @@ header {
     text-shadow: 0 0 20px var(--eerie-black);
 }
 
-.base-spotlights {
+.spotlights {
     margin: 5px 0;
 }
 
-.base-spotlights img {
+.spotlights img {
     display: block;
     width: 100px;
     height: auto;
@@ -182,7 +194,7 @@ header {
     padding: 10px;
 }
 
-.base-first-spot, .base-second-spot {
+.first-spot, .second-spot {
     background-color: var(--lapis-lazuli);
     border: 1px solid var(--jet);
     text-align: center;
@@ -190,12 +202,12 @@ header {
     margin: 2px;
 }
 
-.base-co-name {
+.co-name {
     color: var(--eerie-black);
     font-family: "monospace";
 }
 
-.base-slogan {
+.slogan {
     border-bottom: 1px solid var(--gold-metalic);
     padding-bottom: 15px;
     margin: 15px;

@@ -14,16 +14,7 @@
         font-size: large;
     }
 
-    .medium-container {
-        display: none;
-    }
-
     header, nav, .dateAndTime, main, footer, .bottom-footer {
-        max-width: 992px;
-        margin: 0 auto;
-    }
-
-    header, footer, .bottom-footer {
         max-width: 100%;
     }
 
@@ -92,11 +83,11 @@
         border: none;
     }
 
-     .dateAndTime {
+    .dateAndTime {
         background-color: var(--beige);
         color: var(--lapis-lazuli);
         font-size: xx-large;
-        text-shadow: 0 0 5px var(--gold-metalic);
+        text-shadow: 0 0 15px var(--gold-metalic);
     }
     
     nav ul li a {
@@ -121,13 +112,13 @@
         text-shadow: none;
     }
 
-    .large-container {
-        max-width: 520px;
+    .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
         padding: 20px 0;
+        max-width: 550px;
     }
 
     .item {
@@ -136,7 +127,7 @@
         color: var(--turquoise);
     }
       
-    .large-ribbon {
+    .ribbon {
         grid-column: 1 / 2;
         grid-row: 1/2;
         width: 250px;
@@ -148,11 +139,11 @@
         font-size: 8px;
     }
 
-    .large-hero {
+    .hero {
         position: relative;
     }
 
-    .large-welcome-msg {
+    .welcome-msg {
         position: absolute;
         top: 47%;
         right: -30%;
@@ -163,7 +154,7 @@
         color: var(--eerie-black);
     }
 
-    .large-join-msg {
+    .join-msg {
         position: absolute;
         top: 80%;
         left: 5%;
@@ -176,20 +167,20 @@
         border-radius: 10px;
     }
       
-    .large-hero {
+    .hero {
         grid-column: 3 / 4;
         grid-row: 1/4;
         width: 450px;
         height: 510px;
     }
 
-    .large-hero img {
+    .hero img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
       
-    .large-spotlights {
+    .spotlights {
         grid-column: 5 / 6;
         grid-row: 1/6;
         width: 250px;
@@ -236,7 +227,7 @@
         padding: 3px;
     }  
       
-    .large-news-release {
+    .news-release {
         grid-column: 3 / 4;
         grid-row: 4/6;
         width: 450px;
@@ -245,7 +236,7 @@
         font-size: 15px;
     }
       
-    .large-join-card {
+    .join-card {
         grid-column: 1 / 2;
         grid-row: 4/6;
         width: 250px;
@@ -253,27 +244,17 @@
         padding: 10px;
     }
       
-    .large-weather-card {
+    .weather-card {
         grid-column: 1 / 2;
         grid-row: 2/4;
         width: 250px;
         height: 250px;
     }
 
-    .large-weather-card {
+    .weather-card {
         background-color: var(--lapis-lazuli);
         padding: 5px;
         margin: 0 auto;
-    }
-
-    .large-weather-card input.search-bar {
-        border: none;
-        outline: none;
-        padding: .5em .25em;
-        border-radius: 15px;
-        font-size: 17px;
-        font-family: inherit;
-        color: var(--eerie-black);
     }
 
     #footer-logo {
