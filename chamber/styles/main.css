@@ -22,7 +22,9 @@ body {
     background-color: var(--beige);
 }
 
-.large-container, .medium-container {
+.med-news-card, .med-spotlights, 
+.med-join-card, .med-ribbon-weather-card, 
+.ribbon-large {
     display: none;
 }
 
@@ -150,12 +152,9 @@ header {
 }
 
 .weather-card {
-    display: flex;
     background-color: var(--lapis-lazuli);
     padding: 15px;
     margin: 5px 45px;
-    align-items: center;
-    justify-content: center;
 }
 
 .weather-card .flex {
@@ -163,7 +162,7 @@ header {
     align-items: center;
 }
 
-.weather-card .wind, .wind-chill {
+.weather-card .wind-base, .wind-chill-base {
     padding: 5px;
 }
 
@@ -202,8 +201,12 @@ header {
     margin: 2px;
 }
 
+.third-spot, .join-card, .med-join-card {
+    display: none;
+}
+
 .co-name {
-    color: var(--eerie-black);
+    color: var(--gold-metalic);
     font-family: "monospace";
 }
 

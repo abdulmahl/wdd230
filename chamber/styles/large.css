@@ -14,7 +14,7 @@
         font-size: large;
     }
 
-    header, nav, .dateAndTime, main, footer, .bottom-footer {
+    header, footer, .bottom-footer{
         max-width: 100%;
     }
 
@@ -25,7 +25,7 @@
     #header-logo {
         margin-top: auto;
         margin-bottom: auto;
-        width: 150px;
+        width: 140px;
     }
 
     .headings1 {
@@ -39,22 +39,12 @@
         font-size: x-large;
     }
 
-    .social {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: 150px;
-    }
-
     .facebook {
-        width: 45px;
-        height: auto;
-        border-radius: 360px;
+        width: 49px;
     }
 
     .linkedin {
-        width: 45px;
-        height: auto;
-        border-radius: 360px;
+        width: 49px;
     }
 
     #hamburgerBtn {
@@ -112,19 +102,21 @@
         text-shadow: none;
     }
 
-    .container {
+    .container .ribbon, .weather-card, .news-card, .spotlights {
+        display: revert;
+    }
+
+    .med-news-card, .med-spotlights, .med-join-card,
+    .med-ribbon-weather-card {
+        display: none;
+    }
+
+    main .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
-        padding: 20px 0;
-        max-width: 550px;
-    }
-
-    .item {
-        background-color: var(--lapis-lazuli);
-        font-weight: bold;
-        color: var(--turquoise);
+        padding: 10px;
     }
       
     .ribbon {
@@ -132,23 +124,19 @@
         grid-row: 1/2;
         width: 250px;
         height: 250px;
-        padding: 10px;
-    }
-
-    h3 {
-        font-size: 8px;
+        padding: 5px;
     }
 
     .hero {
         position: relative;
     }
 
-    .welcome-msg {
+    .hero .welcome-msg {
         position: absolute;
-        top: 47%;
-        right: -30%;
+        top: 17%;
+        left: 35%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        font-size: 35px;
         font-family: "monospace";
         font-weight: bolder;
         color: var(--eerie-black);
@@ -163,7 +151,7 @@
         font-weight: bolder;
         color: var(--lapis-lazuli);
         background-color: var(--gold-metalic);
-        padding: 10px 5px;
+        padding: 10px;
         border-radius: 10px;
     }
       
@@ -181,23 +169,16 @@
     }
       
     .spotlights {
-        grid-column: 5 / 6;
-        grid-row: 1/6;
-        width: 250px;
-        height: 780px;
-    }
-
-    .item3 {
         background-color: var(--lapis-lazuli);
+        flex-direction: column;
+        grid-column: 5 / 6;
+        grid-row: 1 / 6;
+        width: 250px;
+        height: 800px;
         padding: 10px;
     }
 
-    .item3-1 img, .item3-2 img, .item3-3 img {
-        width: 100px;
-        height: auto;
-    }
-
-    .item3-1 {
+    .first-spot {
         grid-column: 4 / 5;
         width: 230px;
         height: 253px;
@@ -207,7 +188,7 @@
         padding: 3px;
     }  
 
-    .item3-2 {
+    .second-spot {
         grid-column: 4 / 5;
         width: 230px;
         height: 253px;
@@ -217,7 +198,8 @@
         padding: 3px;
     }  
 
-    .item3-3 {
+    .third-spot {
+        display: revert;
         grid-column: 4 / 5;
         width: 230px;
         height: 253px;
@@ -227,7 +209,7 @@
         padding: 3px;
     }  
       
-    .news-release {
+    .news-card {
         grid-column: 3 / 4;
         grid-row: 4/6;
         width: 450px;
@@ -237,11 +219,13 @@
     }
       
     .join-card {
+        display: revert;
         grid-column: 1 / 2;
         grid-row: 4/6;
         width: 250px;
         height: 250px;
         padding: 10px;
+        background-color: var(--lapis-lazuli);
     }
       
     .weather-card {
@@ -249,11 +233,6 @@
         grid-row: 2/4;
         width: 250px;
         height: 250px;
-    }
-
-    .weather-card {
-        background-color: var(--lapis-lazuli);
-        padding: 5px;
         margin: 0 auto;
     }
 
@@ -292,8 +271,6 @@
         text-align: end;
         margin-right: 185px;
     }
-
-    hr, br { display: none;}
 
     .bottom-footer {
         display: block;

@@ -10,14 +10,6 @@
         --gold-metalic: #D9B208;
     }
 
-    .base-container {
-        display: none;
-    }
-
-    .medium-container {
-        display: revert;
-    }
-
     header, nav, .dateAndTime, main, footer, .bottom-footer {
         max-width: 768px;
         margin: 0 auto;
@@ -29,7 +21,7 @@
     }
 
     #header-logo {
-        width: 120px;
+        width: 100px;
         height: auto;
         border-radius: 360px;
     }
@@ -56,15 +48,16 @@
     }
 
     .facebook {
-        width: 10%;
+        width: 43px;
         height: auto;
         border-radius: 360px;
     }
 
     .linkedin {
-        width: 10%;
+        width: 43px;
         height: auto;
         border-radius: 360px;
+        margin-left: 15px;
     }
 
     .largeView-nav {
@@ -106,14 +99,14 @@
         border-radius: 15px;
     }
 
-    .news-card {
+    .med-news-card {
         background-color: var(--lapis-lazuli);
         padding: 10px;
         margin: 10px 0;
         text-align: center;
     }
 
-    .news-card h1 {
+    .med-news-card h2 {
         text-align: center;
         padding: 25px;
         font-family: "monospace";
@@ -121,68 +114,55 @@
         text-shadow: 0 10px 10px var(--eerie-black);
     }
 
-    .spotlights {
+    .container .ribbon, .news-card, .spotlights, .weather-card {
+        display: none;
+    }
+
+    .med-spotlights {
         display: flex;
-        justify-content: center;
         background-color: var(--lapis-lazuli);
         margin: 10px 0;
         padding: 10px;
-        text-align: center;
     }
 
-    .first-spot, .second-spot {
-        border: 1px solid var(--eerie-black);
-        padding: 10px
-    }
-
-    .spotlights img {
+    .med-spotlights img {
         width: 200px;
         height: auto;
     }
 
-    .co-name {
-        color: var(--gold-metalic);
-        font-family: "monospace";
-        font-size: 36px;
-        
-    }
-
-    .co-name1 {
-        display: inline;
-         color: var(--gold-metalic);
-        font-family: "monospace";
-        font-size: 30px;
-    }
-
-    .slogan {
-        border-bottom: 1px solid var(--gold-metalic);
-        padding-bottom: 15px;
-        margin: 15px;
-    }
-
-    .join-card {
+    .med-join-card {
+        display: revert;
         background-color: var(--lapis-lazuli);
         padding: 10px;
         margin: 10px 0;
         text-align: center;
     }
 
-    .join-card h2 {
-        padding: 20px;
+    .med-join-card h2 {
         background-color: var(--gold-metalic);
         color: var(--beige);
         border-radius: 25px;
         font-family: "monospace";
     }
 
-    .join-card p {
+    .med-join-card p {
         font-size: larger;
         color: var(--eerie-black);
         font-family: "monospace";
         padding: 15px;
     }
 
-    .ribbon {
+    .med-spotlights .co-name1 {
+        font-size: 30px;
+    }
+
+    .med-spotlights .slogan {
+        border-bottom: 1px solid var(--gold-metalic);
+        padding-bottom: 15px;
+        margin: 15px;
+    }
+
+    .med-ribbon {
         width: 100%;
         height: auto;
         display: flex;
@@ -192,7 +172,15 @@
         padding: 10px;
     }
 
-    .weather-card {
+    .med-ribbon-weather-card {
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        margin: 10px 0;
+        background-color: var(--lapis-lazuli);
+    }
+
+    .med-weather-card {
         width: 65%;
         height: auto;
         margin: 0 auto;
@@ -200,6 +188,15 @@
         padding: 10px;
         align-items: center;
         justify-content: center;
+    }
+
+    .med-weather-card .wind-med, .wind-chill-med {
+        padding: 5px;
+    }
+
+    .med-weather-card .flex {
+        display: flex;
+        align-items: center;
     }
 
     #top-footer {
@@ -210,7 +207,7 @@
     }
 
      #footer-logo {
-        width: 160px;
+        width: 110px;
         box-shadow: none;
     }
 

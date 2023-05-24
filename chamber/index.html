@@ -55,9 +55,10 @@
     <main>
         <div class="container">
             <div class="hero">
-                <figure class="hero-image">
-                    <img src="images/wdd230-org.jpg" alt="neighbourhood-image">
-                </figure>
+                <img src="images/wdd230-org.jpg" alt="neighbourhood-image" sizes="100vw" 
+                srcset="images/wdd230-org3.jpg 767w,
+                images/wdd230-org2.jpg 991w,
+                images/wdd230-org1.jpg 1100w">
                 <div class="welcome-msg">Welcome to Mamelodi</div>
                 <a class="join-msg" href="#">Join the Chamber</a>
             </div>
@@ -70,15 +71,69 @@
                 </p>
                 <div class="info">More info...</div>
             </div>
+            <!-- Medium viewport news card -->
+            <div class="med-news-card">
+                 <h2>News Release</h2>
+                 <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                 </p>
+            </div>
+            <!-- Medium viewport spotlights -->
+            <div class="med-spotlights">
+                <div class="first-spot">
+                    <h2 class="co-name">Thankful Transport</h2>
+                    <img src="images/delivery-truck.webp" alt="thankful-transport-logo">
+                    <div class="slogan">"We get it there for you!"</div>
+                    <div class="number">+999-9999-999 &bull; Website</div>
+                </div>
+                <div class="second-spot">
+                    <h2 class="co-name">Code Primera</h2>
+                    <img src="images/pencils.webp" alt="code-primera-logo">
+                    <div class="slogan">An after school coding instructional program!</div>
+                    <div class="number">+999-5555-666 &bull; Website</div>
+                </div>
+            </div>
+            <!-- Medium viewport join card -->
+            <div class="med-join-card">
+                <h2>Join Us</h2>
+                <p>Discover how to join the chamber of commerce and how it will benefit your organiztion!</p>
+            </div>
+            <div class="med-ribbon-weather-card">
+                <div class="med-ribbon">
+                    <h2>Ribbon Cutting</h2>
+                    <h2 class="shack">💎 The Diamond Shack</h2>
+                    <p class="shack-msg">
+                        Join us for the grand opening of The 
+                        Diamond Shack, Thursday @ 1:00pm.
+                    </p>
+                    <div class="info">More info...</div>
+                </div>
+                <div class="med-weather-card">
+                    <div class="weather">
+                        <h2 class="city">Weather</h2>
+                        <div class="flex"> 
+                            <img class="weather-icon" src="http://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                            <div class="description-med"></div>
+                        </div>
+                        <div class="wind-med"></div>
+                        <div class="wind-chill-med"></div>
+                    </div>
+                </div>
+            </div>
             <div class="weather-card">
                 <div class="weather">
                     <h2 class="city">Weather</h2>
                     <div class="flex"> 
                         <img class="weather-icon" src="http://openweathermap.org/img/wn/04n.png" alt="" class="icon">
-                        <div class="description"></div>
+                        <div class="description-base"></div>
                     </div>
-                    <div class="wind"></div>
-                    <div class="wind-chill"></div>
+                    <div class="wind-base"></div>
+                    <div class="wind-chill-base"></div>
                 </div>
             </div>
             <div class="news-card">
@@ -92,12 +147,16 @@
                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
+            <div class="join-card">
+                <h2>Join Us</h2>
+                <p>Discover how to join the chamber of commerce and how it will benefit your organiztion!</p>
+            </div>
             <div class="spotlights">
                 <div class="first-spot">
-                    <h2 class="base-co-name">Thankful Transport</h2>
+                    <h2 class="co-name">Thankful Transport</h2>
                     <img src="images/delivery-truck.webp" alt="thankful-transport-logo">
-                    <div class="base-slogan">"We get it there for you!"</div>
-                    <div class="base-number">+999-9999-999 &bull; Website</div>
+                    <div class="slogan">"We get it there for you!"</div>
+                    <div class="number">+999-9999-999 &bull; Website</div>
                 </div>
                 <div class="second-spot">
                     <h2 class="co-name">Code Primera</h2>
@@ -105,8 +164,15 @@
                     <div class="slogan">An after school coding instructional program!</div>
                     <div class="number">+999-5555-666 &bull; Website</div>
                 </div>
+                <div class="third-spot">
+                    <h2 class="co-name">Code Primera</h2>
+                    <img src="images/pencils.webp" alt="code-primera-logo">
+                    <div class="slogan">An after school coding instructional program!</div>
+                    <div class="number">+999-5555-666 &bull; Website</div>
+                </div>
             </div>
-        </div>    
+        </div> 
+    </main>   
     <!-- Footer -->
     <footer id="top-footer">
         <hr>
@@ -136,6 +202,5 @@
     </div>
     <script src="scripts/app.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/demo.js"></script>
 </body>
 </html>
