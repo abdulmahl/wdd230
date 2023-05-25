@@ -259,13 +259,11 @@
     }
 
     .footings1 {
-        margin-right: 350px;
+        margin-right: 200px;
+        margin-bottom: 40px;
     }
 
     .footings1 p{
-        position: relative;
-        bottom: 25px;
-        white-space: pre-line;
         text-align: left;
     }
 
