@@ -17,9 +17,8 @@
         box-shadow: 0px 0px 30px var(--rich-black);
     }
 
-    header, main, footer {
-        max-width: 1028px;
-        margin: 0 auto;
+    header, footer {
+        max-width: 100%;
     }
 
     header {
@@ -47,6 +46,8 @@
 
     main {
         border-bottom: 1px solid var(--saffron);
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 
     li { 
