@@ -29,7 +29,7 @@ body {
 }
 
 header, nav, main, .dateAndTime, footer, .bottom-footer, .events1 {
-    max-width: 767px;
+    max-width: 560px;
     margin: 0 auto;
 }
 
