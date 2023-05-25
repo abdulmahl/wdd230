@@ -21,6 +21,7 @@
 
     header {
         padding: 40px 20px;
+        gap: 10;
     }
 
     #header-logo {

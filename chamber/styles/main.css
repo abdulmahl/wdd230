@@ -44,7 +44,7 @@ footer {
 header {
     display: flex;
     padding: 20px 0;
-    gap: 10px;
+    gap: 5px;
 }
 
 #header-logo {
@@ -273,7 +273,7 @@ nav ul.open {
 
 #footer-logo {
     display: block;
-    width: 150px;
+    width: 98px;
     height: auto;
     border-radius: 360px;
     margin-left: auto;
@@ -302,7 +302,7 @@ nav ul.open {
 .location-pin {
     text-decoration: none;
     color: var(--turquoise);
-/*     text-shadow: 0 0 10px var(--beige); */
+    text-shadow: 0 0 10px var(--beige);
 }
 
 div a {
