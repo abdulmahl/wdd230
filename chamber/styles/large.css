@@ -223,6 +223,7 @@
         background-color: var(--silver);
         margin-left: 2px;
         text-align: center;
+        padding: 10px;
     }  
       
     .news-card {
