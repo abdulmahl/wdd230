@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+picture,
+img {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+}
+
+picture img {
+  display: block;
+  padding: 3px;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}

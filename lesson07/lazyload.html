@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Images &bull; Abdul Mahl</title>
+    <meta name="description" content="Progressive Loading of Images">
+    <link rel="stylesheet" href="styles/largeload.css">
+    <link rel="stylesheet" href="styles/mainload.css">
+</head>
+<body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture class="image">
+            <img data-src="https://picsum.photos/300/400" alt="picsum">
+        </picture>
+        <picture class="image">
+            <img data-src="https://placeimg.com/300/400/any" alt="placeimg">
+        </picture>
+        <picture class="image">
+            <img data-src="https://picsum.photos/300/400" alt="picsum">
+        </picture>
+        <picture class="image">
+            <img data-src="http://placekitten.com/300/400" alt="placekitten">
+        </picture>
+        <picture class="image">
+            <img data-src="https://placeimg.com/300/400/any" alt="placeimg">
+        </picture>
+        <picture class="image">
+            <img data-src="https://placeimg.com/300/400/any" alt="placeimg">
+        </picture>
+    </main>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
