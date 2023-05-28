@@ -84,16 +84,16 @@
 
   .hero .welcome-msg {
     position: absolute;
-    top: 15%;
-    left: 30%;
+    top: 45%;
+    left: 34%;
     transform: translate(-50%, -50%);
-    font-size: 45px;
+    font-size: 49px;
     font-family: "monospace";
     font-weight: bolder;
   }
 
   .hero .join-msg {
-    position: absolute;
+    left: 67%;
     font-size: 27px;
     font-family: "monospace";
     font-weight: bolder;

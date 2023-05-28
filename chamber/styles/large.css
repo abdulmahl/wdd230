@@ -162,7 +162,7 @@
 
   .hero .welcome-msg {
     position: absolute;
-    top: 17%;
+    top: 45%;
     left: 38%;
     font-size: 33px;
     font-family: "monospace";
@@ -172,8 +172,8 @@
 
   .hero .join-msg {
     position: absolute;
-    top: 50%;
-    left: 55%;
+    top: 77%;
+    left: 50%;
     font-size: 23px;
   }
 
