@@ -1,0 +1,23 @@
+body,
+main,
+h1,
+picture,
+img {
+  max-width: 768px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 30px;
+}
+
+main,
+picture,
+img {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+

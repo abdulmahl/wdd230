@@ -17,7 +17,7 @@ h1 {
 main,
 picture,
 img {
-  max-width: 560px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
