@@ -3,28 +3,14 @@ main,
 h1,
 picture,
 img {
-  max-width: 560px;
-  margin: 0 auto;
-  height: 100vh;
-}
-
-h1 {
-  font-size: 2em;
-  text-align: center;
-  padding: 10px;
-}
-
-main,
-picture,
-img {
   max-width: 100%;
   margin: 0 auto;
 }
 
-.image {
-  width: 100%;
-  height: auto;
-  background-color: #ccc;
+main h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
 }
 
 picture img {
