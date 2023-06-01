@@ -6,7 +6,7 @@ body {
 main,
 picture,
 img {
-  max-width: fit-content;
+  max-width: 560px;
   margin: 0 auto;
 }
 
