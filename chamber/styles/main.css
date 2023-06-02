@@ -356,7 +356,7 @@ div a {
   gap: 25px;
 }
 
-figcaption {
+.gallery p {
   text-align: center;
   padding: 3px;
   color: var(--silver);
