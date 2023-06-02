@@ -344,7 +344,16 @@ div a {
   text-shadow: 0 0 3px var(--lapis-lazuli);
 }
 
-.images img {
+.images-gallery {
+  display: grid;
+}
+
+.images-gallery img {
   width: 100%;
   height: auto;
+}
+
+.images-gallery h2 {
+  margin-top: 20px;
+  text-align: center;
 }
