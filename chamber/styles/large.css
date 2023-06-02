@@ -122,9 +122,7 @@
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 5px;
-    padding: 10px;
     align-items: center;
     justify-content: center;
   }
@@ -197,16 +195,15 @@
 
   .spotlights {
     background-color: var(--lapis-lazuli);
-    flex-direction: column;
     grid-column: 5 / 6;
     grid-row: 1 / 6;
     width: 300px;
-    height: 950px;
+    height: 954px;
     padding: 10px;
   }
 
   .first-spot {
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     width: 277px;
     height: 308px;
     border: 1px solid var(--beige);
@@ -214,7 +211,7 @@
   }
 
   .second-spot {
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     width: 277px;
     height: 308px;
     border: 1px solid var(--beige);
@@ -223,14 +220,13 @@
 
   .third-spot {
     display: revert;
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     width: 277px;
     height: 308px;
     border: 1px solid var(--beige);
     background-color: var(--silver);
     margin-left: 2px;
     text-align: center;
-    padding: 10px;
   }
 
   .news-card {
