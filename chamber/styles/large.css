@@ -126,14 +126,14 @@
     gap: 5px;
     padding: 10px;
     align-items: center;
-    margin-left: -111px;
+    justify-content: center;
   }
 
   .ribbon {
     grid-column: 1 / 2;
     grid-row: 1/2;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
   }
 
@@ -180,8 +180,8 @@
   .hero {
     grid-column: 3 / 4;
     grid-row: 1 / 4;
-    width: 450px;
-    height: 520px;
+    width: 500px;
+    height: 630px;
   }
 
   .hero img {
@@ -200,23 +200,23 @@
     flex-direction: column;
     grid-column: 5 / 6;
     grid-row: 1 / 6;
-    width: 250px;
-    height: 800px;
+    width: 300px;
+    height: 950px;
     padding: 10px;
   }
 
   .first-spot {
     grid-column: 4 / 5;
-    width: 230px;
-    height: 257px;
+    width: 277px;
+    height: 308px;
     border: 1px solid var(--beige);
     background-color: var(--silver);
   }
 
   .second-spot {
     grid-column: 4 / 5;
-    width: 230px;
-    height: 260px;
+    width: 277px;
+    height: 308px;
     border: 1px solid var(--beige);
     background-color: var(--silver);
   }
@@ -224,8 +224,8 @@
   .third-spot {
     display: revert;
     grid-column: 4 / 5;
-    width: 230px;
-    height: 257px;
+    width: 277px;
+    height: 308px;
     border: 1px solid var(--beige);
     background-color: var(--silver);
     margin-left: 2px;
@@ -236,8 +236,8 @@
   .news-card {
     grid-column: 3 / 4;
     grid-row: 4/6;
-    width: 450px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     font-size: 15px;
   }
 
@@ -245,8 +245,8 @@
     display: revert;
     grid-column: 1 / 2;
     grid-row: 4/6;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     background-color: var(--lapis-lazuli);
   }
@@ -254,8 +254,8 @@
   .weather-card {
     grid-column: 1 / 2;
     grid-row: 2/4;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
   }
 
