@@ -314,4 +314,8 @@
     padding: 15px;
     font-weight: bolder;
   }
+
+  .images-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

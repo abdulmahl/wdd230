@@ -269,7 +269,7 @@
   }
 
   .bottom-footer {
-    display: block;
+    /* display: block; */
     text-align: center;
     border-top: 1px solid var(--jet);
     padding: 20px;
@@ -284,5 +284,9 @@
     text-shadow: 0 0 3px var(--lapis-lazuli);
     padding: 15px;
     font-weight: bolder;
+  }
+
+  .images-gallery {
+    grid-template-columns: 1fr 1fr;
   }
 }
