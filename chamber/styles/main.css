@@ -347,6 +347,7 @@ div a {
 .images-gallery {
   display: grid;
   padding: 5px;
+  gap: 25px;
 }
 
 figcaption {
