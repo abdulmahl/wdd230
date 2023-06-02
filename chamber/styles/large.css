@@ -324,7 +324,9 @@
   .gallery {
     width: 400px;
     height: auto;
+  }
+
+  .gallery:hover {
     box-shadow: 0 0 10px var(--eerie-black);
-    
   }
 }
