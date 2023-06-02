@@ -348,6 +348,12 @@ div a {
   display: grid;
 }
 
+figcaption {
+  text-align: center;
+  padding: 3px;
+  color: var(--silver);
+}
+
 .images-gallery img {
   width: 100%;
   height: auto;
