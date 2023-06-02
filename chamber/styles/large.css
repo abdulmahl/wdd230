@@ -317,7 +317,14 @@
 
   .images-gallery {
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
   }
 
-  
+  .gallery {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 10px var(--eerie-black);
+    
+  }
 }
