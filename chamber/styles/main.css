@@ -12,7 +12,7 @@
 }
 
 * {
-  /* margin: 0; */
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -344,11 +344,7 @@ div a {
   text-shadow: 0 0 3px var(--lapis-lazuli);
 }
 
-.images {
-  position: relative;
-}
-
-main.images img {
+.images img {
   width: 100%;
   height: auto;
 }
