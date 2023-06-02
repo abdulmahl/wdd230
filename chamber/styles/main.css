@@ -372,3 +372,7 @@ main h2 {
   padding: 20px;
   text-align: center;
 }
+
+.visits {
+  display: none;
+}
