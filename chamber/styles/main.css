@@ -300,8 +300,13 @@ nav ul.open {
   border-radius: 360px;
   margin-left: auto;
   margin-right: auto;
-  margin-block: 20px;
+  margin-block: 10px;
   box-shadow: 0 0 30px var(--lapis-lazuli);
+}
+
+#top-footer {
+  padding: 10px;
+  margin: 30px 0 0;
 }
 
 .footings1 {
@@ -359,6 +364,7 @@ figcaption {
 .images-gallery img {
   width: 100%;
   height: auto;
+  box-shadow: 0 0 10px var(--eerie-black);
 }
 
 .images-gallery h2 {
