@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form &bull; Abdul Mahl</title>
+    <meta name="description" content="Responsive Forms">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <main>
+        <form name="my-form" action="#" method="get">
+            <div class="form-box">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </div>
+            <div class="form-box">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-box">
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-box">
+                <label for="domain">Domain</label>
+                <select name="domain" id="domain">
+                    <option value="facebook">Facebook</option>
+                    <option value="github">Github</option>
+                    <option value="google">Google</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="twitter">Twitter</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <button id="btnSend">Send</button>
+            </div>
+        </form>
+    </main>
+    <script src="scripts/forms.js"></script>
+</body>
+</html>

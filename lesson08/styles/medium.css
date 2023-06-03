@@ -1,0 +1,6 @@
+@media all and (min-width: 500px) {
+
+    .form-box label {
+        display: block;
+    }
+}
