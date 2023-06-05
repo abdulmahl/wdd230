@@ -28,6 +28,7 @@ caption {
 	color: var(--forelight);
     padding: 7px;
 	border: 1px solid var(--borderlight);
+    font-size: 1.5em;
 }
 
 td {
