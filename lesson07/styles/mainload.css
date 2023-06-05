@@ -1,8 +1,6 @@
 body,
 main,
-h1,
-picture,
-img {
+h1 {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -14,15 +12,19 @@ main h1 {
 }
 
 picture img {
+  display: block;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+}
+
+img {
   width: 100%;
-  padding: 3px;
+  height: auto;
+  filter: blur(0em);
+  transition: filter 0.5s;
 }
 
 picture img[data-src] {
   filter: blur(0.2em);
-}
-
-picture img {
-  filter: blur(0em);
-  transition: filter 0.5s;
 }
