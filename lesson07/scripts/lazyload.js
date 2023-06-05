@@ -7,10 +7,12 @@ function preloadImage(img) {
     img.src = src;
     img.removeAttribute('data-src');
 }
+
 let imgOptions = {
     threshold: 0,
     rootMargin: "0px 0px 50px 0px"
 };
+
 let imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
@@ -21,6 +23,7 @@ let imgObserver = new IntersectionObserver((entries, imgObserver) => {
         }
     })
 }, imgOptions);
+
 images.forEach(image => {
     imgObserver.observe(image);
 })
