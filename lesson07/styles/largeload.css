@@ -1,14 +1,17 @@
-body,
-main,
-h1,
-picture,
-img {
-  margin: 0 auto;
-  height: 100vh;
+@media all and (min-width: 560px) {
+  body,
+  main,
+  h1,
+  picture,
+  img {
+    margin: 0 auto;
+    /* height: 100vh; */
+  }
+
+  main h1 {
+    font-size: 4em;
+  }
 }
 
-main h1 {
-  font-size: 4em;
-}
 
 
