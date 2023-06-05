@@ -3,14 +3,12 @@ main,
 h1,
 picture,
 img {
-  max-width: 768px;
   margin: 0 auto;
   height: 100vh;
 }
 
 main h1 {
   font-size: 4em;
-  padding: 30px;
 }
 
 
