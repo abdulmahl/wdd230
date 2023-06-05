@@ -40,4 +40,3 @@ td {
 tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
 }
-
