@@ -378,32 +378,48 @@ main h2 {
 }
 
 form fieldset {
-  margin: 2rem 0;
-  border: thin solid #445ba9;
+  margin: 2rem auto;
+  border: thin solid var(--lapis-lazuli);
   border-radius: 10px;
   padding: .5rem 2%;
+  width: 96%;
 }
 
 form legend {
-  color: #445ba9;
+  color: var(--lapis-lazuli);
   margin: 0 1rem;
   padding: 0 .5rem;
+  text-align: center;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: var(--flame);
+  font-size: .8rem;
 }
 
 form label.top input, form label.top select {
   appearance: none;
   display: block;
   font-size: 1rem;
-  border: thin solid #999;
+  border: thin solid var(--silver);
   border-radius: 4px;
   padding: .75rem;
-  color: #555;
+  color: var(--jet);
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, .1);
 }
 
+
 form input.submitBtn {
+  border: none;
+  background-color: var(--gold-metalic);
+  color: var(--beige);
+  border-radius: 1rem;
   padding: .75rem;
-  color: #555;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
 }
