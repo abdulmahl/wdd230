@@ -415,7 +415,7 @@ form label.top input, form label.top select {
 
 form input.submitBtn {
   border: none;
-  background-color: var(--gold-metalic);
+  background-color: var(--flame);
   color: var(--beige);
   border-radius: 1rem;
   padding: .75rem;
