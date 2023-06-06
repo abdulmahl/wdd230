@@ -376,8 +376,3 @@ main h2 {
 .visits {
   display: none;
 }
-
-picture img {
-  max-width: 367px;
-	height: 275px;
-}
