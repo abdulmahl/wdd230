@@ -1,5 +1,6 @@
 :root {
     --back: hsla(150, 50%, 30%, 1);
+    --back2: #78b13f;
     --forelight: hsla(0,0%,100%,1);
     --borderlight: hsla(0,0%,33%,.3);
     --shadow: hsl(0,0%,50%);
@@ -17,25 +18,50 @@ table {
 }
 
 caption {
-    padding: 20px;
+    padding: 3px;
     caption-side: bottom;
     color: var(--back);
-    font-size: 1rem;
-  }
+    font-size: 1.5rem;
+}
 
-  tr:first-child th {
+tr:first-child th {
 	background-color: var(--back);
 	color: var(--forelight);
-    padding: 7px;
+    padding: 15px;
 	border: 1px solid var(--borderlight);
-    font-size: 1.5em;
+    font-size: 2em;
+    height: 60px;
+}
+
+tr:nth-child(2) th.top {
+    background-color: var(--back);
+    height: 60px;
+}
+
+.categories {
+    background-color: var(--back2);
+    color: var(--forelight);
+    font-size: large;
 }
 
 td {
-	padding: 7px 25px;
+	padding: 15px 40px;
 	border: 1px solid var(--borderlight);
 	font-size: larger;
     text-align: center;
+}
+
+.crossmark {
+    font-size: 2rem;
+}
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 30px;
+    width: 18px;
+    border-bottom: 9px solid var(--back2);
+    border-right: 9px solid var(--back2);
 }
 
 tbody tr:nth-child(odd) {

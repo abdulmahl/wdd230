@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Build &bull; Abdul Mahl</title>
-    <meta name="description" content="Table Build">
-    <link rel="stylesheet" href="styles/table.css">
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Table Build</title>
+    <meta name="description" content="Assignment Portal for Monique Roberts: WDD230 Web Frontend Development at Brigham Young University - Idaho">
+    <link href="styles/table.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
 <body>
     <table>
-        <caption>
-            HTML Table
-        </caption>
+        <caption>HTML Table</caption>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Email</th>
+                <th colspan="4" scope="colgroup">ACME Wildwest Services</th>
+            </tr>
+            <tr class="categories">
+                <th class="top" scope="col"></th>
+                <th scope="col">Basic</th>
+                <th scope="col">Premier</th>
+                <th scope="col">Deluxe</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Zari Munari</td>
-                <td>devxcx</td>
-                <td>777 889 1234</td>
-                <td>zari@xcx.com</td>
+                <td>Feature 1</td>
+                <td><div class="check"></div></td>
+                <td><div class="check"></div></td>
+                <td><div class="check"></div></td>
             </tr>
             <tr>
-                <td>Adebayo Okeche</td>
-                <td>unitydevs</td>
-                <td>999 675 3345</td>
-                <td>bayo@unity.com</td>
+                <td>Feature 2</td>
+                <td><div class="crossmark">&#10060;</div></div></td>
+                <td><div class="check"></div></td>
+                <td><div class="check"></div></td>
             </tr>
             <tr>
-                <td>Imani Koyo</td>
-                <td>c-line.ops</td>
-                <td>555 098 1267</td>
-                <td>imani@cline.com</td>
+                <td>Feature 3</td>
+                <td><div class="crossmark">&#10060;</div></td>
+                <td><div class="crossmark">&#10060;</div></td>
+                <td><div class="check"></div></td>
             </tr>
-            <tr>
-                <td>Jane Bulawayo</td>
-                <td>trade-devs</td>
-                <td>801 887 5463</td>
-                <td>jane@trade.com</td>
-            </tr>
-            <tr>
-                <td>Linah Mumbasa</td>
-                <td>xyz-developers</td>
-                <td>801 554 6787</td>
-                <td>linah@xyz.com</td>
-            </tr>
+          
         </tbody>
     </table>
+
 </body>
 </html>
