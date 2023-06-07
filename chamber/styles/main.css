@@ -419,7 +419,8 @@ form input.submitBtn {
   color: var(--beige);
   border-radius: 1rem;
   padding: .75rem;
-  margin: 0 29px auto;
+  margin: 0 auto;
+  margin-left: 20px;
   width: 100%;
   max-width: 20rem;
 }
