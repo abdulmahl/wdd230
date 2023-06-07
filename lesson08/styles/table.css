@@ -18,10 +18,10 @@ table {
 }
 
 caption {
-    padding: 3px;
+    padding: 9px;
     caption-side: bottom;
     color: var(--back);
-    font-size: 1.5rem;
+    font-size: .9rem;
 }
 
 tr:first-child th {
