@@ -432,3 +432,12 @@ form input.submitBtn {
   opacity: .5;
   display: none;
 }
+
+form label.checkbox {
+  display: flex;
+  align-items: center;
+  padding: .75rem 0;
+  gap: 5px;
+  font-size: .9rem;
+  color: #555;
+}
