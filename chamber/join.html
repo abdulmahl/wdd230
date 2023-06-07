@@ -60,7 +60,7 @@
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Position Title <input class="position-title" type="text" name="title" id="position"></label>
+                <label class="top">Position Title <input class="position-title" type="text" name="title" id="position" pattern="/^[A-Za-z\s-]{7,}$/"></label>
                   <p class="valid-title">Please Enter Valid Title.</p>
                 <label class="top">Cell-Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="example@hotmail.com" required></label>
@@ -78,7 +78,7 @@
                         <option value="gold-member">Gold Membership</option>
                     </select>
                 </label>
-                <label class="checkbox"><input class="box" type="checkbox" name="checkbox" value="mark"> By checking the box you agree to the terms.</label>
+                <label class="checkbox"><input class="box" type="checkbox" name="checkbox" value="mark" required> By checking the box you agree to the terms.</label>
             </fieldset>
 
             <input class="submitBtn" type="submit" value="Propose My Membership">
