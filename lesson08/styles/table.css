@@ -55,13 +55,9 @@ td {
     font-size: 2rem;
 }
 
-.check {
-    display: inline-block;
-    transform: rotate(45deg);
-    height: 30px;
-    width: 18px;
-    border-bottom: 9px solid var(--back2);
-    border-right: 9px solid var(--back2);
+.checkmark {
+    font-size: 4rem;
+    color: green;
 }
 
 tbody tr:nth-child(odd) {
