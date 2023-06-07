@@ -9,6 +9,6 @@ positionTitle.addEventListener("input", function(e) {
     if(valid) {
         titleError.style.display = "none";
     } else {
-        titleError.style.display = "revert"
+        titleError.style.display = "revert";
     }
 });
