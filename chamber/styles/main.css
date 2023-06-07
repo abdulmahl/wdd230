@@ -423,3 +423,11 @@ form input.submitBtn {
   width: 100%;
   max-width: 20rem;
 }
+
+.valid-title {
+  color: var(--flame);
+  margin: 0 60px auto;
+  padding: 3px;
+  opacity: .5;
+  display: none;
+}

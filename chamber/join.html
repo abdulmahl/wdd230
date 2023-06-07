@@ -57,17 +57,18 @@
 
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top" for="first-name">First Name* <input type="text" name="fname" required></label>
-                <label class="top" for="last-name">Last Name* <input type="text" name="lname" required></label>
-                <label class="top" for="position-title">Position Title <input type="text" name="title"></label>
-                <label class="top" for="phone-number">Cell-Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
-                <label class="top" for="email">Email* <input type="email" name="email" placeholder="example@hotmail.com" required></label>
-                <label class="top" for="website">Website <input type="url" name="url" placeholder="https://"></label>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Position Title <input class="position-title" type="text" name="title" id="position"></label>
+                  <p class="valid-title">Please Enter Valid Title.</p>
+                <label class="top">Cell-Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="example@hotmail.com" required></label>
+                <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
             </fieldset>
 
             <fieldset>
                 <legend>Membership Packages</legend>
-                <label class="top" for="membership">Membership
+                <label class="top">Membership
                     <select name="membership">
                         <option value="selection">Membership Selection &#9662;</option>
                         <option value="np-member">NP Membership</option>
@@ -110,6 +111,7 @@
       </p>
       <p>Last Updated: <span id="dateTime"></span></p>
     </div>
+    <script src="scripts/validatetitle.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/windchill.js"></script>
   </body>
