@@ -438,6 +438,11 @@ form label.checkbox {
   align-items: center;
   padding: .75rem 0;
   gap: 5px;
-  font-size: .9rem;
+  font-size: .7rem;
   color: #555;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
 }
