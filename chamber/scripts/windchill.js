@@ -1,5 +1,6 @@
+const temperature = 33;
 const temp = document.querySelector(".description");
-temp.textContent = "33°C";
+temp.textContent = `${temperature}°C`;
 
 const windSpeed = 25;
 const wind = document.querySelector(".wind");
@@ -11,7 +12,7 @@ chill.textContent = `Wind Chill: ${windChill}`;
 
 
 const tempMed = document.querySelector(".description-med");
-tempMed.textContent = "33°C";
+tempMed.textContent = `${temperature}°C`;
 
 const windSpeedMed = 25;
 const windMed = document.querySelector(".wind-med");

@@ -56,6 +56,8 @@
 
         <form method="get" action="thankyou.html">
 
+          <input type="hidden" id="loadTime" name="loadTime" value="">
+
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -69,6 +71,7 @@
 
             <fieldset>
                 <legend>Membership Packages</legend>
+                <label class="top">Business Title<input type="text" name="title" required></label>
                 <label class="top">Membership
                     <select name="membership">
                         <option value="selection">Membership Selection &#9662;</option>
@@ -121,6 +124,13 @@
       </p>
       <p>Last Updated: <span id="dateTime"></span></p>
     </div>
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        const currentDate = new Date();
+        const formattedDate = currentDate.toISOString();
+        document.getElementById('loadTime').value = formattedDate;
+      });
+    </script>
     <script src="scripts/validatetitle.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/windchill.js"></script>
