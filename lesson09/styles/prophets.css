@@ -1,5 +1,8 @@
 :root {
-
+    --paynes-gray: #5E6572;
+    --powder-blue: #A9B4C2;
+    --neon-blue: #645CFF;
+    --black: #000000;
 }
 
 * {
@@ -9,11 +12,24 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--powder-blue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header, main, footer {
     max-width: 500px;
     margin: 0 auto;
 }
+
+h1 {
+    color: var(--neon-blue);
+}
+
+header, footer {
+    box-shadow: 0 0 15px var(--black);
+    text-align: center;
+    padding: 10px;
+}
+
+
 
