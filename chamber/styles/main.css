@@ -436,13 +436,25 @@ form input.submitBtn {
 form label.checkbox {
   display: flex;
   align-items: center;
-  padding: .75rem 0;
   gap: 5px;
-  font-size: .7rem;
+  font-size: .8rem;
   color: #555;
 }
 
 .box {
   width: 20px;
   height: 20px;
+}
+
+.business-description {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  color: var(--flame);
+  font-size: .8rem;
+}
+
+#businessDescription {
+  width: 100%;
+  max-width: 20rem;
 }
