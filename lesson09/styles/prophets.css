@@ -12,7 +12,6 @@
 }
 
 body {
-    background-color: var(--powder-blue);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -22,12 +21,17 @@ header, main, footer {
 }
 
 h1 {
-    color: var(--neon-blue);
+    color: var(--powder-blue);
 }
 
 header, footer {
     box-shadow: 0 0 15px var(--black);
     text-align: center;
+    padding: 10px;
+    background-color: var(--neon-blue);
+}
+
+footer p {
     padding: 10px;
 }
 

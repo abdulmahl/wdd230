@@ -11,7 +11,7 @@ getProphetData();
 const displayProphets = (prophets) => {
     const cards = document.querySelector("div.cards");
     
-    prophets.forEach((prophet) => {
+    prophets.forEach(prophet => {
         let card = document.createElement("section");
         let h2 = document.createElement("h2");
         let portrait = document.createElement("img");
@@ -39,4 +39,3 @@ let fullDateandTime = `${date.toLocaleString("en-ZA", {
 })}`;
 
 document.querySelector("#dateTime").textContent = fullDateandTime;
-document.querySelector("#year").textContent = date.getFullYear();
