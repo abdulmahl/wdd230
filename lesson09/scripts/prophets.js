@@ -9,7 +9,7 @@ async function getProphetData() {
 getProphetData();
 
 const displayProphets = (prophets) => {
-    const cards = document.querySelector("div.cards");
+    const cards = document.querySelector(".cards");
     
     prophets.forEach(prophet => {
         let card = document.createElement("section");
