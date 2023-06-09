@@ -1,39 +1,56 @@
 :root {
     --paynes-gray: #5E6572;
     --powder-blue: #A9B4C2;
-    --neon-blue: #645CFF;
     --black: #000000;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    --licorice: #251819;
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header, main, footer {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
 h1 {
     color: var(--powder-blue);
+    padding: 15px;
 }
 
 header, footer {
-    box-shadow: 0 0 15px var(--black);
     text-align: center;
     padding: 10px;
-    background-color: var(--neon-blue);
+    background-color: var(--licorice);
+    font-size: small;
 }
 
 footer p {
+    padding: 20px;
+    margin-top: 0;
+}
+footer div {
+    color: var(--paynes-gray);
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
     padding: 10px;
 }
 
+div.cards img {
+    width: 100%;
+    height: auto;
+}
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--paynes-gray);
+    padding: 5px;
+    margin: 5px;
+    color: var(--powder-blue);
+}
 
+h2 {
+    text-shadow: 0 0 15px var(--black);
+    font-size: larger;
+}
