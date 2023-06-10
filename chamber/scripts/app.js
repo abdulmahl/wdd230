@@ -73,7 +73,7 @@ fetch(url)
             logo.setAttribute('width', '200');
             logo.setAttribute('height', '300');
 
-            p.innerHtml = `${company.address} <br>
+            p.innerHTML = `${company.address} <br>
             ${company.phoneNumber} <br> 
             ${company.companyurl} <br> 
             ${company.membershipLevel}`;
@@ -83,6 +83,5 @@ fetch(url)
             card.append(p);
 
             cards.append(card)
-
         });  
     });

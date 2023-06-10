@@ -325,4 +325,24 @@
   .gallery:hover {
     box-shadow: 0 0 10px var(--eerie-black);
   }
+
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+  }
+
+  main h2 {
+    font-size: large;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lapis-lazuli);
+    color: var(--silver);
+  }
+
 }
