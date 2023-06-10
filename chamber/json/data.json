@@ -1,120 +1,146 @@
 {
     "companies": [
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://www.premierhotels.co.za/wp-content/uploads/2022/09/NEW-PHI-logo-2021-Dark.png",
+            "name": "Premier Hotels & Resorts",
+            "address": "223 Rivonia Road, Sandton 2196",
+            "phoneNumber": 27100019495,
+            "ceo": {
+                "firstName": "Samuel",
+                "lastName": "Nassimov"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Gold Membership",
+            "companyurl": "https://www.premierhotels.co.za/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://minuteman.com/assets/images/logo/corp.svg", 
+            "name": "Minuteman Press",
+            "address": "416 Cnr Oxford Street & West Ave, Ferndale 2194",
+            "phoneNumber": 27117928070,
+            "ceo": {
+                "firstName": "Bob",
+                "lastName": "Titus"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Gold Membership",
+            "companyurl": "https://minuteman.com/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://www.multichoice.com/images/logo-black.svg", 
+            "name": "Multichoice",
+            "address": "251 Oak Ave, Ferndale 2194",
+            "phoneNumber": 27112893000,
+            "ceo": {
+                "firstName": "Calvo",
+                "lastName": "Mawela"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Gold Membership",
+            "companyurl": "https://minuteman.com/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://cmhford.co.za/wp-content/themes/genesis-sample/images/randburg.jpg", 
+            "name": "CMH Ford Randburg",
+            "address": " Cnr Hill & Long Ave, Ferndale 2194",
+            "phoneNumber": 27115097300,
+            "ceo": {
+                "firstName": "Jeb",
+                "lastName": "McIntosh"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Bronze Membership",
+            "companyurl": "https://cmhford.co.za/randburg/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://www.black-olive.co.za/wp-content/uploads/2022/04/Black-Olive-Primary-Logo-300x101.jpg", 
+            "name": "Black Olive",
+            "address": "26 Majuba Avenue, Quellerina 1709",
+            "phoneNumber": 27100055513,
+            "ceo": {
+                "firstName": null,
+                "lastName": null
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Silver Membership",
+            "companyurl": "https://www.black-olive.co.za/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://butterflowers.co.za/wp-content/uploads/2019/08/facebook-butterflowers-sign.jpg", 
+            "name": "Butter Flowers",
+            "address": "Mobile, Randburg 2194",
+            "phoneNumber": 27724805586,
+            "ceo": {
+                "firstName": null,
+                "lastName": null
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "NP Membership",
+            "companyurl": "https://butterflowers.co.za/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://www.vuma3d.com/wp-content/uploads/2020/05/Vuma-Software-Solutions-South-Africa.png", 
+            "name": "Multichoice",
+            "address": "41 Sloan Street, Bryanston 2060",
+            "phoneNumber": 27117069797,
+            "ceo": {
+                "firstName": "Miguel",
+                "lastName": "Coelho"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Bronze Membership",
+            "companyurl": "https://www.vuma3d.com/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://www.intdev.co.za/wp-content/uploads/2022/03/intdev-logo-2.png", 
+            "name": "Intdev Internet Technologies",
+            "address": "3 Ateljee Street, Randpark Ridge 2194",
+            "phoneNumber": 27117953856,
+            "ceo": {
+                "firstName": null,
+                "lastName": null
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "NP Membership",
+            "companyurl": "https://www.intdev.co.za/"
         },
 
         {
-            "name": "Inkom'edla yodwa",
-            "address": "324 Revonia",
-            "phoneNumber": 11888990,
-            "numOfEmplotyees": 44,
-            "md": {
-                "firstName": "Karl",
-                "lastName": "Blake",
-                "emailAddress": "karl@inkom.co.za"
+            "iconurl": "https://sohoproperties.co.za/images/soho-logo.png", 
+            "name": "Soho Properties",
+            "address": "1 Boundary Road, Houghton 2198",
+            "phoneNumber": 27823378219,
+            "ceo": {
+                "firstName": "Marius",
+                "lastName": "Muller"
             },
-            "membershipLevel": "Gold Membership"
+            "membershipLevel": "Silver Membership",
+            "companyurl": "https://sohoproperties.co.za/index.html"
+        },
+
+        {
+            "iconurl": "https://www.jhbplumbers.com/wp-content/uploads/2015/06/cropped-logo-b1.jpg", 
+            "name": "Johannesburg Plumbers",
+            "address": "279 Weltevreden Rd, Randburg 2194",
+            "phoneNumber": 27115682459,
+            "ceo": {
+                "firstName": null,
+                "lastName": null
+            },
+            "membershipLevel": "NP Membership",
+            "companyurl": "https://www.jhbplumbers.com/"
+        },
+
+        {
+            "iconurl": "https://inovar.co.za/wp-content/uploads/2019/10/Inovar-Logo.png", 
+            "name": "Inovar Floor",
+            "address": "9 Sinker Road, Randburg 2194",
+            "phoneNumber": 27117043544,
+            "ceo": {
+                "firstName": null,
+                "lastName": null
+            },
+            "membershipLevel": "Gold Membership",
+            "companyurl": "https://inovar.co.za/"
         }
     ]
 }
