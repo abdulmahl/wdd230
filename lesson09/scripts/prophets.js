@@ -49,11 +49,11 @@ fetch(url)
     	}
       
       // Append the section(card) with the created elements
-      card.appendChild(h2);
-      card.appendChild(portrait);
-      card.appendChild(p);
+      card.append(h2);
+      card.append(portrait);
+      card.append(p);
   
-      cards.appendChild(card);
+      cards.append(card);
     }); // end of forEach loop
 }); //end of function expression
 
