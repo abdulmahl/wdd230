@@ -1,0 +1,120 @@
+{
+    "companies": [
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        },
+
+        {
+            "name": "Inkom'edla yodwa",
+            "address": "324 Revonia",
+            "phoneNumber": 11888990,
+            "numOfEmplotyees": 44,
+            "md": {
+                "firstName": "Karl",
+                "lastName": "Blake",
+                "emailAddress": "karl@inkom.co.za"
+            },
+            "membershipLevel": "Gold Membership"
+        }
+    ]
+}
