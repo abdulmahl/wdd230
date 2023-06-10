@@ -57,10 +57,7 @@
             "name": "Black Olive",
             "address": "26 Majuba Avenue, Quellerina 1709",
             "phoneNumber": 27100055513,
-            "ceo": {
-                "firstName": null,
-                "lastName": null
-            },
+            "ceo": null,
             "membershipLevel": "Silver Membership",
             "companyurl": "https://www.black-olive.co.za/"
         },
@@ -70,10 +67,7 @@
             "name": "Butter Flowers",
             "address": "Mobile, Randburg 2194",
             "phoneNumber": 27724805586,
-            "ceo": {
-                "firstName": null,
-                "lastName": null
-            },
+            "ceo": null,
             "membershipLevel": "NP Membership",
             "companyurl": "https://butterflowers.co.za/"
         },
@@ -96,10 +90,7 @@
             "name": "Intdev Internet Technologies",
             "address": "3 Ateljee Street, Randpark Ridge 2194",
             "phoneNumber": 27117953856,
-            "ceo": {
-                "firstName": null,
-                "lastName": null
-            },
+            "ceo": null,
             "membershipLevel": "NP Membership",
             "companyurl": "https://www.intdev.co.za/"
         },
@@ -122,10 +113,7 @@
             "name": "Johannesburg Plumbers",
             "address": "279 Weltevreden Rd, Randburg 2194",
             "phoneNumber": 27115682459,
-            "ceo": {
-                "firstName": null,
-                "lastName": null
-            },
+            "ceo": null,
             "membershipLevel": "NP Membership",
             "companyurl": "https://www.jhbplumbers.com/"
         },
@@ -135,10 +123,7 @@
             "name": "Inovar Floor",
             "address": "9 Sinker Road, Randburg 2194",
             "phoneNumber": 27117043544,
-            "ceo": {
-                "firstName": null,
-                "lastName": null
-            },
+            "ceo": null,
             "membershipLevel": "Gold Membership",
             "companyurl": "https://inovar.co.za/"
         }
