@@ -31,21 +31,21 @@ fetch(url)
 
       const birthResult = birthStr.split(" ");
       if (prophet.death == null) {
-		p.innerHTML = `Birth: ${prophet.birthdate} <br>
-		Place: ${prophet.birthplace} <br>
-		Children: ${prophet.numofchildren} <br>
-		Prophet Years: ${prophet.length} <br>
-		Died: ${prophet.death} <br>
-		Age: ${date.getFullYear() - birthResult[2]}`;
+        p.innerHTML = `Birth: ${prophet.birthdate} <br>
+        Place: ${prophet.birthplace} <br>
+        Children: ${prophet.numofchildren} <br>
+        Prophet Years: ${prophet.length} <br>
+        Died: ${prophet.death} <br>
+        Age: ${date.getFullYear() - birthResult[2]}`;
       } else {
-        const deathResult = deathStr.split(" ");
+          const deathResult = deathStr.split(" ");
 
-			p.innerHTML = `Birth: ${prophet.birthdate} <br>
-			Place: ${prophet.birthplace} <br>
-			Children: ${prophet.numofchildren} <br>
-			Prophet Years: ${prophet.length} <br>
-			Died: ${prophet.death} <br>
-			Age: ${deathResult[2] - birthResult[2]}`;
+          p.innerHTML = `Birth: ${prophet.birthdate} <br>
+          Place: ${prophet.birthplace} <br>
+          Children: ${prophet.numofchildren} <br>
+          Prophet Years: ${prophet.length} <br>
+          Died: ${prophet.death} <br>
+          Age: ${deathResult[2] - birthResult[2]}`;
     	}
       
       // Append the section(card) with the created elements

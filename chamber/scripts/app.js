@@ -47,4 +47,42 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("visits-ls", numVisits);
-  
+
+const url = "https://abdulmahl.github.io/wdd230/chamber/json/data.json";
+
+fetch(url)
+    .then( (response) => {
+        return response.json();
+    })
+
+    .then( (jsonObject) => {
+        const companies = jsonObject['companies'];
+        const cards = document.querySelector('div.cards');
+
+        companies.forEach((company) => {
+            let card = document.createElement('section');
+            let h2 = document.createElement('h2');
+            let logo = document.createElement('img');
+            let p = document.createElement('p');
+
+            h2.textContent = `${company.name}`;
+
+            logo.setAttribute('src', company.iconurl);
+            logo.setAttribute('alt', `Logo of ${company.name}`);
+            logo.setAttribute('laoding', 'lazy');
+            logo.setAttribute('width', '200');
+            logo.setAttribute('height', '300');
+
+            p.innerHtml = `${company.address} <br>
+            ${company.phoneNumber} <br> 
+            ${company.companyurl} <br> 
+            ${company.membershipLevel}`;
+
+            card.append(h2);
+            card.append(logo);
+            card.append(p);
+
+            cards.append(card)
+
+        });  
+    });
