@@ -22,7 +22,7 @@ header, footer {
 }
 
 footer p {
-    padding: 20px;
+    padding: 15px;
     margin-top: 0;
 }
 footer div {
@@ -31,13 +31,15 @@ footer div {
 
 div.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     padding: 10px;
+    gap: 5px;
 }
 
 div.cards img {
-    width: 100%;
+    width: 250px;
     height: auto;
+    box-shadow: 10px 10px 20px var(--licorice);
 }
 
 section {
@@ -45,9 +47,13 @@ section {
     flex-direction: column;
     align-items: center;
     background-color: var(--paynes-gray);
-    padding: 5px;
-    margin: 5px;
     color: var(--powder-blue);
+}
+
+section p {
+    border: thin solid var(--licorice);
+    padding: 5px;
+    box-shadow: 0 0 5px var(--licorice);
 }
 
 h2 {

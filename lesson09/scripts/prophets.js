@@ -1,3 +1,5 @@
+let date = new Date();
+
 const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 
 fetch(url)
@@ -22,17 +24,29 @@ fetch(url)
       portrait.setAttribute('src', prophet.imageurl);
       portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}`);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
-      
-      p.innerHTML = `Birth: ${prophet.birthdate} <br>
-      Place: ${prophet.birthplace} <br>
-      Children: ${prophet.numofchildren} <br>
-      Prophet Years: ${prophet.length} <br>
-      Died: ${prophet.death}`;
-    //   const birthdateArray = JSON.parse(prophet.birthdate);
-    //   const deathArray = JSON.parse(prophet.death);
-    //   `Age: ${deathArray[2] - birthdateArray[2]}`;
+      portrait.setAttribute('width', '350');
+      portrait.setAttribute('height', '450');
+      const birthStr = prophet.birthdate;
+      const deathStr = prophet.death;
+
+      const birthResult = birthStr.split(" ");
+      if (prophet.death == null) {
+		p.innerHTML = `Birth: ${prophet.birthdate} <br>
+		Place: ${prophet.birthplace} <br>
+		Children: ${prophet.numofchildren} <br>
+		Prophet Years: ${prophet.length} <br>
+		Died: ${prophet.death} <br>
+		Age: ${date.getFullYear() - birthResult[2]}`;
+      } else {
+        const deathResult = deathStr.split(" ");
+
+			p.innerHTML = `Birth: ${prophet.birthdate} <br>
+			Place: ${prophet.birthplace} <br>
+			Children: ${prophet.numofchildren} <br>
+			Prophet Years: ${prophet.length} <br>
+			Died: ${prophet.death} <br>
+			Age: ${deathResult[2] - birthResult[2]}`;
+    	}
       
       // Append the section(card) with the created elements
       card.appendChild(h2);
@@ -44,7 +58,6 @@ fetch(url)
 }); //end of function expression
 
 
-let date = new Date();
 let fullDateandTime = `${date.toLocaleString('en-ZA', {
     dateStyle: 'medium',
     timeStyle: 'short',
