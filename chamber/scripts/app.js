@@ -64,23 +64,26 @@ fetch(url)
             let h2 = document.createElement('h2');
             let logo = document.createElement('img');
             let p = document.createElement('p');
+            let anchor = document.createElement('a');
 
-            h2.textContent = `${company.name}`;
+            h2.textContent = company.name;
 
             logo.setAttribute('src', company.iconurl);
             logo.setAttribute('alt', `Logo of ${company.name}`);
             logo.setAttribute('laoding', 'lazy');
-            logo.setAttribute('width', '200');
-            logo.setAttribute('height', '300');
+            logo.setAttribute('width', '250');
+            logo.setAttribute('height', '200');
+            anchor.setAttribute('href', company.companyurl);
 
-            p.innerHTML = `${company.address} <br>
-            ${company.phoneNumber} <br> 
-            ${company.companyurl} <br> 
+            p.textContent = `${company.address} 
+            ${company.phoneNumber}  
             ${company.membershipLevel}`;
+            anchor.textContent = company.companyurl;
 
             card.append(h2);
             card.append(logo);
             card.append(p);
+            card.append(anchor);
 
             cards.append(card)
         });  
