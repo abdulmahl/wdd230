@@ -14,7 +14,7 @@ document.querySelector(".dateAndTime").textContent = dateString;
 
 // Create a function for the menu button.
 let toggleMenu = function() {
-    document.querySelector("#primaryNav2").classList.toggle("open");
+    document.querySelector("#primaryNav").classList.toggle("open");
     document.querySelector("#hamburgerBtn").classList.toggle("open");
 }
 
