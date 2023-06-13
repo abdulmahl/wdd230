@@ -23,7 +23,7 @@
             "name": "Multichoice",
             "address": "251 Oak Ave, Ferndale 2194",
             "phoneNumber": 27112893000,
-            "membershipLevel": "Gold Membership",
+            "membershipLevel": "Silver Membership",
             "companyurl": "https://www.multichoice.com/"
         },
 
@@ -41,7 +41,7 @@
             "name": "AMC Cookware",
             "address": "Cnr Sentrum Rd & Oak Rd, Randburg 2194",
             "phoneNumber": 27118868999,
-            "membershipLevel": "Silver Membership",
+            "membershipLevel": "Bronze Membership",
             "companyurl": "https://www.amcsa.co.za/en/home/"
         },
 
@@ -50,7 +50,7 @@
             "name": "Chicken Licken",
             "address": "220 Bram Fischer Dr, Randburg 2194",
             "phoneNumber": 27117920738,
-            "membershipLevel": "Silver Membership",
+            "membershipLevel": "Bronze Membership",
             "companyurl": "https://www.chickenlicken.co.za/"
         },
 
@@ -77,7 +77,7 @@
             "name": "Boston college",
             "address": "318 Oak Street, Randburg 2194",
             "phoneNumber": 277876945,
-            "membershipLevel": "Silver Membership",
+            "membershipLevel": "Bronze Membership",
             "companyurl": "https://www.boston.ac.za/"
         }
     ]

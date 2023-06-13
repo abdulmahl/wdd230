@@ -41,6 +41,6 @@ fetch(url)
             card.append(membership);
             card.append(anchor);
 
-            cards.append(card)
+            cards.append(card);
         });  
     });
