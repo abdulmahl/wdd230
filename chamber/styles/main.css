@@ -456,3 +456,23 @@ form label.checkbox {
   width: 100%;
   max-width: 20rem;
 }
+
+div.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  height: auto;
+  margin: 0 auto;
+  background-color: var(--lapis-lazuli);
+  color: var(--silver);
+  padding: 10px;
+}

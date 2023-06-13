@@ -19,7 +19,9 @@ fetch(url)
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let logo = document.createElement('img');
-            let p = document.createElement('p');
+            let membership = document.createElement('p');
+            let phoneNumber = document.createElement('p');
+            let address = document.createElement('p');
             let anchor = document.createElement('a');
 
             h2.textContent = company.name;
@@ -27,18 +29,20 @@ fetch(url)
             logo.setAttribute('src', company.iconurl);
             logo.setAttribute('alt', `Logo of ${company.name}`);
             logo.setAttribute('laoding', 'lazy');
-            logo.setAttribute('width', '250');
-            logo.setAttribute('height', '200');
+            logo.setAttribute('width', '200');
+            logo.setAttribute('height', '175');
             anchor.setAttribute('href', company.companyurl);
 
-            p.textContent = `${company.address} 
-            ${company.phoneNumber}  
-            ${company.membershipLevel}`;
+            address.textContent = company.address;
+            phoneNumber.textContent = company.phoneNumber;
+            membership.textContent = company.membershipLevel;
             anchor.textContent = company.companyurl;
 
             card.append(h2);
             card.append(logo);
-            card.append(p);
+            card.append(address);
+            card.append(phoneNumber);
+            card.append(membership);
             card.append(anchor);
 
             cards.append(card)

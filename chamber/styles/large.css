@@ -342,14 +342,8 @@
   }
 
   section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 400px;
-    height: auto;
-    background-color: var(--lapis-lazuli);
-    color: var(--silver);
     padding: 10px;
   }
 
