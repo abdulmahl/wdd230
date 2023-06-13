@@ -292,4 +292,12 @@
   .gallery:hover {
     box-shadow: 0 0 10px var(--eerie-black);
   }
+
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+  }
+
 }
