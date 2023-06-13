@@ -457,6 +457,15 @@ form label.checkbox {
   max-width: 20rem;
 }
 
+div.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  padding: 20px;
+}
+
 div.cards {
   display: flex;
   flex-direction: column;
