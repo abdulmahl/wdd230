@@ -10,7 +10,7 @@ fetch(url)
     .then( (jsonObject) => {
         const companies = jsonObject['companies'];
 
-        const spotlights = document.querySelector('div.spotlights');
+        const spotlights = document.querySelector('div.contents');
 
         companies.forEach((company) => {
 
@@ -25,8 +25,8 @@ fetch(url)
                 logo.setAttribute('src', company.iconurl);
                 logo.setAttribute('alt', `Logo of ${company.name}`);
                 logo.setAttribute('laoding', 'lazy');
-                logo.setAttribute('width', '200');
-                logo.setAttribute('height', '200');
+                logo.setAttribute('width', '400');
+                logo.setAttribute('height', '350');
                 anchor.setAttribute('href', company.companyurl);
     
                 address.textContent = company.address;

@@ -353,7 +353,7 @@
     padding: 10px;
   }
 
-  div.spotlights {
+  div.contents {
     display: flex;
     flex-direction: column;
     background-color: var(--silver);
