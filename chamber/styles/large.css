@@ -345,6 +345,7 @@
   section {
     width: 400px;
     padding: 15px;
+    box-shadow: 5px 5px 15px var(--eerie-black);
   }
 
   section p {
