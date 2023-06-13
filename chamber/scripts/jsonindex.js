@@ -14,7 +14,7 @@ fetch(url)
 
         companies.forEach((company) => {
 
-            if (company.membershipLevel == 'Gold Membership' || company.membershipLevel == 'Silver Membership') {
+            if (company.membershipLevel == 'Gold Membership') {
                 let spot = document.createElement('div');
                 let logo = document.createElement('img');
                 let membership = document.createElement('p');
