@@ -28,48 +28,48 @@
         },
 
         {
-            "iconurl": "https://cmhford.co.za/wp-content/themes/genesis-sample/images/randburg.jpg", 
-            "name": "CMH Ford Randburg",
-            "address": " Cnr Hill & Long Ave, Ferndale 2194",
-            "phoneNumber": 27115097300,
+            "iconurl": "https://www.coastalhire.co.za/wp-content/uploads/2021/08/coastal-hire-logo.png", 
+            "name": "Coastal Hire",
+            "address": "208 Bram Fischer Drive, Randburg 2194",
+            "phoneNumber": 27113264446,
             "membershipLevel": "Bronze Membership",
-            "companyurl": "https://cmhford.co.za/randburg/"
+            "companyurl": "https://www.coastalhire.co.za/"
         },
 
         {
-            "iconurl": "https://www.black-olive.co.za/wp-content/uploads/2022/04/Black-Olive-Primary-Logo-300x101.jpg", 
-            "name": "Black Olive",
-            "address": "26 Majuba Avenue, Quellerina 1709",
-            "phoneNumber": 27100055513,
+            "iconurl": "https://randburgdirectory.co.za/components/com_mtree/img/listings/m/268.jpg", 
+            "name": "AMC Cookware",
+            "address": "Cnr Sentrum Rd & Oak Rd, Randburg 2194",
+            "phoneNumber": 27118868999,
             "membershipLevel": "Silver Membership",
-            "companyurl": "https://www.black-olive.co.za/"
+            "companyurl": "https://www.amcsa.co.za/en/home/"
         },
 
         {
-            "iconurl": "https://butterflowers.co.za/wp-content/uploads/2019/08/facebook-butterflowers-sign.jpg", 
-            "name": "Butter Flowers",
-            "address": "Mobile, Randburg 2194",
-            "phoneNumber": 27724805586,
-            "membershipLevel": "NP Membership",
-            "companyurl": "https://butterflowers.co.za/"
+            "iconurl": "https://randburgdirectory.co.za/home/services/security/trojan-security", 
+            "name": "Trojan Security",
+            "address": "Hawken Ave, Randburg 2188",
+            "phoneNumber": 27117920738,
+            "membershipLevel": "Silver Membership",
+            "companyurl": "https://trojansecurity.co.za/"
         },
 
         {
-            "iconurl": "https://www.vuma3d.com/wp-content/uploads/2020/05/Vuma-Software-Solutions-South-Africa.png", 
-            "name": "Multichoice",
-            "address": "41 Sloan Street, Bryanston 2060",
-            "phoneNumber": 27117069797,
+            "iconurl": "https://randburgdirectory.co.za/components/com_mtree/img/listings/m/205.jpg", 
+            "name": "Tiger Brands",
+            "address": "3010 William Nicol Drive, Bryanston 2060",
+            "phoneNumber": 27118404000,
             "membershipLevel": "Bronze Membership",
-            "companyurl": "https://www.vuma3d.com/"
+            "companyurl": "https://www.tigerbrands.com/"
         },
 
         {
-            "iconurl": "https://www.intdev.co.za/wp-content/uploads/2022/03/intdev-logo-2.png", 
-            "name": "Intdev Internet Technologies",
-            "address": "3 Ateljee Street, Randpark Ridge 2194",
-            "phoneNumber": 27117953856,
+            "iconurl": "https://randburgdirectory.co.za/components/com_mtree/img/listings/m/245.jpg", 
+            "name": "Morrells Venue",
+            "address": "Cnr Weltevreden rd & Scott st, Randburg 2194",
+            "phoneNumber": 27114769495,
             "membershipLevel": "NP Membership",
-            "companyurl": "https://www.intdev.co.za/"
+            "companyurl": "https://www.morrells.co.za/"
         },
 
         {
