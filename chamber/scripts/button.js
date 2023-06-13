@@ -2,7 +2,7 @@
 // list buttons.
 const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
-const display = document.querySelector('article');
+// const display = document.querySelector('div.business-list');
 
 // Create a functions to display either a list or a grid.
 let showList = function() {

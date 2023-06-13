@@ -37,6 +37,7 @@ fetch(url)
             logo.setAttribute('width', '200');
             logo.setAttribute('height', '175');
             anchor.setAttribute('href', company.companyurl);
+            anchor.setAttribute('target', '_blank')
 
             address.textContent = company.address;
             phoneNumber.textContent = company.phoneNumber;
@@ -53,14 +54,16 @@ fetch(url)
 
             address = document.createElement('td');
             phoneNumber = document.createElement('td');
-            anchor = document.createElement('td');
+            anchor = document.createElement('a');
 
             anchor.setAttribute('href', company.companyurl)
+            anchor.setAttribute('target', '_blank')
+            
 
             name.textContent = company.name;
             address.textContent = company.address;
             phoneNumber.textContent = company.phoneNumber;
-            anchor.textContent = company.anchor;
+            anchor.textContent = company.companyurl;
 
             list.append(name);
             list.append(address);
