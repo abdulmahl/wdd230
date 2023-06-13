@@ -300,4 +300,8 @@
     justify-content: center;
     margin: 10px auto;
   }
+
+  section {
+    box-shadow: 5px 5px 15px var(--eerie-black);
+  }
 }

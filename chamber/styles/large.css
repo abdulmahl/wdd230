@@ -352,12 +352,4 @@
     text-align: center;
     padding: 10px;
   }
-
-  div.contents {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--silver);
-  }
-
-
 }
