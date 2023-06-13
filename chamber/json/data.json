@@ -73,12 +73,12 @@
         },
 
         {
-            "iconurl": "https://sohoproperties.co.za/images/soho-logo.png", 
-            "name": "Soho Properties",
-            "address": "1 Boundary Road, Houghton 2198",
-            "phoneNumber": 27823378219,
+            "iconurl": "https://www.boston.ac.za/wp-content/uploads/2018/09/cropped-boston-logo.png", 
+            "name": "Boston college",
+            "address": "318 Oak Street, Randburg 2194",
+            "phoneNumber": 277876945,
             "membershipLevel": "Silver Membership",
-            "companyurl": "https://sohoproperties.co.za/index.html"
+            "companyurl": "https://www.boston.ac.za/"
         }
     ]
 }
