@@ -476,3 +476,7 @@ section {
   color: var(--silver);
   padding: 10px;
 }
+
+section p {
+  padding: 3px;
+}

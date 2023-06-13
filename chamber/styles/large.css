@@ -339,15 +339,15 @@
 
   main h2 {
     font-size: large;
+    font-weight: bolder;
   }
 
   section {
-    justify-content: center;
     width: 400px;
-    padding: 10px;
+    padding: 15px;
   }
 
-  main p {
+  section p {
     text-align: center;
     padding: 10px;
   }
