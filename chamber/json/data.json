@@ -5,10 +5,6 @@
             "name": "Premier Hotels",
             "address": "223 Rivonia Road, Sandton 2196",
             "phoneNumber": 27100019495,
-            "ceo": {
-                "firstName": "Samuel",
-                "lastName": "Nassimov"
-            },
             "membershipLevel": "Gold Membership",
             "companyurl": "https://www.premierhotels.co.za/"
         },
@@ -18,10 +14,6 @@
             "name": "Minuteman Press",
             "address": "416 Cnr Oxford Street & West Ave, Ferndale 2194",
             "phoneNumber": 27117928070,
-            "ceo": {
-                "firstName": "Bob",
-                "lastName": "Titus"
-            },
             "membershipLevel": "Gold Membership",
             "companyurl": "https://minuteman.com/"
         },
@@ -31,10 +23,6 @@
             "name": "Multichoice",
             "address": "251 Oak Ave, Ferndale 2194",
             "phoneNumber": 27112893000,
-            "ceo": {
-                "firstName": "Calvo",
-                "lastName": "Mawela"
-            },
             "membershipLevel": "Gold Membership",
             "companyurl": "https://minuteman.com/"
         },
@@ -44,10 +32,6 @@
             "name": "CMH Ford Randburg",
             "address": " Cnr Hill & Long Ave, Ferndale 2194",
             "phoneNumber": 27115097300,
-            "ceo": {
-                "firstName": "Jeb",
-                "lastName": "McIntosh"
-            },
             "membershipLevel": "Bronze Membership",
             "companyurl": "https://cmhford.co.za/randburg/"
         },
@@ -57,7 +41,6 @@
             "name": "Black Olive",
             "address": "26 Majuba Avenue, Quellerina 1709",
             "phoneNumber": 27100055513,
-            "ceo": null,
             "membershipLevel": "Silver Membership",
             "companyurl": "https://www.black-olive.co.za/"
         },
@@ -67,7 +50,6 @@
             "name": "Butter Flowers",
             "address": "Mobile, Randburg 2194",
             "phoneNumber": 27724805586,
-            "ceo": null,
             "membershipLevel": "NP Membership",
             "companyurl": "https://butterflowers.co.za/"
         },
@@ -77,10 +59,6 @@
             "name": "Multichoice",
             "address": "41 Sloan Street, Bryanston 2060",
             "phoneNumber": 27117069797,
-            "ceo": {
-                "firstName": "Miguel",
-                "lastName": "Coelho"
-            },
             "membershipLevel": "Bronze Membership",
             "companyurl": "https://www.vuma3d.com/"
         },
@@ -90,7 +68,6 @@
             "name": "Intdev Internet Technologies",
             "address": "3 Ateljee Street, Randpark Ridge 2194",
             "phoneNumber": 27117953856,
-            "ceo": null,
             "membershipLevel": "NP Membership",
             "companyurl": "https://www.intdev.co.za/"
         },
@@ -100,10 +77,6 @@
             "name": "Soho Properties",
             "address": "1 Boundary Road, Houghton 2198",
             "phoneNumber": 27823378219,
-            "ceo": {
-                "firstName": "Marius",
-                "lastName": "Muller"
-            },
             "membershipLevel": "Silver Membership",
             "companyurl": "https://sohoproperties.co.za/index.html"
         }
