@@ -25,8 +25,8 @@ fetch(url)
                 logo.setAttribute('src', company.iconurl);
                 logo.setAttribute('alt', `Logo of ${company.name}`);
                 logo.setAttribute('laoding', 'lazy');
-                logo.setAttribute('width', '100');
-                logo.setAttribute('height', '100');
+                logo.setAttribute('width', '200');
+                logo.setAttribute('height', '200');
                 anchor.setAttribute('href', company.companyurl);
     
                 address.textContent = company.address;
