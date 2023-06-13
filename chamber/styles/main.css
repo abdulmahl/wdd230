@@ -461,12 +461,12 @@ div.menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 50px;
   margin: 15px 0;
   padding: 20px;
 }
 
-div.cards {
+article.cards {
   display: flex;
   flex-direction: column;
   gap: 5px;
