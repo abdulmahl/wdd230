@@ -490,6 +490,7 @@ section {
 }
 
 section p {
+  text-align: center;
   padding: 3px;
 }
 
