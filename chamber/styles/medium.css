@@ -286,13 +286,12 @@
   div.cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
-    margin: 10px auto;
   }
 
   section {
-    width: 400px;
+    width: 97%;
     box-shadow: 5px 5px 15px var(--eerie-black);
   }
 }

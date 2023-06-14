@@ -455,20 +455,24 @@ form label.checkbox {
   max-width: 20rem;
 }
 
-div.menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin: 15px 0;
-  padding: 20px;
+.menu {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.menu button {
+  margin: 8px;
+  padding: 5px;
+  font-weight: bolder;
+  font-size: large;
+  height: 45px;
 }
 
 div.cards {
   display: flex;
   flex-direction: column;
-  gap: 5px;
   justify-content: center;
+  gap: 7px;
   margin: 10px auto;
 }
 
