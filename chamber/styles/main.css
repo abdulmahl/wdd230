@@ -466,7 +466,7 @@ div.menu {
   padding: 20px;
 }
 
-article.cards {
+div.cards {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -491,26 +491,4 @@ section p {
   padding: 3px;
 }
 
-table {
-  margin: 10px auto;
-	border-collapse: collapse;
-  background-color: var(--silver);
-  width: 95%;
-}
-
-td {
-  display: flex;
-  flex-direction: column;
-  padding: 3px;
-  margin: 10px;
-}
-
-table a {
-  padding: 5px;
-  margin: 5px;
-}
-
-table:nth-child(even) {
-  background-color: var(--beige);
-}
 

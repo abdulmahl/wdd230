@@ -13,10 +13,7 @@ fetch(url)
         const companies = jsonObject['companies'];
         // Select the html element to house the json data
         // and display the data as grid.
-        const cards = document.querySelector('article.cards');
-
-        // Select another html element to display the data as a list.
-        const businessList = document.querySelector('div.business-list');
+        const cards = document.querySelector('div.cards');
 
         // Dynamicly add elements  and then append them into the main section
         // selected above "json data".
@@ -50,26 +47,6 @@ fetch(url)
             card.append(membership);
             card.append(anchor);
 
-            cards.append(card);
-
-            address = document.createElement('td');
-            phoneNumber = document.createElement('td');
-            anchor = document.createElement('a');
-
-            anchor.setAttribute('href', company.companyurl)
-            anchor.setAttribute('target', '_blank')
-            
-
-            name.textContent = company.name;
-            address.textContent = company.address;
-            phoneNumber.textContent = company.phoneNumber;
-            anchor.textContent = company.companyurl;
-
-            list.append(name);
-            list.append(address);
-            list.append(phoneNumber);
-            list.append(anchor);
-
-            businessList.append(list);
+            cards.append(card);            
         });  
     });
