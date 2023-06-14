@@ -41,13 +41,7 @@
     margin-left: auto;
   }
 
-  .facebook {
-    width: 43px;
-    height: auto;
-    border-radius: 360px;
-  }
-
-  .linkedin {
+  .linkedin, .facebook {
     width: 43px;
     height: auto;
     border-radius: 360px;

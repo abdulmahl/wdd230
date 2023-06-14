@@ -35,11 +35,7 @@
     font-size: x-large;
   }
 
-  .facebook {
-    width: 49px;
-  }
-
-  .linkedin {
+  .linkedin, .facebook {
     width: 49px;
   }
 
@@ -321,6 +317,14 @@
 
   .gallery:hover {
     box-shadow: 0 0 10px var(--eerie-black);
+  }
+
+  .menu button {
+    margin: 15px 5px;
+    padding: 7px;
+    font-weight: bolder;
+    font-size: larger;
+    height: 50px;
   }
 
   div.cards {
