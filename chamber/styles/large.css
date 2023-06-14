@@ -35,6 +35,10 @@
     font-size: x-large;
   }
 
+  .social {
+    margin-left: auto;
+  }
+
   .linkedin, .facebook {
     width: 49px;
   }
@@ -51,8 +55,8 @@
     display: revert;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 20px;
-    font-size: large;
+    margin-left: 100px;
+    font-size: x-large;
   }
 
   nav ul#primaryNav1 {
