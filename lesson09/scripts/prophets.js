@@ -31,21 +31,21 @@ fetch(url)
 
       const birthResult = birthStr.split(" ");
       if (prophet.death == null) {
-        p.innerHTML = `Birth: ${prophet.birthdate} <br>
-        Place: ${prophet.birthplace} <br>
-        Children: ${prophet.numofchildren} <br>
-        Prophet Years: ${prophet.length} <br>
-        Died: ${prophet.death} <br>
-        Age: ${date.getFullYear() - birthResult[2]}`;
+        p.innerHTML = `<strong>Birth:</strong> ${prophet.birthdate} <br>
+        <strong>Place:</strong> ${prophet.birthplace} <br>
+        <strong>Children:</strong> ${prophet.numofchildren} <br>
+        <strong>Prophet Years:</strong> ${prophet.length} <br>
+        <strong>Died:</strong> ${prophet.death} <br>
+        <strong>Age:</strong> ${date.getFullYear() - birthResult[2]}`;
       } else {
           const deathResult = deathStr.split(" ");
 
-          p.innerHTML = `Birth: ${prophet.birthdate} <br>
-          Place: ${prophet.birthplace} <br>
-          Children: ${prophet.numofchildren} <br>
-          Prophet Years: ${prophet.length} <br>
-          Died: ${prophet.death} <br>
-          Age: ${deathResult[2] - birthResult[2]}`;
+          p.innerHTML = `<strong>Birth:</strong> ${prophet.birthdate} <br>
+          <strong>Place:</strong> ${prophet.birthplace} <br>
+          <strong>Children:</strong> ${prophet.numofchildren} <br>
+          <strong>Prophet Years:</strong> ${prophet.length} <br>
+          <strong>Died:</strong> ${prophet.death} <br>
+          <strong>Age:</strong> ${deathResult[2] - birthResult[2]}`;
     	}
       
       // Append the section(card) with the created elements
