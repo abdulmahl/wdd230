@@ -18,15 +18,13 @@ fetch(url)
         // Dynamicly add elements  and then append them into the main section
         // selected above "json data".
         companies.forEach((company) => {
-            let list = document.createElement('table');
-
             let card = document.createElement('section');
             let logo = document.createElement('img');
             let membership = document.createElement('p');
             let phoneNumber = document.createElement('p');
             let address = document.createElement('p');
             let anchor = document.createElement('a');
-            let name = document.createElement('td');
+            let name = document.createElement('h3');
 
             logo.setAttribute('src', company.iconurl);
             logo.setAttribute('alt', `Logo of ${company.name}`);
@@ -36,6 +34,7 @@ fetch(url)
             anchor.setAttribute('href', company.companyurl);
             anchor.setAttribute('target', '_blank')
 
+            name.textContent = company.name;
             address.textContent = company.address;
             phoneNumber.textContent = company.phoneNumber;
             membership.textContent = company.membershipLevel;
