@@ -34,11 +34,7 @@
   .headings1 div {
     font-size: x-large;
   }
-
-  .social {
-    margin-left: auto;
-  }
-
+  
   .linkedin, .facebook {
     width: 49px;
   }
@@ -333,14 +329,5 @@
 
   div.cards {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  section {
-    width: 99%;
-  }
-
-  main h2 {
-    font-size: large;
-    font-weight: bolder;
   }
 }

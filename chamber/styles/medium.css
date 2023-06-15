@@ -37,15 +37,8 @@
     font-size: x-large;
   }
 
-  .social {
-    margin-left: auto;
-  }
-
   .linkedin, .facebook {
     width: 43px;
-    height: auto;
-    border-radius: 360px;
-    margin-left: 15px;
   }
 
   .largeView-nav {
@@ -280,12 +273,12 @@
   div.cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 500px;
     gap: 20px;
-    justify-content: center;
   }
 
   section {
-    width: 97%;
+    width: 100%;
     box-shadow: 5px 5px 15px var(--eerie-black);
   }
 }

@@ -74,8 +74,8 @@ header {
 
 .social {
   display: flex;
-  gap: 10px;
-  margin-left: 63px;
+  gap: 15px;
+  margin-left: auto;
   margin-bottom: auto;
 }
 
@@ -474,6 +474,7 @@ div.cards {
   justify-content: center;
   gap: 7px;
   margin: 10px auto;
+  width: 350px;
 }
 
 section {
