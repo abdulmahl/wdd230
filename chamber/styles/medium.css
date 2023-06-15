@@ -271,13 +271,12 @@
   }
 
   div.cards {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-gap: 15px;
   }
 
   section {
-    width: 100%;
+    width: 98%;
     box-shadow: 5px 5px 15px var(--eerie-black);
   }
 }

@@ -34,7 +34,7 @@
   .headings1 div {
     font-size: x-large;
   }
-  
+
   .linkedin, .facebook {
     width: 49px;
   }
@@ -328,6 +328,8 @@
   }
 
   div.cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    align-items: center;
+    width: 100%;
   }
 }
