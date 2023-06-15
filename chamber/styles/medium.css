@@ -272,11 +272,10 @@
 
   div.cards {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
+    width: 90%;
   }
 
   section {
-    width: 98%;
     box-shadow: 5px 5px 15px var(--eerie-black);
   }
 }
