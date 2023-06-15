@@ -273,7 +273,6 @@
   div.cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 500px;
     gap: 20px;
   }
 
