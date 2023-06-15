@@ -327,8 +327,26 @@
     height: 50px;
   }
 
-  div.cards {
+  .grid div.cards {
     grid-template-columns: repeat(3, 1fr);
     width: 95%;
+  }
+
+  .list section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    justify-items: l;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .list h3 {
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .list p:nth-child(5){
+    display: revert;
   }
 }

@@ -270,12 +270,23 @@
     box-shadow: 0 0 10px var(--eerie-black);
   }
 
-  div.cards {
+  .grid div.cards {
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
   }
 
-  section {
+  .grid section {
     box-shadow: 5px 5px 15px var(--eerie-black);
+  }
+
+  .list section {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+    margin: 0;
+    padding: .25rem;
+  }
+
+  .list h3 {
+    font-size: large;
   }
 }

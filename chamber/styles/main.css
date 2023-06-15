@@ -455,21 +455,6 @@ form label.checkbox {
   max-width: 20rem;
 }
 
-.menu {
-  text-align: center;
-  padding: 20px;
-}
-
-#grid img, #list img {
-  width: 40px;
-  padding: 3px;
-  background-color: var(--silver);
-}
-
-.menu button {
-  margin: 12px;
-}
-
 div.cards {
   display: grid;
   grid-gap: 15px;
@@ -499,6 +484,20 @@ div.cards {
   padding: 3px;
 }
 
+.menu {
+  text-align: center;
+  padding: 20px;
+}
+
+#grid img, #list img {
+  width: 40px;
+  padding: 3px;
+}
+
+.menu button {
+  margin: 12px;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -507,8 +506,9 @@ div.cards {
 .list section {
   display: grid;
   width: 100%;
-  margin: 0 auto;
-  padding: 3px;
+  margin: 0;
+  padding: 7px;
+  align-items: center;
 }
 
 .list section img {
@@ -516,11 +516,20 @@ div.cards {
 }
 
 .list section p {
-  text-align: left;
+  padding: 7px 0;
+}
+
+.list h3 {
+  display: block;
+  font-size: 1rem;
 }
 
 .list section:nth-child(odd) {
   background-color: white;
+}
+
+.list p:nth-child(3), .list p:nth-child(5) {
+  display: none;
 }
 
 
