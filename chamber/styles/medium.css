@@ -262,7 +262,7 @@
     font-weight: bolder;
   }
 
-  .images-gallery {
+  div.images-gallery {
     grid-template-columns: 1fr 1fr;
   }
 

@@ -347,7 +347,7 @@ div a {
   text-shadow: 0 0 3px var(--lapis-lazuli);
 }
 
-.images-gallery {
+div.images-gallery {
   display: grid;
   padding: 5px;
   gap: 25px;
@@ -359,10 +359,9 @@ div a {
   color: var(--silver);
 }
 
-.images-gallery img {
+div.images-gallery img {
   width: 100%;
   height: auto;
-  box-shadow: 0 0 10px var(--eerie-black);
 }
 
 main h2 {
