@@ -262,6 +262,17 @@
     font-weight: bolder;
   }
 
+  form fieldset {
+    width: 90%;
+  }
+
+  form input.submitBtn {
+    width: 90%;
+    margin-left: 20px;
+    max-width: 20rem;
+  }
+  
+
   div.images-gallery {
     grid-template-columns: 1fr 1fr;
   }
