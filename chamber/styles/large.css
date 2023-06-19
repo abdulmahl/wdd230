@@ -304,6 +304,10 @@
     font-weight: bolder;
   }
 
+  form fieldset {
+    width: 85%;
+  }
+
   div.images-gallery {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
