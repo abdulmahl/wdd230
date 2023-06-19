@@ -25,5 +25,13 @@ fetchApi();
 let displayResults = function(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed()}</strong>`;
 
-    
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('width', '50');
+    weatherIcon.setAttribute('height', '50');
+    captionDesc.textContent = desc.toUpperCase();
+
 };
