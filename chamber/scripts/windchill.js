@@ -1,23 +1,20 @@
-const temperature = 33;
-const temp = document.querySelector(".description");
-temp.textContent = `${temperature}°C`;
+const temp = document.querySelector('#current-temp');
 
-const windSpeed = 25;
-const wind = document.querySelector(".wind");
-wind.textContent = `Wind Speed: ${windSpeed} km/h`;
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-26.09&lon=27.98&d=Randburg&units=metric&appid=cb266327ed92e9d613d6ebe5e148d6ca';
 
-const windChill = "N/A"
-const chill = document.querySelector(".wind-chill");
-chill.textContent = `Wind Chill: ${windChill}`;
+let fetchApi = async function() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            // displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+};
 
-
-const tempMed = document.querySelector(".description-med");
-tempMed.textContent = `${temperature}°C`;
-
-const windSpeedMed = 25;
-const windMed = document.querySelector(".wind-med");
-windMed.textContent = `Wind Speed: ${windSpeedMed} km/h`;
-
-const windChillMed = "N/A"
-const chillMed = document.querySelector(".wind-chill-med");
-chillMed.textContent = `Wind Chill: ${windChillMed}`;
+fetchApi();
