@@ -170,11 +170,6 @@ header {
   align-items: center;
 }
 
-.weather-card .wind,
-.wind-chill {
-  padding: 5px;
-}
-
 .news-card {
   background-color: var(--lapis-lazuli);
   margin: 5px 0;

@@ -148,13 +148,12 @@
   }
 
   .med-ribbon {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid var(--jet);
     padding: 10px;
+    width: 700px;
   }
 
   .med-ribbon h2 {
@@ -180,27 +179,17 @@
     display: flex;
     gap: 5px;
     padding: 5px;
-    margin: 10px 0;
     background-color: var(--lapis-lazuli);
   }
 
   .med-weather-card {
-    width: 65%;
-    height: auto;
-    margin: 0 auto;
+    width: 500px;
     border: 1px solid var(--jet);
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .med-weather-card .wind-med,
-  .wind-chill-med {
-    padding: 5px;
   }
 
   .med-weather-card .flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
