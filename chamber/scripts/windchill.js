@@ -32,7 +32,6 @@ let fetchApi = async function() {
 
 fetchApi();
 
-
 // Create the function that will display the results.
 let displayResults = function(weatherData) {
     tempSmall.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}</strong>`;
