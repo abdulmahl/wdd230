@@ -34,17 +34,16 @@ fetchApi();
 
 // Create the function that will display the results.
 let displayResults = function(weatherData) {
-    tempSmall.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}&deg;C</strong>`;
 
     const smallIconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const smallScription = weatherData.weather[0].description;
 
     smallWeatherIcon.setAttribute('src', smallIconSrc);
     smallWeatherIcon.setAttribute('alt', smallScription);
-    smallWeatherIcon.setAttribute('width', '80');
-    smallWeatherIcon.setAttribute('height', '80');
 
-    smallCaption.textContent = smallScription.toUpperCase();
+    tempSmall.innerHTML = `<strong>${weatherData.main.temp.toFixed()}&deg;C</strong> <br>`;
+
+    smallCaption.textContent = `${smallScription.toUpperCase()}`;
 
     temp.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}&deg;C</strong>`;
 
