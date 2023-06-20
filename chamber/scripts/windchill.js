@@ -34,7 +34,7 @@ fetchApi();
 
 // Create the function that will display the results.
 let displayResults = function(weatherData) {
-    tempSmall.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}</strong>`;
+    tempSmall.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}&deg;C</strong>`;
 
     const smallIconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const smallScription = weatherData.weather[0].description;
@@ -46,7 +46,7 @@ let displayResults = function(weatherData) {
 
     smallCaption.textContent = smallScription.toUpperCase();
 
-    temp.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}</strong>`;
+    temp.innerHTML = `Temperature: <strong>${weatherData.main.temp.toFixed()}&deg;C</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const scription = weatherData.weather[0].description;
