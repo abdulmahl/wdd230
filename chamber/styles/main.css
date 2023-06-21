@@ -161,22 +161,47 @@ header {
 
 span#current-temp-small {
   font-size: 2rem;
-  margin-top: 60px;
 }
 
 .weather-card {
-  background-color: var(--lapis-lazuli);
   margin: 5px 20px;
+  background-color: var(--lapis-lazuli);
 }
 
-.weather-card .flex {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0cap;
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid var(--gold-metalic);
+}
+
+h2.city {
+  font-size: 2rem;
+}
+
+div.flex {
+  margin-bottom: 10px;
+}
+
+.description-small {
+  padding: 5px 0;
 }
 
 img#weather-icon-small {
-  width: 150px;
+  width: 130px;
+  margin: 0 -15px;
+}
+
+.wind-chill-small {
+  padding: 10px;
+}
+
+.wind-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 15px;
 }
 
 .news-card {

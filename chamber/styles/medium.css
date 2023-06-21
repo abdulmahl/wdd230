@@ -108,6 +108,7 @@
     background-color: var(--lapis-lazuli);
     margin: 10px 0;
     padding: 10px;
+    justify-content: center;
   }
 
   .med-spotlights img {
@@ -190,8 +191,35 @@
   .med-weather-card .flex {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     font-size: 1.4rem;
+  }
+
+  .wind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    padding: 5px 0;
+    font-size: 1.1rem;
+  }
+
+  #current-temp {
+    font-size: 1.8rem;
+  }
+
+  img#weather-icon {
+    width: 110px;
+  }
+
+  figure {
+    justify-content: center;
+  }
+
+  .wind-chill {
+    padding: 10px;
   }
 
   #top-footer {
@@ -210,6 +238,10 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+
+  .footings1 p {
+    word-wrap: balance;
   }
 
   h3 {

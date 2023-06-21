@@ -242,10 +242,12 @@
     width: 300px;
     height: 300px;
     margin: 0 auto;
-  }
-
-  .weather-card .flex {
     font-size: 1.3rem;
+  }
+  
+  .wind-small {
+    font-size: 1.3rem;
+    padding: 0;
   }
 
   #footer-logo {
