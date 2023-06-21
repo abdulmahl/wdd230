@@ -252,7 +252,7 @@
 
   .wind-chill-small {
     padding: 10px;
-    margin-right: 53px;
+    margin-right: 20px;
   }
 
   #footer-logo {
@@ -320,7 +320,6 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
-    /* width: 95%; */
   }
 
   .gallery {
