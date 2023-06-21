@@ -194,14 +194,12 @@ img#weather-icon-small {
 
 .wind-chill-small {
   padding: 10px;
+  margin-right: 65px;
 }
 
 .wind-small {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: 1.6rem;
-  padding: 15px;
+  text-align: center;
 }
 
 .news-card {
