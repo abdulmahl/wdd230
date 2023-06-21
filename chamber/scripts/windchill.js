@@ -50,7 +50,7 @@ let displayResults = function(weatherData) {
     tempSmall.innerHTML = `<strong>${weatherData.main.temp.toFixed()}&deg;C</strong> <br>`;
     smallCaption.textContent = `${smallScription.toUpperCase()}`;
     windSpeedSmall.textContent = `Wind Speed: ${weatherData.wind.speed} km/h`;
-    windChillSmall.textContent = `Wind Chill: ${windSpeedSmall * .75}`;
+    windChillSmall.textContent = `Wind Chill: ${windSpeedSmall * .75}&deg;C`;
 
     // Medium viewport display.
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
@@ -64,6 +64,6 @@ let displayResults = function(weatherData) {
     temp.innerHTML = `<strong>${weatherData.main.temp.toFixed()}&deg;C</strong>`;
     caption.textContent = scription.toUpperCase();
     windSpeed.textContent = `Wind Speed: ${weatherData.wind.speed} km/h`;
-    windChill.textContent = `Wind Chill: ${windSpeed * .75}`;
+    windChill.textContent = `Wind Chill: ${windSpeed * .75}&deg;C`;
 
 };
