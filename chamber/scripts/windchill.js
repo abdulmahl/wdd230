@@ -14,15 +14,18 @@ const smallCaption = document.querySelector('.description-small');
 const windSpeedSmall = document.querySelector('.wind-speed-small');
 const windChillSmall = document.querySelector('.wind-chill-small');
 
+const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 
 // Put the API url in variable.
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-26.08&lon=27.98&d=Randburg&units=metric&appid=cb266327ed92e9d613d6ebe5e148d6ca';
+const weatherApi = 'https://api.openweathermap.org/data/2.5/weather?'
+    + 'lat=-26.08&lon=27.98&d=Randburg&units=metric&appid=' 
+    + apiKey;
 
 // Using the async function in a try catch statement,
 // display the data, passed from the displayResults function.
 let fetchApi = async function() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(weatherApi);
         if (response.ok) {
             const data = await response.json();
             // console.log(data);
