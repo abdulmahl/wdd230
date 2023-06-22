@@ -296,10 +296,6 @@
     width: 75%;
   }
 
-  form input.submitBtn {
-    max-width: 80%;
-  }
-
   form label.top, form div {
     font-size: .9rem;
   }
