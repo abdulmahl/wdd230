@@ -551,6 +551,28 @@ div.cards {
   display: none;
 }
 
+.contact-paragraph {
+  padding: 20px;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 10px;
+  gap: 15px;
+}
+
+.address-line, .phone-number,
+.email-address {
+  font-size: 1.8rem;
+  font-family: 'Ubuntu';
+  padding: 3px 0;
+}
+
+.address, .phone, .email {
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
 .contact-container {
   position: relative;
 }
@@ -574,25 +596,23 @@ div.cards {
 }
 
 .contact-form {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
+  border-radius: 10px;
+  background-color: var(--lapis-lazuli);
 }
 
 .form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  font-weight: bold;
+  padding: 15px;
+  color: var(--beige);
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 8px;
+  padding: .75rem;
   border: 1px solid var(--silver);
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .form-group textarea {
@@ -602,13 +622,15 @@ div.cards {
 
 .form-group button {
   background-color: var(--lapis-lazuli);
-  color: beige;
+  color: var(--beige);
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  width: 100%;
 }
 
 .form-group button:hover {
-  background-color: var(--gold-metalic);
+  background-color: var(--flame);
+  color: var(--lapis-lazuli);
 }

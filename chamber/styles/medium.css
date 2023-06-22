@@ -323,4 +323,28 @@
   .list h3 {
     font-size: large;
   }
+
+  .contact-us {
+    font-size: 3.6rem;
+  }
+
+  .contact-paragraph {
+    padding: 50px;
+  }
+  
+  .social-icons {
+    gap: 25px;
+    padding: 10px 0;
+  }
+  
+  .address-line, .phone-number,
+  .email-address {
+    font-size: 3.6rem;
+    padding: 6px 0;
+  }
+  
+  .address, .phone, .email {
+    padding: 10px;
+    font-size: 2.6rem;
+  }
 }
