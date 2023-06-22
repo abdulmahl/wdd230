@@ -216,25 +216,30 @@ img#weather-icon-small {
   text-shadow: 0 0 20px var(--eerie-black);
 }
 
-.spotlights {
-  margin: 5px 0;
+.chamber-card2 {
+  display: none;
 }
 
-.spotlights img {
+.chamber-card1 img, .chamber-card3 img {
   display: block;
-  width: 100px;
+  width: 200px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
 }
 
-.first-spot,
-.second-spot {
-  background-color: var(--lapis-lazuli);
-  border: 1px solid var(--jet);
-  text-align: center;
+.chamber-card1 p, .chamber-card3 p {
   padding: 10px;
+  text-align: center;
+}
+
+.chamber-card1,
+.chamber-card3 {
+  background-color: var(--lapis-lazuli);
+  border: 1px solid var(--beige);
+  text-align: center;
+  padding: 20px;
   margin: 2px;
 }
 
@@ -242,17 +247,6 @@ img#weather-icon-small {
 .join-card,
 .med-join-card {
   display: none;
-}
-
-.co-name {
-  color: var(--gold-metalic);
-  font-family: "monospace";
-}
-
-.slogan {
-  border-bottom: 1px solid var(--gold-metalic);
-  padding-bottom: 15px;
-  margin: 15px;
 }
 
 #hamburgerBtn {
