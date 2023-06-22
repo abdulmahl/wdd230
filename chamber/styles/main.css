@@ -431,13 +431,20 @@ form label.top input, form label.top select {
 form input.submitBtn {
   display: block;
   border: none;
-  background-color: var(--flame);
-  color: var(--beige);
+  background-color: var(--beige);
+  color: var(--eerie-black);
   border-radius: 1rem;
   padding: .75rem;
   margin: 0 auto;
-  width: 95%;
-  max-width: 20rem;
+  width: 90%;
+  max-width: 100%;
+  font-size: 1.3rem;
+}
+
+form input.submitBtn:hover {
+  background-color: var(--flame);
+  color: var(--beige);
+  cursor: pointer;
 }
 
 .valid-title {
