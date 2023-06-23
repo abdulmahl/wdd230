@@ -60,6 +60,6 @@ td {
     color: green;
 }
 
-tbody tr:nth-child(odd) {
-	background-color: var(--zebra);
+tr:nth-child(odd) {
+	background-color: var(--jet);
 }

@@ -405,7 +405,7 @@ table {
 	border-collapse: collapse;
     width: 100%;
     margin: 20px 0;
-    border-radius: 10px;
+    border: 1px solid var(--silver);
 }
 
 .pack-name {
@@ -417,11 +417,9 @@ tr:first-child th {
 	background-color: var(--lapis-lazuli);
 	color: var(--beige);
     padding: 10px;
-    border-right: 1px solid var(--silver);
-    border-top: 1px solid var(--silver);
-    border-left: 1px solid var(--silver);
-    font-size: small;
+    font-size: large;
     height: 20px;
+    text-align: center;
 }
 
 tr:nth-child(2) th.top {
@@ -430,10 +428,8 @@ tr:nth-child(2) th.top {
 }
 
 .categories {
-    background-color: var(--beige);
     color: var(--lapis-lazuli);
     font-size: small;
-    border-right: 1px solid var(--silver);
 }
 
 td {
@@ -446,12 +442,15 @@ td {
 }
 
 .checkmark {
-    font-size: small;
+    font-size: large;
     color: green;
 }
 
 tbody tr:nth-child(odd) {
-	background-color: var(--zebra);
+	background-color: var(--silver);
+}
+tbody tr:nth-child(even) {
+    color: var(--lapis-lazuli);
 }
 
 form fieldset {
