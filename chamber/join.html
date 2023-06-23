@@ -69,24 +69,77 @@
                 <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
             </fieldset>
 
-            <fieldset>
-                <legend>Membership Packages</legend>
-                <label class="top">Business Title<input type="text" name="title" required></label>
-                <label class="top">Membership
-                    <select name="membership">
-                        <option value="selection">Membership Selection &#9662;</option>
-                        <option value="np-member">NP Membership</option>
-                        <option value="silver-member">Silver Membership</option>
-                        <option value="bronze-member">Bronze Membership</option>
-                        <option value="gold-member">Gold Membership</option>
-                    </select>
-                </label>
+            <fieldset class="packages">
+            <legend>Membership Packages</legend>
 
-                <label class="business-description">Briefly describe your business:
-                  <textarea id="businessDescription" name="businessDescription" rows="4" cols="50" required></textarea>
-                </label>
+                <div class="member-packages">
 
-                <label class="checkbox"><input class="box" type="checkbox" name="checkbox" value="mark" required> By checking this box you agree to the terms.</label>
+                  <label class="top">Business Title<input type="text" name="title" required></label>
+                  <label class="top">Membership
+                      <select name="membership">
+                          <option value="selection">Membership Selection &#9662;</option>
+                          <option value="np-member">NP Membership</option>
+                          <option value="silver-member">Silver Membership</option>
+                          <option value="bronze-member">Bronze Membership</option>
+                          <option value="gold-member">Gold Membership</option>
+                      </select>
+                  </label>
+  
+                  <label class="business-description">Briefly describe your business:
+                    <textarea id="businessDescription" name="businessDescription" rows="4" cols="50" required></textarea>
+                  </label>
+  
+                  <label class="checkbox"><input class="box" type="checkbox" name="checkbox" value="mark" required> By checking this box you agree to the terms.</label>
+
+                </div>
+                
+                <table>
+                  <thead>
+                      <tr>
+                          <th colspan="5" scope="colgroup">Chamber Subscription Memberships</th>
+                      </tr>
+                      <tr class="categories">
+                          <th class="top" scope="col"></th>
+                          <th scope="col">Non Profit</th>
+                          <th scope="col">Bronze</th>
+                          <th scope="col">Silver</th>
+                          <th scope="col">Gold</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="pack-name">Activity Notifications</td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                      </tr>
+                      <tr>
+                          <td class="pack-name">Site Advertising</td>
+                          <td><div class="crossmark">&#10060;</div></div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                      </tr>
+                      <tr>
+                          <td class="pack-name">Sales & Training</td>
+                          <td><div class="crossmark">&#10060;</div></td>
+                          <td><div class="crossmark">&#10060;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                          <td><div class="checkmark">&#10004;</div></td>
+                      </tr>
+
+                      <tr>
+                        <td class="pack-name">Exclusive Events</td>
+                        <td><div class="crossmark">&#10060;</div></td>
+                        <td><div class="crossmark">&#10060;</div></td>
+                        <td><div class="crossmark">&#10060;</div></td>
+                        <td><div class="checkmark">&#10004;</div></td>
+                    </tr>
+                    
+                  </tbody>
+              </table>
+
             </fieldset>
 
             <input class="submitBtn" type="submit" value="Propose My Membership">

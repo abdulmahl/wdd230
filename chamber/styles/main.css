@@ -396,6 +396,64 @@ main h2 {
   display: none;
 }
 
+.packages {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.pack-name {
+    font-size: smaller;
+    width: 10%;
+}
+
+tr:first-child th {
+	background-color: var(--lapis-lazuli);
+	color: var(--beige);
+    padding: 10px;
+    border-right: 1px solid var(--silver);
+    border-top: 1px solid var(--silver);
+    border-left: 1px solid var(--silver);
+    font-size: small;
+    height: 20px;
+}
+
+tr:nth-child(2) th.top {
+    background-color: var(--lapis-lazuli);
+    height: 20px;
+}
+
+.categories {
+    background-color: var(--beige);
+    color: var(--lapis-lazuli);
+    font-size: small;
+    border-right: 1px solid var(--silver);
+}
+
+td {
+	padding: 5px 15px;
+	border: 1px solid var(--silver);
+}
+
+.crossmark {
+    font-size: small;
+}
+
+.checkmark {
+    font-size: small;
+    color: green;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
 form fieldset {
   margin: 2rem auto;
   border: thin solid var(--lapis-lazuli);
