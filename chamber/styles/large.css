@@ -213,7 +213,8 @@
   .chamber-card1 p, .chamber-card2 p,
   .chamber-card3 p {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    color: var(--silver);
   }
 
   .news-card {

@@ -232,6 +232,7 @@ img#weather-icon-small {
 .chamber-card1 p, .chamber-card3 p {
   padding: 10px;
   text-align: center;
+  color: var(--silver);
 }
 
 .chamber-card1,

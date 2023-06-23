@@ -117,6 +117,7 @@
   .med-chamber-card2 p {
     padding: 3px;
     text-align: center;
+    padding: 5px;
   }
 
   div.med-chamber-card1,
@@ -130,6 +131,7 @@
     height: 310px;
     border: 3px solid var(--beige);
     margin: 1px 0;
+    color: var(--silver);
   }
 
   .med-chamber-card1 img,
