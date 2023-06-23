@@ -396,4 +396,8 @@
   .form-group {
     font-size: 1.3rem;
   }
+
+  .google-map {
+    margin-top: 0;
+  }
 }

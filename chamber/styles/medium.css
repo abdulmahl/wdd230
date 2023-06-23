@@ -353,4 +353,8 @@
     padding: 10px;
     font-size: 2.6rem;
   }
+
+  .google-map {
+    margin-top: 30px;
+  }
 }
