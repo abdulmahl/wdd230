@@ -243,6 +243,9 @@
     margin: 0 auto;
     font-size: 1.3rem;
   }
+  div.flex {
+    margin-left: 15px;
+  }
   
   .wind-small {
     font-size: 1.3rem;

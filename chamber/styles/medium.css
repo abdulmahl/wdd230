@@ -205,8 +205,8 @@
   .med-weather-card .flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-size: 1.4rem;
+    margin-left: 5px;
   }
 
   .wind {
