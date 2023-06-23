@@ -448,11 +448,13 @@ td {
 
 .crossmark {
     font-size: small;
+    text-align: center;
 }
 
 .checkmark {
     font-size: larger;
     color: green;
+    text-align: center;
 }
 
 tbody tr:nth-child(odd) {
