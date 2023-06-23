@@ -417,6 +417,14 @@
     font-size: 1.2rem;
   }
 
+  .checkmark, .crossmark {
+    margin-bottom: 25px;
+  }
+
+  .categories {
+    font-size: larger;
+}
+
   table {
     width: 100%;
     max-width: 30rem;
@@ -425,5 +433,9 @@
   .np {
     margin-left: 100px;
     font-size: 1.2rem;
+  }
+
+  .google-map {
+    height: 400px;
   }
 }

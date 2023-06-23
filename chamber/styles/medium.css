@@ -318,6 +318,14 @@
     font-size: 1rem;
   }
 
+  .categories {
+    font-size: large;
+}
+
+  .checkmark, .crossmark {
+    margin-bottom: 20px;
+  }
+
   div.images-gallery {
     grid-template-columns: 1fr 1fr;
   }
@@ -382,5 +390,9 @@
   .np {
     text-align: left;
     margin-left: 75px;
+  }
+
+  .google-map {
+    height: 300px;
   }
 }
