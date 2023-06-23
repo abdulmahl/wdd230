@@ -316,7 +316,7 @@
   }
 
   form fieldset {
-    width: 85%;
+    width: 65%;
   }
 
   form label.top, form div {
@@ -324,7 +324,7 @@
   }
 
   form input.submitBtn {
-    max-width: 85%;
+    max-width: 65%;
   }
 
   div.images-gallery {
@@ -399,5 +399,31 @@
 
   .google-map {
     margin-top: 0;
+  }
+
+  form label.top input, 
+  form label.top select, 
+  #businessDescription {
+    font-size: 1.2rem;
+    padding: .85rem;
+    width: 100%;
+    max-width: 30rem;
+  }
+  
+  form label.top, form div,
+  .business-description,
+  form label.checkbox {
+    padding-top: 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .np {
+    margin-left: 100px;
+    font-size: 1.2rem;
   }
 }

@@ -404,8 +404,17 @@ main h2 {
 table {
 	border-collapse: collapse;
     width: 100%;
-    margin: 20px 0;
+    max-width: 20rem;
+    margin: 10px 0;
     border: 1px solid var(--silver);
+}
+
+.np {
+    text-align: left;
+    margin-left: 40px;
+    font-size: large; 
+    text-shadow: 0 0 10px #42608a;
+    color: var(--flame);
 }
 
 .pack-name {
@@ -442,13 +451,14 @@ td {
 }
 
 .checkmark {
-    font-size: large;
+    font-size: larger;
     color: green;
 }
 
 tbody tr:nth-child(odd) {
 	background-color: var(--silver);
 }
+
 tbody tr:nth-child(even) {
     color: var(--lapis-lazuli);
 }
@@ -467,7 +477,7 @@ form legend {
   padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top {
   display: block;
   padding-top: 1rem;
   color: var(--flame);
@@ -519,12 +529,18 @@ form label.checkbox {
   align-items: center;
   gap: 5px;
   font-size: .8rem;
-  color: #555;
+  color: var(--jet);
 }
 
 .box {
   width: 20px;
   height: 20px;
+}
+
+.checkbox {
+    padding: 10px 0;
+    font-size: larger;
+    text-shadow: 0 0 10px var(--flame);
 }
 
 .business-description {
@@ -538,6 +554,7 @@ form label.checkbox {
 #businessDescription {
   width: 100%;
   max-width: 20rem;
+  height: 10vw;
 }
 
 div.cards {
