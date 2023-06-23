@@ -643,3 +643,8 @@ div.cards {
   background-color: var(--flame);
   color: var(--lapis-lazuli);
 }
+
+.google-map {
+  width: 100%;
+  height: 400px;
+}
