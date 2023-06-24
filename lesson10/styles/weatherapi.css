@@ -26,6 +26,13 @@ main {
     text-align: center;
 }
 
+img#weather-icon {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
 main h2 {
     padding: 20px;
     font-size: 1.3rem;
