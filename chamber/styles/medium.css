@@ -229,6 +229,9 @@
 
   img#weather-icon {
     width: 110px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
   }
 
   .wind-chill {
