@@ -406,42 +406,42 @@ main h2 {
 
 table {
 	border-collapse: collapse;
-    width: 100%;
-    max-width: 20rem;
-    margin: 10px 0;
-    border: 1px solid var(--silver);
+  width: 100%;
+  max-width: 20rem;
+  margin: 10px 0;
+  border: 1px solid var(--silver);
 }
 
 .np {
-    text-align: left;
-    margin-left: 40px;
-    font-size: large; 
-    text-shadow: 0 0 10px #42608a;
-    color: var(--flame);
+  text-align: left;
+  margin-left: 40px;
+  font-size: large; 
+  text-shadow: 0 0 10px #42608a;
+  color: var(--flame);
 }
 
 .pack-name {
-    font-size: smaller;
-    width: 10%;
+  font-size: smaller;
+  width: 10%;
 }
 
 tr:first-child th {
 	background-color: var(--lapis-lazuli);
-	color: var(--beige);
-    padding: 10px;
-    font-size: large;
-    height: 20px;
-    text-align: center;
+  color: var(--beige);
+  padding: 10px;
+  font-size: large;
+  height: 20px;
+  text-align: center;
 }
 
 tr:nth-child(2) th.top {
-    background-color: var(--lapis-lazuli);
-    height: 20px;
+  background-color: var(--lapis-lazuli);
+  height: 20px;
 }
 
 .categories {
-    color: var(--lapis-lazuli);
-    font-size: small;
+  color: var(--lapis-lazuli);
+  font-size: small;
 }
 
 td {
@@ -450,14 +450,14 @@ td {
 }
 
 .crossmark {
-    font-size: small;
-    text-align: center;
+  font-size: small;
+  text-align: center;
 }
 
 .checkmark {
-    font-size: larger;
-    color: green;
-    text-align: center;
+  font-size: larger;
+  color: green;
+  text-align: center;
 }
 
 tbody tr:nth-child(odd) {
@@ -465,7 +465,7 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-    color: var(--lapis-lazuli);
+  color: var(--lapis-lazuli);
 }
 
 form fieldset {
