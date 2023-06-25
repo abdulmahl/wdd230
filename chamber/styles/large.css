@@ -319,6 +319,10 @@
     width: 65%;
   }
 
+  form legend {
+    font-size: 2rem;
+  }
+
   form label.top, form div {
     font-size: 1rem;
   }

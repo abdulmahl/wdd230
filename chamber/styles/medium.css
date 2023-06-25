@@ -306,6 +306,10 @@
     max-width: 100%;
   }
 
+  form legend {
+    font-size: 1.3rem;
+  }
+
   form label.top input, 
   form label.top select, 
   #businessDescription {
@@ -330,6 +334,10 @@
 
   .pack-name {
     font-size: 1.4rem;
+  }
+
+  .np {
+    font-size: 1.3rem;
   }
 
   .checkmark, .crossmark {
