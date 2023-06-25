@@ -407,16 +407,16 @@ main h2 {
 table {
 	border-collapse: collapse;
   width: 100%;
-  max-width: 20rem;
+  max-width: 100%;
   margin: 10px 0;
   border: 1px solid var(--silver);
 }
 
 .np {
-  text-align: left;
-  margin-left: 40px;
+  text-align: center;
+  margin-top: 40px;
   font-size: large; 
-  text-shadow: 0 0 10px #42608a;
+  text-shadow: 0 0 10px var(--lapis-lazuli);
   color: var(--flame);
 }
 
@@ -498,7 +498,7 @@ form label.top input, form label.top select {
   padding: .75rem;
   color: var(--jet);
   width: 100%;
-  max-width: 20rem;
+  max-width: 100%;
   background-color: rgba(0, 0, 0, .1);
 }
 
@@ -510,8 +510,8 @@ form input.submitBtn {
   border-radius: 1rem;
   padding: .75rem;
   margin: 0 auto;
-  width: 90%;
-  max-width: 100%;
+  width: 100%;
+  max-width: 95%;
   font-size: 1.3rem;
 }
 
@@ -543,9 +543,9 @@ form label.checkbox {
 }
 
 .checkbox {
-    padding: 10px 0;
-    font-size: larger;
-    text-shadow: 0 0 10px var(--flame);
+  padding: 10px 0;
+  font-size: larger;
+  text-shadow: 0 0 10px var(--flame);
 }
 
 .business-description {
@@ -558,8 +558,8 @@ form label.checkbox {
 
 #businessDescription {
   width: 100%;
-  max-width: 20rem;
-  height: 10vw;
+  max-width: 100%;
+  height: 40vw;
 }
 
 div.cards {

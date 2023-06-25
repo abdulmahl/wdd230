@@ -297,12 +297,13 @@
     font-weight: bolder;
   }
 
-  form fieldset {
-    width: 75%;
+  tr:first-child th {
+    padding: 20px;
+    font-size: 1.6rem;
   }
 
-  form input.submitBtn {
-    width: 75%;
+  form fieldset {
+    max-width: 100%;
   }
 
   form label.top input, 
@@ -310,8 +311,10 @@
   #businessDescription {
     font-size: 1.2rem;
     padding: .85rem;
-    width: 100%;
-    max-width: 25rem;
+  }
+
+  #businessDescription {
+    height: 30vw;
   }
 
   form label.top, form div, 
@@ -322,11 +325,23 @@
   }
 
   .categories {
-    font-size: large;
-}
+    font-size: 1.6rem;
+  }
+
+  .pack-name {
+    font-size: 1.4rem;
+  }
 
   .checkmark, .crossmark {
     margin-bottom: 20px;
+  }
+
+  .crossmark {
+    font-size: 1.2rem;
+  }
+
+  .checkmark {
+    font-size: 2rem;
   }
 
   div.images-gallery {
@@ -383,16 +398,6 @@
 
   .google-map {
     margin-top: 30px;
-  }
-
-  table {
-    width: 100%;
-    max-width: 25rem;
-  }
-
-  .np {
-    text-align: left;
-    margin-left: 75px;
   }
 
   .google-map {
