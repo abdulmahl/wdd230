@@ -661,7 +661,7 @@ div.cards {
   font-size: 1.3rem;
 }
 
-.contact-container, .thank-you {
+.contact-container {
   position: relative;
 }
 
@@ -699,7 +699,6 @@ div.cards {
 .contact-form {
   width: 85%;
   margin: 0 auto;
-  border-radius: 10px;
   background-color: var(--lapis-lazuli);
 }
 
@@ -736,8 +735,8 @@ div.cards {
   color: var(--lapis-lazuli);
 }
 
-.google-map {
-  width: 100%;
+/* .google-map {
+  width: 85%;
+  margin: 0 auto;
   height: 200px;
-  margin-top: 20px;
-}
+} */
