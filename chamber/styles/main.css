@@ -661,8 +661,24 @@ div.cards {
   font-size: 1.3rem;
 }
 
-.contact-container {
+.contact-container, .thank-you {
   position: relative;
+}
+
+.thank-you img {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.thankyou-msg {
+  color: var(--lapis-lazuli);
+  font-size: 2rem;
+  font-family: 'Ubuntu';
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-size: 2rem; 
+  text-align: center;
 }
 
 .contact-container img {
@@ -676,7 +692,6 @@ div.cards {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   color: var(--beige);
   font-size: 1.8rem;
   font-family: 'Ubuntu';
