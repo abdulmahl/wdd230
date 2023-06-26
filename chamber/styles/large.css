@@ -439,4 +439,8 @@
   .google-map {
     height: 400px;
   }
+
+  .thankyou-msg {
+    font-size: 2rem; 
+  }
 }

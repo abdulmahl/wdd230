@@ -668,23 +668,21 @@ div.cards {
 .thank-you img {
   width: 100%;
   height: auto;
-  padding-top: 20px;
+  padding: 30px 0;
 }
 
 .thankyou-msg {
   color: var(--lapis-lazuli);
   font-size: 2rem;
   font-family: 'Ubuntu';
-  padding-bottom: 50px;
-  padding-top: 10px;
-  font-size: 2rem; 
+  padding-top: 30px;
+  font-size: 1rem; 
   text-align: center;
 }
 
 .contact-container img {
   width: 100%;
   height: auto;
-  padding: 15px 0;
 }
 
 .contact-us {

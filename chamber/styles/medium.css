@@ -411,4 +411,8 @@
   .google-map {
     height: 300px;
   }
+
+  .thankyou-msg {
+    font-size: 1.3rem; 
+  }
 }
