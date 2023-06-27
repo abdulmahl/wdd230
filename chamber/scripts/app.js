@@ -41,9 +41,9 @@ if (dayOfWeek === 1 || dayOfWeek === 2) {
 const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
-
+console.log("this is visit number" + " " + numVisits);
 if (numVisits !== 0) {
-  visitsDisplay.textContent = `This is visit number ${numVisits} of the day`;
+  visitsDisplay.textContent = `This is visit number ${numVisits + 1} of the day`;
 } else {
   visitsDisplay.textContent = `This is your first visit`;
 }

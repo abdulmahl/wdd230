@@ -737,22 +737,19 @@ div.cards {
   height: 200px;
 } */
 
-.stats-randburg {
+.stats-randburg, .last-visited {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   background-color: var(--lapis-lazuli);
   font-family: 'Ubuntu';
   width: 80%;
-  margin: 30px auto;
-  font-size: 1.2rem;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: var(--beige);
 }
 
 .last-visited {
-  text-align: center;
   padding: 10px;
-  background-color: var(--lapis-lazuli);
-  font-family: 'Ubuntu';
-  width: 80%;
   margin: 30px auto;
   font-size: 1.2rem;
 }
