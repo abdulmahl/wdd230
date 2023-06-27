@@ -27,7 +27,7 @@ const dayOfWeek = date.getDay();
 
 if (dayOfWeek === 1 || dayOfWeek === 2) {
   const banner = document.createElement('div');
-  banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 19H00";
+  banner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 19H00";
   banner.style.color = 'black';
   banner.style.padding = '10px';
   banner.style.fontWeight = 'bold';
