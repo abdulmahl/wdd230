@@ -43,7 +43,7 @@ const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
 if (numVisits !== 0) {
-  visitsDisplay.textContent = numVisits;
+  visitsDisplay.textContent = `This is visit number ${numVisits} of the day`;
 } else {
   visitsDisplay.textContent = `This is your first visit`;
 }

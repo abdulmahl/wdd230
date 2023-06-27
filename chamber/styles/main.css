@@ -395,10 +395,6 @@ main h2 {
   text-align: center;
 }
 
-.visits {
-  display: none;
-}
-
 .packages {
   display: flex;
   flex-direction: column;
@@ -740,3 +736,23 @@ div.cards {
   margin: 0 auto;
   height: 200px;
 } */
+
+.stats-randburg {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--lapis-lazuli);
+  font-family: 'Ubuntu';
+  width: 80%;
+  margin: 30px auto;
+  font-size: 1.2rem;
+}
+
+.last-visited {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--lapis-lazuli);
+  font-family: 'Ubuntu';
+  width: 80%;
+  margin: 30px auto;
+  font-size: 1.2rem;
+}
