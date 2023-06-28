@@ -110,7 +110,6 @@
 
   div.container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     align-items: center;
     justify-content: center;
@@ -187,7 +186,7 @@
     grid-column: 5 / 6;
     grid-row: 1 / 6;
     width: 300px;
-    height: 952px;
+    height: auto;
     padding: 10px;
   }
 
