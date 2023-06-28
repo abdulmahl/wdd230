@@ -357,7 +357,8 @@
 
   .grid div.cards {
     grid-template-columns: repeat(3, 1fr);
-    width: 95%;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .list section {
