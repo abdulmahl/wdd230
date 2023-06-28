@@ -92,7 +92,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--turquoise);
+  color: var(--beige);
 }
 
 .hero {
@@ -263,7 +263,7 @@ img#weather-icon-small {
   background: transparent;
   border: none;
   font-size: 1.9rem;
-  color: var(--eerie-black);
+  color: var(--lapis-lazuli);
 }
 
 nav ul {
@@ -275,8 +275,10 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
+  margin: 3px;
   text-decoration: none;
-  color: var(--eerie-black);
+  color: var(--lapis-lazuli);
+  
 }
 
 nav ul li a:hover {
@@ -740,16 +742,21 @@ div.cards {
 .stats-randburg, .last-visited {
   text-align: center;
   padding: 15px;
-  background-color: var(--lapis-lazuli);
   font-family: 'Ubuntu';
   width: 80%;
   margin: 10px auto;
   font-size: 1rem;
-  color: var(--beige);
+  color: var(--lapis-lazuli);
+  border-top: thin solid var(--gold-metalic);
+  border-bottom: thin solid var(--gold-metalic);
 }
 
 .last-visited {
   padding: 10px;
   margin: 30px auto;
   font-size: 1.2rem;
+}
+
+.discover-gallery {
+  color: var(--lapis-lazuli);
 }

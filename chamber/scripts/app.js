@@ -28,7 +28,7 @@ const dayOfWeek = date.getDay();
 if (dayOfWeek === 1 || dayOfWeek === 2) {
   const banner = document.createElement('div');
   banner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 19H00";
-  banner.style.color = 'black';
+  banner.style.color = '#42608a';
   banner.style.padding = '10px';
   banner.style.fontWeight = 'bold';
   banner.style.textAlign = 'center';
@@ -41,9 +41,8 @@ if (dayOfWeek === 1 || dayOfWeek === 2) {
 const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
-console.log("this is visit number" + " " + numVisits);
 if (numVisits !== 0) {
-  visitsDisplay.textContent = `This is visit number ${numVisits + 1} of the day`;
+  visitsDisplay.textContent = `This is visit number ${numVisits + 1}`;
 } else {
   visitsDisplay.textContent = `This is your first visit`;
 }
