@@ -9,6 +9,7 @@
   --flame: #ed5d31;
   --turquoise: #40e0d0;
   --gold-metalic: #d9b208;
+  --lime-green: #32cd32;
 }
 
 * {
@@ -810,12 +811,12 @@ div.cards {
 input:checked + .slider:before
 {
   transform: translateX(30px); /*translateX(w-h)*/
-  background-color: limeGreen;
+  background-color: var(--lime-green);
 }
 
 input:checked + .slider
 {
-  box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;
+  box-shadow: 0 0 0 2px var(--lime-green), 0 0 8px var(--lime-green);
 }
 
 
