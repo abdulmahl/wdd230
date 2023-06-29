@@ -544,7 +544,8 @@ form label.checkbox {
 .checkbox {
   padding: 10px 0;
   font-size: larger;
-  text-shadow: 0 0 10px var(--flame);
+  color: var(--lapis-lazuli);
+  /* text-shadow: 0 0 10px var(--flame); */
 }
 
 .business-description {
@@ -818,6 +819,3 @@ input:checked + .slider
 {
   box-shadow: 0 0 0 2px var(--lime-green), 0 0 8px var(--lime-green);
 }
-
-
-
