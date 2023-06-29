@@ -654,11 +654,13 @@ div.cards {
   font-size: 1.8rem;
   font-family: 'Ubuntu';
   padding: 3px 0;
+  color: var(--lapis-lazuli);
 }
 
 .address, .phone, .email {
   padding: 10px;
   font-size: 1.3rem;
+  color: var(--lapis-lazuli);
 }
 
 .contact-container {
@@ -683,6 +685,7 @@ div.cards {
 .contact-container img {
   width: 100%;
   height: auto;
+  margin-top: 27px;
 }
 
 .contact-us {
