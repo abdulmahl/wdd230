@@ -67,8 +67,3 @@ let displayResults = function(weatherData) {
     windSpeed.textContent = `Wind Speed: ${weatherData.wind.speed} km/h`;
     windChill.innerHTML = `Wind Chill: ${weatherData.wind.deg.toFixed()}&deg;C`;
 };
-
-function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-}
