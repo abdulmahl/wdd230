@@ -761,3 +761,62 @@ div.cards {
   color: var(--lapis-lazuli);
   width: 100%;
 }
+
+.dark-mode {
+  background-color: var(--eerie-black);
+}
+
+.switch input {
+  display: none;
+}
+
+.switch {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin-left: 25px;
+  transform: translateY(50%);
+  position: relative;
+  top: 10%;
+}
+
+.slider
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  box-shadow: 0 0 0 2px var(--lapis-lazuli), 0 0 4px var(--lapis-lazuli);
+  cursor: pointer;
+  border: 4px solid transparent;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.slider:before
+{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--lapis-lazuli);
+  border-radius: 30px;
+  transform: translateX(-30px); /*translateX(-(w-h))*/
+  transition: 0.2s;
+}
+
+input:checked + .slider:before
+{
+  transform: translateX(30px); /*translateX(w-h)*/
+  background-color: limeGreen;
+}
+
+input:checked + .slider
+{
+  box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;
+}
+
+
+
