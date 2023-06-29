@@ -50,3 +50,8 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("visits-ls", numVisits);
+
+function toggleDarkMode() {
+  const body = document.body;
+  body.classList.toggle('dark-mode');
+}
