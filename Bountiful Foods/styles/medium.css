@@ -39,6 +39,10 @@
         padding: 6px;
     }
 
+    img#second-img {
+        width: 75%;
+    }
+
     .weather-cards {
         display: flex;
         flex-direction: row;
@@ -55,19 +59,18 @@
     }
     
     .facebook, .linkedin {
-        width: 35px;
+        width: 40px;
     }
     
     .social {
         gap: 15px;
         margin-right: 150px;
-        margin-bottom: auto;
     }
     
     img#footer-logo-img {
         width: 80px;
         height: 80px;
-        margin-left: 150px;
+        margin-left: 50px;
     }
     
     .footer-logo-container {
