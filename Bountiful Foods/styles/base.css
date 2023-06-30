@@ -1,0 +1,40 @@
+:root {
+    --prussian-blue: #182F4E;
+    --hunyadi-yellow: #F6AE2D;
+    --cadet-gray: #A4A9AD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.facebook, .linkedin {
+    width: 40px;
+    height: auto;
+    border-radius: 360px;
+}
+
+img#logo-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+  
+
