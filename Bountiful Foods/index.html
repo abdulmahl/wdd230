@@ -7,36 +7,105 @@
     <meta name="description" content="Bountiful Foods WDD230 Final Project ">
     <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
+    <!-- <link rel="stylesheet" href="styles/large.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
 </head>
 <body>
     <header>
-        <img id="logo-img" src="images/wave-haikei.svg" alt="logo">
+        <img id="logo-img" src="images/wave-haikei.png" alt="logo">
         <h1>Bountiful Fresh Foods</h1>
-        <div class="social">
-            <a href="https://web.facebook.com/RandburgSquare" target="_blank">
-              <img class="facebook" src="images/facebook.webp" alt="facebook-logo"/>
-            </a>
-            <a href="https://linkedin.com" target="_blank">
-              <img class="linkedin" src="images/linkedin.webp" alt="linkedin-logo"/>
-            </a>
-          </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
     </header>
     <nav>
-        <ul>
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>Fresh</li>
-            <li><a href="#"></a>About Us</li>
+        <ul id="primaryNav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Fresh</a></li>
+            <li><a href="#">About Us</a></li>
         </ul>
     </nav>
     <main>
+        <div class="container">
+            <div class="my-background">
+                <img id="hero-img" src="images/fruits2.jpg" alt="fruits image">
+            </div>
+        </div>
+        <div class="description">
+            <p>
+                Bountiful Foods is small business specializing in organic, locally grown foods. 
+                They are physically located in Carlsbad, California, however, they have many
+                food trucks that cover the coastal area from Los Angeles to San Diego. 
+            </p>
+            <p>
+                The company sells fruits and produce directly from the farmers in the area, 
+                but also uses some national and international suppliers. The owner-operated
+                company caters to walk in traffic at their storefront in Carlsbad and, 
+                of course, their food trucks.
+            </p>
+            <p>
+                They deliver and manage those orders on the 
+                phone and via the website. The mission is to provide fresh and healthy foods
+                options, including organic, made to order, fruit drinks and fruit bags, to the 
+                local population and to tourists visiting the coastal areas. The theme should 
+                support healthy eating, organic bounty, and convenience 
+            </p>
+        </div>
+        <img id="second-img" src="images/fruits4.jpg" alt="fruits-image">
+        <h2 class="forecast">Randburg Five Day Weather Forecast</h2>
+        <div class="weather-cards"></div>
+        <!-- <div class="weather-cards">
+            <div class="day-col">
+                <p class="day-of-week"><span id="day1"></span></p>
+                <img src="images/04n.png" alt="weather-icon" id="icon1">
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
 
+            <div class="day-col">
+                <p class="day-of-week"><span id="day2"></span></p>
+                <img src="images/04n.png" alt="weather-icon" id="icon2">
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+
+            <div class="day-col">
+                <p class="day-of-week"><span id="day3"></span></p>
+                <img src="images/04n.png" alt="weather-icon" id="icon3">
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+
+            <div class="day-col4">
+                <p class="day-of-week"><span id="day4"></span></p>
+                <img src="images/04n.png" alt="weather-icon" id="icon4">
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+
+            <div class="day-col5">
+                <p class="day-of-week"><span id="day5"></span></p>
+                <img src="images/04n.png" alt="weather-icon" id="icon5">
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+        </div> -->
     </main>
+    <div class="footer-logo-container">
+        <img id="footer-logo-img" src="images/wave-haikei.png" alt="logo">
+        <h1>Bountiful Fresh Foods</h1>
+        <div class="social">
+            <a href="https://web.facebook.com/RandburgSquare" target="_blank">
+                <img class="facebook" src="images/facebook.webp" alt="facebook-logo"/>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img class="linkedin" src="images/linkedin.webp" alt="linkedin-logo"/>
+            </a>
+        </div>
+    </div>
     <footer>
         <p>&COPY; <span id="year"></span> &bull; M. Abdul Mahlangu &bull; WDD-230 Final Project</p>
         <p>Last Updated: <span id="dateTime"></span></p>
     </footer>
-    
+    <script src="scripts/app.js"></script>
 </body>
 </html>
