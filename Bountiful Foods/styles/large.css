@@ -1,0 +1,52 @@
+@media only screen and (min-width: 992px) {
+
+    :root {
+        --prussian-blue: #182F4E;
+        --hunyadi-yellow: #F6AE2D;
+        --powder-blue: #BBCDE5;
+        --chocolate-cosmos: #6C0F23;
+        --rich-black: #0B2027;
+        --lavender: #DFD9E2;
+    }
+
+    button#hamburgerBtn {
+        display: none;
+    }
+
+    header {
+        gap: 10px;
+        padding: 40px;
+    }
+
+    img#logo-img {
+        width: 180px;
+        height: 180px;
+    }
+    
+    header h1 {
+        font-size: 7rem;
+    }
+
+    nav ul li a {
+        padding: 2rem 5vw;
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    ul#primaryNav {
+        justify-content: center;
+        /* background-color: var(--powder-blue); */
+    }
+
+    img#hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    img#second-img {
+        width: 35%;
+    }
+}

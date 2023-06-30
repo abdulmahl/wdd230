@@ -1,7 +1,16 @@
 const d = new Date();
 
+let fullDateandTime = `${d.toLocaleString("en-ZA", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    hour12: false,
+})}`;
+
 const fullYear = document.querySelector('#year');
 fullYear.textContent = d.getFullYear();
+document.querySelector("#dateTime").textContent = fullDateandTime;
+
+
 
 let toggleMenu = function() {
     document.querySelector("#primaryNav").classList.toggle("open");

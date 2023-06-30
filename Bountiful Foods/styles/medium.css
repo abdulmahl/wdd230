@@ -1,0 +1,82 @@
+@media only screen and (min-width: 768px) {
+    :root {
+        --prussian-blue: #182F4E;
+        --hunyadi-yellow: #F6AE2D;
+        --powder-blue: #BBCDE5;
+        --chocolate-cosmos: #6C0F23;
+        --rich-black: #0B2027;
+        --lavender: #DFD9E2;
+    }
+
+    header {
+        gap: 14px;
+    }
+    
+    img#logo-img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    header h1 {
+        font-size: 3.2rem;
+    }
+    
+    button#hamburgerBtn {
+        font-size: 3.6rem;
+    }
+
+    nav ul li a {
+        padding: 1.6rem 4vw;
+        font-size: 1.5rem;
+    }
+
+    .description {
+        padding: 30px;
+    }
+    
+    .description p {
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+
+    .weather-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        margin-bottom: 20px;
+    }
+
+    .forecast {
+        font-size: 4rem;
+    }
+
+    footer {
+        font-size: 2.4rem;
+    }
+    
+    .facebook, .linkedin {
+        width: 35px;
+    }
+    
+    .social {
+        gap: 15px;
+        margin-right: 150px;
+        margin-bottom: auto;
+    }
+    
+    img#footer-logo-img {
+        width: 80px;
+        height: 80px;
+        margin-left: 150px;
+    }
+    
+    .footer-logo-container {
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .footer-logo-container h1 {
+        font-size: 3.2rem;
+        font-family: 'Amatic SC';
+    }
+}
