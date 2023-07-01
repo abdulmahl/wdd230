@@ -36,7 +36,8 @@ let gotPosition = function(pos) {
 }
 
 let getForecast = function(lat, long) {
-    let url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&d=Randburg&units=metric&appid=' 
+    let url = 'https://api.openweathermap.org/data/2.5/weather?lat='
+    + lat + '&lon=' + long + '&d=Randburg&units=metric&appid=' 
     + apiKey;
     getWeatherText(url);
 }
