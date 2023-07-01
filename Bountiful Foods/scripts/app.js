@@ -23,46 +23,74 @@ x.onclick = toggleMenu;
 const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 const city = 'Randburg';
 
-const weatherCardsContainer = document.querySelector('.weather-cards');
+// const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
-async function getWeatherData() {
-  try {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`);
-    const data = await response.json();
-    return data.list;
-  } catch (error) {
-    console.error('Error fetching weather data:', error);
-  }
+// const weatherCardsContainer = document.querySelector('.weather-cards');
+
+let getPosition = function(pos) {
+    let lat = pos.coords.latitude;
+    let long = pos.coords.longitude;
+    // console.log(lat);
+    // console.log(long);
+    getForecast(lat, long);
 }
 
-function createWeatherCard(date, icon, temperature, description) {
-  const card = document.createElement('div');
-  card.classList.add('weather-card');
-  
-  card.innerHTML = `
-    <div class="date">${date}</div>
-    <img src="http://openweathermap.org/img/w/${icon}.png" width="100" alt="Weather Icon">
-    <div class="temperature">${temperature}°C</div>
-    <div class="description">${description}</div>
-  `;
-
-  return card;
+let getForecast = function(lat, long) {
+    let url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon= ' + long + 
+    '&d=Randburg&units=metric&exclude=current,minutely,hourly&appid=' 
+    + apiKey;
+    getWeatherText(url);
 }
 
-async function displayWeatherCards() {
-  const weatherData = await getWeatherData();
-  
-  if (!weatherData) return;
-
-  weatherData.slice(0, 5).forEach((data) => {
-    const date = data.dt_txt;
-    const icon = data.weather[0].icon;
-    const temperature = data.main.temp;
-    const description = data.weather[0].description;
-    
-    const card = createWeatherCard(date, icon, temperature, description);
-    weatherCardsContainer.appendChild(card);
-  });
+async function getWeatherText(url) {
+    let weatherObject = await fetch(url);
+    let weatherText = await weatherObject.text();
+    // console.log(weatherObject);
+    // console.log(weatherText);
+    parseWeather(weatherText);
 }
 
-displayWeatherCards();
+let parseWeather = function(weatherText) {
+    let weatherJSON = JSON.parse(weatherText);
+    let dailyForecast = weatherJSON.daily;
+
+    for (x = 0; x < dailyForecast.length; x++) {
+        let day = dailyForecast[x];
+        let today = new Date().getDay() + x;
+            if(today > 6) {
+                today = today - 7;
+            }
+            let dayOfWeek = getDayOfWeek(today);
+            let icon = day.weather[0].icon;
+            let description = day.weather[0].description;
+            let temp = kToc(day.temp.max);
+            displayWeatherDay(dayOfWeek, icon, description, temp);
+    }
+}
+
+let displayWeatherDay = function(dayOfWeek, icon, description, temp) {
+    let out = "<h3>" + dayOfWeek + "</h3>";
+    out += "<div class='weatherDay'> <img src='http://openweathermap.org/img/wn/" + icon + " .png'/>";
+    out += "<h4>" + description + "</h4>";
+    out += "<p>Temperature: " + temp + "</p>";
+    document.getElementById('weather-cards').innerHTML += out;
+}
+
+let getDayOfWeek = function(dayNum) {
+    let weekDay = new Array(7);
+    weekDay[0] = 'Sun';
+    weekDay[1] = 'Mon';
+    weekDay[2] = 'Tue';
+    weekDay[3] = 'Wed';
+    weekDay[4] = 'Thu';
+    weekDay[5] = 'Fri';
+    weekDay[6] = 'Sat';
+
+    return weekDay[dayNum];
+}
+
+let kToc = function(kelvinTemp) {
+    const celsius = kelvinTemp - 273;
+    return celsius;
+}
+
