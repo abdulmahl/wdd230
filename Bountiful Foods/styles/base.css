@@ -137,23 +137,29 @@ img#second-img {
     background-color: var(--powder-blue);
 }
 
-#weather-cards {
+/* Weather cards styling */
+
+#card4, #card5 {
+    display: none;
+}
+
+.weatherContainer {
     display: flex;
-    flex-direction: column;
+    background-color: var(--chocolate-cosmos);
     padding: 0;
-    gap: 3px;
+    /* gap: 3px; */
+    justify-content: center;
 }
 
-.weatherDay {
-   border: thin solid var(--powder-blue);
-   border-radius: 10px;
-   padding: 10px;
-   margin-bottom: 20px;
-   background-color: var(--chocolate-cosmos);
+.cards {
+    border: thin solid var(--powder-blue);
+    padding: 30px;
+    margin: 7px 3px;
+
 }
 
-.weatherDay img {
-    width: 100px;
+.weatherContainer img {
+    width: 50px;
 }
 
 .weatherDay p {
