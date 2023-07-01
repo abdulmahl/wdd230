@@ -27,7 +27,7 @@ const city = 'Randburg';
 
 // const weatherCardsContainer = document.querySelector('.weather-cards');
 
-let getPosition = function(pos) {
+let gotPosition = function(pos) {
     let lat = pos.coords.latitude;
     let long = pos.coords.longitude;
     // console.log(lat);
@@ -36,8 +36,7 @@ let getPosition = function(pos) {
 }
 
 let getForecast = function(lat, long) {
-    let url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon= ' + long + 
-    '&d=Randburg&units=metric&exclude=current,minutely,hourly&appid=' 
+    let url = 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&d=Randburg&units=metric&appid=' 
     + apiKey;
     getWeatherText(url);
 }
@@ -54,7 +53,7 @@ let parseWeather = function(weatherText) {
     let weatherJSON = JSON.parse(weatherText);
     let dailyForecast = weatherJSON.daily;
 
-    for (x = 0; x < dailyForecast.length; x++) {
+    for (let x = 0; x < dailyForecast; x++) {
         let day = dailyForecast[x];
         let today = new Date().getDay() + x;
             if(today > 6) {
@@ -77,7 +76,7 @@ let displayWeatherDay = function(dayOfWeek, icon, description, temp) {
 }
 
 let getDayOfWeek = function(dayNum) {
-    let weekDay = new Array(7);
+    var weekDay = new Array(7);
     weekDay[0] = 'Sun';
     weekDay[1] = 'Mon';
     weekDay[2] = 'Tue';
@@ -93,4 +92,6 @@ let kToc = function(kelvinTemp) {
     const celsius = kelvinTemp - 273;
     return celsius;
 }
+
+navigator.geolocation.getCurrentPosition(gotPosition);
 
