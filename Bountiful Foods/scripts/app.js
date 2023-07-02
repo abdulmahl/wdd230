@@ -29,28 +29,28 @@ baseForecast.textContent = 'Carlsbad Three Day Weather Forecast'
 const lrgForecast = document.querySelector('.forecast-lrg');
 lrgForecast.textContent = 'Carlsbad Five Day Weather Forecast'
 
-const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
+// const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
-    + 'lat=33.158092&lon=-117.350594&d=Carlsbad&units=metric&appid=' 
-    + apiKey;
+// const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
+//     + 'lat=33.158092&lon=-117.350594&d=Carlsbad&units=metric&appid=' 
+//     + apiKey;
     
-fetch(apiUrl)
- .then(response => response.json())
- .then(data => {
-    const jsonData = data;
-    console.log(jsonData);
-    // displayData(jsonData)
- })
+// fetch(apiUrl)
+//  .then(response => response.json())
+//  .then(data => {
+//     const jsonData = data;
+//     console.log(jsonData);
+//     // displayData(jsonData)
+//  })
 
 
-function displayData(weatherData) {
-    const weatherIcon = document.querySelector('.weather-icon');
-    const day = document.querySelector('.day-card-day');
+// function displayData(weatherData) {
+//     const weatherIcon = document.querySelector('.weather-icon');
+//     const day = document.querySelector('.day-card-day');
 
-    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const description = weatherData.weather[0].description;
+//     const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+//     const description = weatherData.weather[0].description;
 
-    weatherIcon.setAttribute('src', iconSrc);
-    weatherIcon.setAttribute('alt', description);
-}
+//     weatherIcon.setAttribute('src', iconSrc);
+//     weatherIcon.setAttribute('alt', description);
+// }
