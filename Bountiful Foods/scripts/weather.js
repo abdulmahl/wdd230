@@ -1,13 +1,34 @@
-import axios from "axios"
+
+// For the base only display 3 days weather forecast
+const baseForecast = document.querySelector('.forecast');
+baseForecast.textContent = 'Carlsbad Three Day Weather Forecast'
+
+// For the larger screens display five days.
+const lrgForecast = document.querySelector('.forecast-lrg');
+lrgForecast.textContent = 'Carlsbad Five Day Weather Forecast'
+
+const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
+
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
+    + 'lat=33.158092&lon=-117.350594&d=Carlsbad&units=metric&appid=' 
+    + apiKey;
+    
+fetch(apiUrl)
+ .then(response => response.json())
+ .then(data => {
+    const jsonData = data;
+    console.log(jsonData);
+    // displayData(jsonData)
+ })
 
 
-export function getWeather(lat, lon, timezone) {
-    return axios.get(
-        "https://api.open-meteo.com/v1/forecast?&hourly=temperature_2m&daily=weathercode,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&timeformat=unixtime",
-        { 
-        params: {
-            latitude: lat,
-            longitude: lon,
-            timezone,
-        }}) 
-};
+function displayData(weatherData) {
+    const weatherIcon = document.querySelector('.weather-icon');
+    const day = document.querySelector('.day-card-day');
+
+    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const description = weatherData.weather[0].description;
+
+    weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('alt', description);
+}
