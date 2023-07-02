@@ -23,11 +23,11 @@ x.onclick = toggleMenu;
 
 // For the base only display 3 days weather forecast
 const baseForecast = document.querySelector('.forecast');
-baseForecast.textContent = 'Randburg Three Day Weather Forecast'
+baseForecast.textContent = 'Carlsbad Three Day Weather Forecast'
 
 // For the larger screens display five days.
 const lrgForecast = document.querySelector('.forecast-lrg');
-lrgForecast.textContent = 'Randburg Five Day Weather Forecast'
+lrgForecast.textContent = 'Carlsbad Five Day Weather Forecast'
 
 const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 
@@ -39,7 +39,7 @@ fetch(apiUrl)
  .then(response => response.json())
  .then(data => {
     const jsonData = data;
-    // console.log(jsonData);
+    console.log(jsonData);
     // displayData(jsonData)
  })
 
