@@ -34,7 +34,6 @@ const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
     + 'lat=-26.08&lon=27.98&d=Randburg&units=metric&appid=' 
     + apiKey;
-    // console.log(apiUrl);
     
 fetch(apiUrl)
  .then(response => response.json())
