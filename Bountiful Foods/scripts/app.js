@@ -1,4 +1,3 @@
-import axios from "axios"
 const date = new Date();
 
 let fullDateandTime = `${date.toLocaleString("en-ZA", {
@@ -26,25 +25,33 @@ x.onclick = toggleMenu;
 const baseForecast = document.querySelector('.forecast');
 baseForecast.textContent = 'Randburg Three Day Weather Forecast'
 
+// For the larger screens display five days.
 const lrgForecast = document.querySelector('.forecast-lrg');
 lrgForecast.textContent = 'Randburg Five Day Weather Forecast'
 
-
-
-
 const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
-const city = 'Randburg';
 
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
     + 'lat=-26.08&lon=27.98&d=Randburg&units=metric&appid=' 
     + apiKey;
-    console.log(apiUrl);
+    // console.log(apiUrl);
     
-    let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",];
-    
-function getWeather()  {
-   return axios.get(apiUrl);
-}
+fetch(apiUrl)
+ .then(response => response.json())
+ .then(data => {
+    const jsonData = data;
+    // console.log(jsonData);
+    // displayData(jsonData)
+ })
 
-getWeather();
-    
+
+function displayData(weatherData) {
+    const weatherIcon = document.querySelector('.weather-icon');
+    const day = document.querySelector('.day-card-day');
+
+    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const description = weatherData.weather[0].description;
+
+    weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('alt', description);
+}
