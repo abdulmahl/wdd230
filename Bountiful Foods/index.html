@@ -30,115 +30,76 @@
                 <img id="hero-img" src="images/fruits2.jpg" alt="fruits image">
             </div>
         </div>
-        <div class="description">
-            <p>
-                Bountiful Foods is small business specializing in organic, locally grown foods. 
-                They are physically located in Carlsbad, California, however, they have many
-                food trucks that cover the coastal area from Los Angeles to San Diego. 
-            </p>
-            <p>
-                The company sells fruits and produce directly from the farmers in the area, 
-                but also uses some national and international suppliers. The owner-operated
-                company caters to walk in traffic at their storefront in Carlsbad and, 
-                of course, their food trucks.
-            </p>
-            <p>
-                They deliver and manage those orders on the 
-                phone and via the website. The mission is to provide fresh and healthy foods
-                options, including organic, made to order, fruit drinks and fruit bags, to the 
-                local population and to tourists visiting the coastal areas. The theme should 
-                support healthy eating, organic bounty, and convenience 
-            </p>
+        <div class="main-content">
+            <div class="description">
+                <p>
+                    Bountiful Foods is small business specializing in organic, locally grown foods. 
+                    They are physically located in Carlsbad, California, however, they have many
+                    <img id="second-img-para" src="images/fruits4.jpg" alt="fruits-image">
+                    food trucks that cover the coastal area from Los Angeles to San Diego. 
+                    The company sells fruits and produce directly from the farmers in the area, 
+                    but also uses some national and international suppliers. The owner-operated
+                    company caters to walk in traffic at their storefront in Carlsbad and, 
+                    of course, their food trucks.
+                    They deliver and manage those orders on the 
+                    phone and via the website. The mission is to provide fresh and healthy foods
+                    options, including organic, made to order, fruit drinks and fruit bags, to the 
+                    local population and to tourists visiting the coastal areas. The theme should 
+                    support healthy eating, organic bounty, and convenience.
+                    <div class="lrg-image-cont">
+                        <img id="lrg-image-base" src="images/fruits3.jpg" alt="fruits-image">
+                    </div>
+                </p>
+            </div>
+            <img id="second-img-base" src="images/fruits4.jpg" alt="fruits-image">
         </div>
-        <img id="second-img" src="images/fruits4.jpg" alt="fruits-image">
-        <h2 class="forecast">Randburg Five Day Weather Forecast</h2>
+        
+        <h2 class="forecast"></h2>
+        <h2 class="forecast-lrg"></h2>
         <div class="weather-cards"></div>
 
-
-        <div class="weatherContainer">
-            <div class="cardsContainer">
-                <div class="cards">
-                    <p class="weather" id="day1"></p>
-                    <div class="image"><img src="images/04n.png" class="imgClass" id="img1" alt=""></div>
-                    <p class="temp" id="temp1"></p>
-                    <p class="condition" id="conditionDay1"></p>
-                </div>
+        <section class="day-section" data-day-section>
+            <div class="day-card">
+              <div class="day-card-day">Mon</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
             </div>
-
-            <div class="cardsContainer">
-                <div class="cards">
-                    <p class="weather" id="day2"></p>
-                    <div class="image"><img src="images/04n.png" class="imgClass" id="img2" alt=""></div>
-                    <p class="temp" id="temp2"></p>
-                    <p class="condition" id="conditionDay2"></p>
-                </div>
+            <div class="day-card">
+              <div class="day-card-day">Tue</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
             </div>
-
-            <div class="cardsContainer">
-                <div class="cards">
-                    <p class="weather" id="day3"></p>
-                    <div class="image"><img src="images/04n.png" class="imgClass" id="img3" alt=""></div>
-                    <p class="temp" id="temp3"></p>
-                    <p class="condition" id="conditionDay3"></p>
-                </div>
+            <div class="day-card">
+              <div class="day-card-day">Wed</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
             </div>
-
-            <div class="cardsContainer" id="card4">
-                <div class="cards">
-                    <p class="weather" id="day4"></p>
-                    <div class="image"><img src="images/04n.png" class="imgClass" id="img4" alt=""></div>
-                    <p class="temp" id="temp4"></p>
-                    <p class="condition" id="conditionDay4"></p>
-                </div>
+            <div class="day-card" id="day4">
+              <div class="day-card-day">Thu</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
             </div>
-
-            <div class="cardsContainer" id="card5">
-                <div class="cards">
-                    <p class="weather" id="day5"></p>
-                    <div class="image"><img src="images/04n.png" class="imgClass" id="img5" alt=""></div>
-                    <p class="temp" id="temp5"></p>
-                    <p class="condition" id="conditionDay5"></p>
-                </div>
+            <div class="day-card" id="day5">
+              <div class="day-card-day">Fri</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
             </div>
-        </div>
-
-        
-        <!-- <div class="weather-cards">
-            <div class="day-col">
-                <p class="day-of-week"><span id="day1"></span></p>
-                <img src="images/04n.png" alt="weather-icon" id="icon1">
-                <div class="temp"></div>
-                <div class="description"></div>
+          </section>
+          
+          <template id="day-card-template">
+            <div class="day-card">
+              <div class="day-card-day" data-day></div>
+              <img data-icon class="weather-icon">
+              <div class="degrees"> <span data-temp></span>  <span>&deg;C</span></div>
+              <div class="condition"> <span data-condition></span></div>
             </div>
-
-            <div class="day-col">
-                <p class="day-of-week"><span id="day2"></span></p>
-                <img src="images/04n.png" alt="weather-icon" id="icon2">
-                <div class="temp"></div>
-                <div class="description"></div>
-            </div>
-
-            <div class="day-col">
-                <p class="day-of-week"><span id="day3"></span></p>
-                <img src="images/04n.png" alt="weather-icon" id="icon3">
-                <div class="temp"></div>
-                <div class="description"></div>
-            </div>
-
-            <div class="day-col4">
-                <p class="day-of-week"><span id="day4"></span></p>
-                <img src="images/04n.png" alt="weather-icon" id="icon4">
-                <div class="temp"></div>
-                <div class="description"></div>
-            </div>
-
-            <div class="day-col5">
-                <p class="day-of-week"><span id="day5"></span></p>
-                <img src="images/04n.png" alt="weather-icon" id="icon5">
-                <div class="temp"></div>
-                <div class="description"></div>
-            </div>
-        </div> -->
+          </template>
+    
     </main>
     <div class="footer-logo-container">
         <img id="footer-logo-img" src="images/wave-haikei.png" alt="logo">

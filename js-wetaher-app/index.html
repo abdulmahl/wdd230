@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="day-section" data-day-section>
+        <div class="day-card">
+          <div class="day-card-day">Monday</div>
+          <img src="04n.png" class="weather-icon">
+          <div class="degrees">32&deg;C</div>
+          <div class="condition">CLOUDY</div>
+        </div>
+        <div class="day-card">
+          <div class="day-card-day">Tuesday</div>
+          <img src="04n.png" class="weather-icon">
+          <div class="degrees">32&deg;C</div>
+          <div class="condition">CLOUDY</div>
+        </div>
+        <div class="day-card">
+          <div class="day-card-day">Wednesday</div>
+          <img src="04n.png" class="weather-icon">
+          <div class="degrees">32&deg;C</div>
+          <div class="condition">CLOUDY</div>
+        </div>
+        <div class="day-card">
+          <div class="day-card-day" id="day4">Thursday</div>
+          <img src="04n.png" class="weather-icon">
+          <div class="degrees">32&deg;C</div>
+          <div class="condition">CLOUDY</div>
+        </div>
+        <div class="day-card">
+          <div class="day-card-day" id="day5">Friday</div>
+          <img src="04n.png" class="weather-icon">
+          <div class="degrees">32&deg;C</div>
+          <div class="condition">CLOUDY</div>
+        </div>
+      </section>
+      
+      <template id="day-card-template">
+        <div class="day-card">
+          <div class="day-card-day" data-day></div>
+          <img data-icon class="weather-icon">
+          <div class="degrees"> <span data-temp></span>  <span>&deg;C</span></div>
+          <div class="condition"> <span data-condition></span></div>
+        </div>
+      </template>
+      
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

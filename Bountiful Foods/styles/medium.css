@@ -30,7 +30,13 @@
         font-size: 1.5rem;
     }
 
+    /* Main content styling */
+    .main-content {
+        flex-direction: row;
+    }
+
     .description {
+        flex-direction: column;
         padding: 30px;
     }
     
@@ -39,20 +45,49 @@
         padding: 6px;
     }
 
-    img#second-img {
-        width: 75%;
+    img#second-img-base {
+        display: none;
     }
 
-    .weather-cards {
+    img#second-img-para {
+        display: revert;
+        width: 20%;
+        height: 150px;
+        float: right;
+        margin: 10px;
+    }
+
+    /* Weather cards styling */
+    #day4, #day5 {
+        display: revert;
+        width: 200px;
         display: flex;
-        flex-direction: row;
-        gap: 7px;
-        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: .50rem;
+        padding: .25rem;
+        border: 3px solid var(--hunyadi-yellow);
+        background-color: var(--chocolate-cosmos);
+        color: var(--powder-blue);
     }
 
     .forecast {
-        font-size: 4rem;
+        display: none;
     }
+
+    .forecast-lrg {
+        display: revert;
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Amatic SC';
+        padding: 20px;
+        background-color: var(--powder-blue);
+    }
+
+    .day-card {
+        width: 200px;
+        border-radius: .50rem;
+      }
 
     footer {
         font-size: 2.4rem;
