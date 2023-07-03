@@ -58,23 +58,27 @@
     }
 
     /* Weather cards styling */
-    #day4, #day5 {
+    .forecast {
         display: revert;
-        width: 200px;
+    }
+
+    .forecast {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Amatic SC';
+        padding: 10px;
+        background-color: var(--powder-blue);
+    }
+
+    .weather-cards {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: .50rem;
-        padding: .25rem;
-        border: 3px solid var(--hunyadi-yellow);
+        gap: 1rem;
+        justify-content: center;
+        padding: 1rem;
         background-color: var(--chocolate-cosmos);
         color: var(--powder-blue);
     }
-
-    .day-card {
-        width: 200px;
-        border-radius: .50rem;
-      }
 
     footer {
         font-size: 2.4rem;
@@ -86,17 +90,15 @@
     
     .social {
         gap: 15px;
-        margin-right: 150px;
     }
     
     img#footer-logo-img {
         width: 80px;
         height: 80px;
-        margin-left: 50px;
     }
     
     .footer-logo-container {
-        gap: 20px;
+        gap: 10px;
         padding: 20px;
     }
     

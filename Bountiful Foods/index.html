@@ -27,7 +27,7 @@
     <main>
         <div class="container">
             <div class="my-background">
-                <img id="hero-img" src="images/fruits2.jpg" alt="fruits image">
+                <img loading="lazy" id="hero-img" src="images/fruits2.jpg" alt="fruits image">
             </div>
         </div>
         <div class="main-content">
@@ -35,7 +35,7 @@
                 <p>
                     Bountiful Foods is small business specializing in organic, locally grown foods. 
                     They are physically located in Carlsbad, California, however, they have many
-                    <img id="second-img-para" src="images/fruits4.jpg" alt="fruits-image">
+                    <img loading="lazy" id="second-img-para" src="images/placeholderSmall.png" data-src="images/fruits4.jpg" alt="fruits-image">
                     food trucks that cover the coastal area from Los Angeles to San Diego. 
                     The company sells fruits and produce directly from the farmers in the area, 
                     but also uses some national and international suppliers. The owner-operated
@@ -46,16 +46,61 @@
                     options, including organic, made to order, fruit drinks and fruit bags, to the 
                     local population and to tourists visiting the coastal areas. The theme should 
                     support healthy eating, organic bounty, and convenience.
+                    <!-- <img loading="lazy" src="images/placeholder.png" data-src="images/" alt=""> -->
                     <div class="lrg-image-cont">
-                        <img id="lrg-image-base" src="images/fruits3.jpg" alt="fruits-image">
+                        <img id="lrg-image-base" src="images/placeholder.png" data-src="images/fruits3.jpg" alt="fruits-image">
                     </div>
                 </p>
             </div>
-            <img id="second-img-base" src="images/fruits4.jpg" alt="fruits-image">
+            <img loading="lazy" id="second-img-base" src="images/placeholder.png" data-src="images/louis-hansel.jpg" alt="fruits-image">
         </div>
         
         <h2 class="forecast"></h2>
-        <div id="forecast"></div>
+        <!-- <h2 class="forecast-lrg"></h2> -->
+
+        <div class="weather-cards"></div>
+
+        <!-- <section class="day-section">
+            <div class="day-card">
+              <div class="day-card-day">Mon</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
+            </div>
+            <div class="day-card">
+              <div class="day-card-day">Tue</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
+            </div>
+            <div class="day-card">
+              <div class="day-card-day">Wed</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
+            </div>
+            <div class="day-card" id="day4">
+              <div class="day-card-day">Thu</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
+            </div>
+            <div class="day-card" id="day5">
+              <div class="day-card-day">Fri</div>
+              <img src="images/04n.png" class="weather-icon">
+              <div class="degrees">32&deg;C</div>
+              <div class="condition">CLOUDY</div>
+            </div>
+          </section>
+          
+          <template id="day-card-template">
+            <div class="day-card">
+              <div class="day-card-day" data-day></div>
+              <img data-icon class="weather-icon">
+              <div class="degrees"> <span data-temp></span>  <span>&deg;C</span></div>
+              <div class="condition"> <span data-condition></span></div>
+            </div>
+          </template> -->
     
     </main>
     <div class="footer-logo-container">
@@ -79,5 +124,6 @@
     </footer>
     <script src="scripts/app.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/lazyloading.js"></script>
 </body>
 </html>
