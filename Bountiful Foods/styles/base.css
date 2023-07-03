@@ -1,6 +1,6 @@
 :root {
     --prussian-blue: #182F4E;
-    --hunyadi-yellow: #F6AE2D;
+    --fire-engine-red: #D0252A;
     --powder-blue: #BBCDE5;
     --chocolate-cosmos: #6C0F23;
     --rich-black: #0B2027;
@@ -62,24 +62,24 @@ nav ul {
   
 nav ul li a {
     display: block;
-    padding: 0.8rem 2vw;
+    padding: 0;
     text-decoration: none;
     color: var(--prussian-blue);
 }
 
 nav ul li a:hover {
-    background-color: var(--hunyadi-yellow);
+    text-shadow: 5px 5px 25px var(--powder-blue);
     color: var(--chocolate-cosmos);
 }
 
 nav ul li.active a {
-    background-color: var(--powder-blue);
-    color: var(--prussian-blue);
+    text-decoration: line-through;
+    color: var(--fire-engine-red);
 }
 
-.active a:hover {
-    color: var(--chocolate-cosmos);
-}
+/* .active a:hover {
+    color: var(--);
+} */
 
 nav ul {
     display: none;
@@ -113,7 +113,7 @@ nav ul.open {
     flex-direction: column;
 }
 
-.description {
+.description, .description2 {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -123,8 +123,39 @@ img#second-img-para, img#lrg-image-base {
     display: none;
 }
 
-.description p {
+.description p, p.description2 {
     padding: 3px;
+}
+
+p.description2 {
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.mix-drink {
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: "Amatic SC";
+    font-weight: bolder;
+    color: var(--powder-blue);
+    background-color: var(--chocolate-cosmos);
+    padding: 7px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px var(--prussian-blue);
+}
+
+.mix-drink:hover {
+    background-color: var(--powder-blue);
+    color: var(--chocolate-cosmos);
+    text-shadow: 1px 1px 5px var(--rich-black);
 }
 
 img#hero-img {
