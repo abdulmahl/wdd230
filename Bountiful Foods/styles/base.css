@@ -155,10 +155,6 @@ img#second-img-base {
 
 /* Weather cards styling */
 
-#day4, #day5 {
-    display: none;
-}
-
 .day-section {
     display: flex;
     gap: 1rem;

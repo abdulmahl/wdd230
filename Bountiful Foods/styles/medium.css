@@ -71,19 +71,6 @@
         color: var(--powder-blue);
     }
 
-    .forecast {
-        display: none;
-    }
-
-    .forecast-lrg {
-        display: revert;
-        text-align: center;
-        font-size: 4rem;
-        font-family: 'Amatic SC';
-        padding: 20px;
-        background-color: var(--powder-blue);
-    }
-
     .day-card {
         width: 200px;
         border-radius: .50rem;

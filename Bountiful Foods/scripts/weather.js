@@ -1,34 +1,37 @@
+// let dayOfWeek = () => {
+//     new Date().toLocaleDateString('en-EN', {'weekday': 'short'});
+// }
 
-// For the base only display 3 days weather forecast
-const baseForecast = document.querySelector('.forecast');
-baseForecast.textContent = 'Carlsbad Three Day Weather Forecast'
 
 // For the larger screens display five days.
-const lrgForecast = document.querySelector('.forecast-lrg');
-lrgForecast.textContent = 'Carlsbad Five Day Weather Forecast'
+const lrgForecast = document.querySelector('.forecast');
+lrgForecast.textContent = 'Carlsbad Weather Forecast'
 
 const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
 
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
+// let gotPosition = function(pos) {
+//     let lat = pos.coord.latitude;
+//     let lon = pos.coord.longitude;
+//     console.log(lat);
+//     console.log(lon);
+//     getForecast(lat, lon);
+// }
+
+let getForecast = function() {
+    const apiUrl = 'https://api.openweathermap.org/data/2.5/forecast?'
     + 'lat=33.158092&lon=-117.350594&d=Carlsbad&units=metric&appid=' 
     + apiKey;
-    
-fetch(apiUrl)
- .then(response => response.json())
- .then(data => {
-    const jsonData = data;
-    console.log(jsonData);
-    // displayData(jsonData)
- })
-
-
-function displayData(weatherData) {
-    const weatherIcon = document.querySelector('.weather-icon');
-    const day = document.querySelector('.day-card-day');
-
-    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const description = weatherData.weather[0].description;
-
-    weatherIcon.setAttribute('src', iconSrc);
-    weatherIcon.setAttribute('alt', description);
+    getWeatherText(apiUrl);
 }
+
+let getWeatherText = async function(url) {
+    let weatherObject = await fetch(url);
+    let weatherText = await weatherObject.text();
+    console.log(weatherText);
+    console.log(weatherObject);
+    // parseWeather(weatherText);
+}
+
+getWeatherText();
+
+
