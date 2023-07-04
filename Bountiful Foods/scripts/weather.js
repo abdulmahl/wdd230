@@ -51,7 +51,7 @@ fetchApi();
 
 let showResults = function(weatherData) {
 
-    for(let i = 0; i < weatherData.length; i++) {
+    for(let i = 8; i < weatherData.length; i += 8) {
 
         const dayForecast = weatherData[i];
         let {  } = dayForecast;
