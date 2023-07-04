@@ -28,15 +28,21 @@
     }
 
     nav ul li a {
-        margin: 30px;
-        padding: 20px;
-        font-size: 2rem;
+        margin: 0 80px 0 80px;
+        padding:  0 11px 0 11px;
+        font-size: 3rem;
+        position: relative;
+        top: 100%;
+        z-index: 1;
+        color: var(--powder-blue);
+        background-color: var(--chocolate-cosmos);
+        border-radius: 10px;
     }
 
     nav ul li a:hover {
-        background-color: none;
         text-shadow: 3px 3px 15px var(--rich-black);
-        color: var(--chocolate-cosmos);
+        background-color: var(--lavender);
+        color: var(--prussian-blue);
         text-decoration: line-through;
     }
 
@@ -54,6 +60,10 @@
     }
 
     /* Main content styling */
+    main div.container {
+        margin-top: -55px;
+    }
+
     main div.main-content {
         display: grid;
         grid-template-columns: 2fr 300px;
@@ -66,28 +76,36 @@
     img#lrg-image-base {
         display: block;
         width: 100%;
+        margin: 0;
         border: thin solid var(--chocolate-cosmos);
-        box-shadow: 2px 2px 10px var(--prussian-blue);
+        filter: drop-shadow( 3px 3px 15px var(--prussian-blue));
     }
 
     img#second-img-base {
         display: block;
         width: 100%;
-        height: 88%;
+        height: 86.7%;
         object-fit: cover;
-        margin-top: 13px;
-        box-shadow: 2px 2px 10px var(--chocolate-cosmos);
-        border: thin solid var(--powder-blue);
+        border: thin solid var(--chocolate-cosmos);
+        filter: drop-shadow( 3px 3px 15px var(--prussian-blue));
     }
 
     img#second-img-para {
         display: none;
     }
 
+    .description p {
+        padding: 0 0 10px 0;
+    }
+
+    .description {
+        padding: 30px 30px 30px 0;
+    }
+
     p.description2 {
         grid-column: 1 / 4;
-        width: 100%;
-        border: thin solid var(--powder-blue);
+        border: thin solid var(--chocolate-cosmos);
+        padding: 10px;
     }
 
     .mix-drink {
@@ -95,6 +113,11 @@
         top: 77%;
         right: -3%;
         border-radius: 20px;
-        padding: 20px;
+        padding: 0 9px 0 9px;
+    }
+
+    .mix-drink:hover {
+        background-color: var(--lavender);
+        color: var(--prussian-blue);
     }
 }

@@ -33,12 +33,12 @@
     /* Main content styling */
     .description, .description2 {
         flex-direction: column;
-        padding: 30px;
+        padding: 0 30px;
     }
     
     .description p {
         font-size: 1.5rem;
-        padding: 6px;
+        padding: 15px 0 0 0;
     }
 
     .mix-drink {
@@ -53,8 +53,11 @@
 
     p.description2 {
         font-size: 1.5rem;
-        padding: 30px;
-        padding-bottom: -20px;
+        padding: 0 30px;
+    }
+
+    img#lrg-image-base {
+        filter: drop-shadow( 3px 3px 15px var(--prussian-blue));
     }
 
     img#second-img-base {
@@ -67,11 +70,14 @@
         height: 150px;
         float: right;
         margin: 10px;
+        border: thin solid var(--chocolate-cosmos);
+        filter: drop-shadow(3px 3px 15px var(--prussian-blue));
     }
 
     /* Weather cards styling */
     .forecast {
         display: revert;
+        padding: 15px 0 0 0;
     }
 
     .forecast {

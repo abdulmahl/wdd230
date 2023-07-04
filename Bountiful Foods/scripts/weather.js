@@ -54,41 +54,40 @@ let showResults = function(weatherData) {
     for(let i = 0; i < weatherData.length; i++) {
 
         const dayForecast = weatherData[i];
-        const {  } = dayForecast;
+        let {  } = dayForecast;
+
+        const cards = document.querySelector('.weather-cards');
+
+        const card = document.createElement('div');
+        card.classList.add('weather-card');
+    
+        const weekDay = document.createElement('p');
+        weekDay.classList.add('card-day');
+        weekDay. textContent = day;
+    
+    
+        const icon = document.createElement('img');
+        icon.classList.add('card-icon');
+        const iconSrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
+        const description = weatherData.list[0].weather[0].description;
+        icon.setAttribute('src', iconSrc)
+        icon.setAttribute('alt', description)
+    
+        const temp = document.createElement('p');
+        temp.classList.add('temperature');
+        temp.innerHTML = `<strong>${weatherData.list[0].main.temp.toFixed(0)}&deg;C</strong>`;
+    
+        const condition = document.createElement('p');
+        condition.classList.add('card-description');
+        condition.textContent = description;
+    
+        card.append(weekDay);
+        card.append(icon);
+        card.append(temp);
+        card.append(condition);
+    
+        cards.append(card);
     }
-
-
-    const cards = document.querySelector('.weather-cards');
-
-    const card = document.createElement('div');
-    card.classList.add('weather-card');
-
-    const weekDay = document.createElement('p');
-    weekDay.classList.add('card-day');
-    weekDay. textContent = day;
-
-
-    const icon = document.createElement('img');
-    icon.classList.add('card-icon');
-    const iconSrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
-    const description = weatherData.list[0].weather[0].description;
-    icon.setAttribute('src', iconSrc)
-    icon.setAttribute('alt', description)
-
-    const temp = document.createElement('p');
-    temp.classList.add('temperature');
-    temp.innerHTML = `<strong>${weatherData.list[0].main.temp.toFixed(0)}&deg;C</strong>`;
-
-    const condition = document.createElement('p');
-    condition.classList.add('card-description');
-    condition.textContent = description;
-
-    card.append(weekDay);
-    card.append(icon);
-    card.append(temp);
-    card.append(condition);
-
-    cards.append(card);
 }
 
 

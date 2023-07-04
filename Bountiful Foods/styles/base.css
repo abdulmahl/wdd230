@@ -62,24 +62,22 @@ nav ul {
   
 nav ul li a {
     display: block;
-    padding: 0;
+    padding: .75rem 5vw;
     text-decoration: none;
     color: var(--prussian-blue);
 }
 
 nav ul li a:hover {
-    text-shadow: 5px 5px 25px var(--powder-blue);
+    text-shadow: 2px 2px 25px var(--rich-black);
     color: var(--chocolate-cosmos);
+    text-decoration: line-through;
 }
 
 nav ul li.active a {
     text-decoration: line-through;
+    background-color: var(--powder-blue);
     color: var(--fire-engine-red);
 }
-
-/* .active a:hover {
-    color: var(--);
-} */
 
 nav ul {
     display: none;
@@ -119,12 +117,14 @@ nav ul.open {
     padding: 20px;
 }
 
-img#second-img-para, img#lrg-image-base {
+img#second-img-para {
     display: none;
 }
 
-.description p, p.description2 {
-    padding: 3px;
+img#lrg-image-base {
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: thin solid var(--chocolate-cosmos);
 }
 
 p.description2 {
@@ -147,7 +147,7 @@ p.description2 {
     font-weight: bolder;
     color: var(--powder-blue);
     background-color: var(--chocolate-cosmos);
-    padding: 7px;
+    padding: 0 7px 0 7px;
     border-radius: 10px;
     text-shadow: 1px 1px 5px var(--prussian-blue);
 }
@@ -165,10 +165,10 @@ img#hero-img {
 
 img#second-img-base {
     display: block;
-    width: 95%;
+    width: 89%;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     border: thin solid var(--chocolate-cosmos);
 }
 
