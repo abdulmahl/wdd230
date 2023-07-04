@@ -1,8 +1,4 @@
-const lrgForecast = document.querySelector('.forecast');
-lrgForecast.textContent = 'Carlsbad Five Day Weather Forecast';
-
 const apiKey = 'cb266327ed92e9d613d6ebe5e148d6ca';
-
 const apiUrl = 'https://api.openweathermap.org/data/2.5/forecast?'
     + 'lat=33.158092&lon=-117.350594&d=Carlsbad&units=metric&appid=' 
     + apiKey;
