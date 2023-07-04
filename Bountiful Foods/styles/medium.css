@@ -89,7 +89,7 @@
         text-shadow: 2px 2px 10px var(--prussian-blue);
     }
 
-    .weather-cards {
+    .day-section {
         display: flex;
         gap: 1rem;
         justify-content: center;
