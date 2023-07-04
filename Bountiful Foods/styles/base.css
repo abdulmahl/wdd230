@@ -168,7 +168,6 @@ img#second-img-base {
     width: 89%;
     height: auto;
     margin: 0 auto;
-    /* margin-bottom: 15px; */
     border: thin solid var(--chocolate-cosmos);
 }
 
