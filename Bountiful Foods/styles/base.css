@@ -173,21 +173,37 @@ img#second-img-base {
 }
 
 .forecast {
-    display: none;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    font-family: 'Amatic SC';
+    color: var(--chocolate-cosmos);
+    filter: drop-shadow(5px 5px 9px var(--prussian-blue));
 }
 
 /* Weather cards styling */
 
-.weather-cards {
-    display: none;
+.day-section {
+    display: flex; 
+    justify-content: center;
 }
 
-.weather-card {
-    /* display: flex;
-    flex-direction: column; */
+.condition {
+    font-size: 1rem;
+    padding: 7px 0 0 0;
+}
+
+.day-card {
     text-align: center;
-    padding: 10px;
+    width: 80px;
+    padding: 10px 0 10px 0;
+    color: var(--powder-blue);
     border: thin solid var(--powder-blue);
+    background-color: var(--chocolate-cosmos);
+}
+
+img.weather-icon {
+    width: 50px;
 }
 /* End of card styling */
 

@@ -120,4 +120,22 @@
         background-color: var(--lavender);
         color: var(--prussian-blue);
     }
+
+    div.day-card {
+        width: 250px;
+        padding: 20px 0 20px 0;
+        font-size: 1.7rem;
+    }
+
+    .condition {
+        font-size: 1.5rem;
+    }
+
+    img.weather-icon {
+        width: 150px;
+    }
+
+    .forecast {
+       font-size: 4rem;
+    }
 }
