@@ -1,4 +1,13 @@
 /* CSS Styling for the Website Planning Document */
+:root {
+    --prussian-blue: #182F4E;
+    --fire-engine-red: #D0252A;
+    --powder-blue: #BBCDE5;
+    --chocolate-cosmos: #6C0F23;
+    --rich-black: #0B2027;
+    --lavender: #DFD9E2;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -10,13 +19,14 @@ body {
     padding: 20px;
   }
   
-  header {
-    background-color: #333;
-    color: #fff;
+  header, footer {
+    background-color: var(--prussian-blue);
+    color: var(--lavender);
+    width: 100%;
   }
 
   img#logo-img {
-    width: 80%;
+    width: 40%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -41,30 +51,34 @@ body {
   nav ul li {
     display: inline;
     margin-right: 20px;
-    /* text-align: center; */
     padding: 25px 0;
   }
 
   .nav2 {
     padding: 20px 0;
-    text-align: center;
   }
   
   nav ul li a {
+    font-size: 2rem;
     text-decoration: none;
     color: #333;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px #686;
   }
   
   nav ul li a:hover {
     color: #686;
+    text-shadow: none;
   }
   
-  main section {
+  main section, nav {
     margin-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
   }
   
   footer {
-    background-color: #333;
+    background-color: var(--prussian-blue);
     color: #fff;
     text-align: center;
   }
@@ -87,26 +101,14 @@ body {
   #typo-table tbody tr th {
     font-size: large;
     font-weight: bolder;
-    background-color: var(--davys-gray);
-    color: var(--ghost-white);
+    background-color: var(--powder-blue);
+    color: var(--rich-black);
   }
   
   #typo-table tbody tr th, #typo-table tr td  {
     border: 1px solid #000;
     padding: 15px;
     width: 200px;
-  }
-  
-  #typo-table tbody tr th:nth-child(3),
-  #typo-table tbody tr th:nth-child(4),
-  #typo-table tbody tr th:nth-child(5) {
-    display: none;
-  }
-  
-  #typo-table tr td:nth-child(3),
-  #typo-table tr td:nth-child(4),
-  #typo-table tr td:nth-child(5) {
-    display: none;
   }
   
   #typo-table tr td:nth-child(1),
@@ -117,24 +119,24 @@ body {
   
   .color-sample1 {
     background-color: var(--lavender);
-    color: var(--raisin-black);
+    color: var(--rich-black);
     font-size: 25px;
   }
   
   .color-sample2 {
     background-color: var(--lavender);
-    color: var(--raisin-black);
+    color: var(--rich-black);
     font-size: 19px;
   }
   
   .color-sample3, .color-sample4 {
-    background-color: var(--raisin-black);
+    background-color: var(--rich-black);
     color: var(--lavender);
     font-size: 18px;
   }
   
   .color-sample4 {
-    background-color: var(--raisin-black);
+    background-color: var(--rich-black);
     color: var(--lavender);
     font-size: 1.5em;
     font-weight: bolder;
@@ -158,8 +160,8 @@ body {
     text-align: center;
   }
   .colors th {
-    background-color: var(--davys-gray);
-    color: var(--ghost-white);
+    background-color: var(--powder-blue);
+    color: var(--rich-black);
   }
   .colors td {
     width: 25%;
@@ -167,18 +169,18 @@ body {
   }
   
   .primary {
-    background-color: var(--lavender);
+    background-color: var(--chocolate-cosmos);
   }
   .secondary {
-    background-color: var(--raisin-black);
-    color: var(--lavender);
+    background-color: var(--powder-blue);
+    color: var(--rich-black);
   }
   .accent1 {
-    background-color: var(--honolulu-blue);
+    background-color: var(--prussian-blue);
     color: #fff;
   }
   .accent2 {
-    background-color: var(--mindaro);
+    background-color: var(--lavender);
   }
   /* Typography and Design End */
 
@@ -241,6 +243,7 @@ img#base, img#medium, img#large {
 
 div.base, div.medium, div.large {
     text-align: center;
+    font-size: 1.6rem;
 }
 
   /* Styling for the wireframes End */
