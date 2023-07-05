@@ -67,7 +67,6 @@
     main div.main-content {
         display: grid;
         grid-template-columns: 2fr 300px;
-        grid-row: 1fr;
         align-items: center;
         width: 85%;
         margin: 0 auto;
