@@ -116,26 +116,26 @@ body {
   
   
   .color-sample1 {
-    background-color: var(--lavender);
-    color: var(--rich-black);
+    background-color: var(--chocolate-cosmos);
+    color: var(--powder-blue);
     font-size: 25px;
   }
   
   .color-sample2 {
-    background-color: var(--lavender);
+    background-color: var(--powder-blue);
     color: var(--rich-black);
     font-size: 19px;
   }
   
   .color-sample3, .color-sample4 {
-    background-color: var(--rich-black);
+    background-color: var(--prussian-blue);
     color: var(--lavender);
     font-size: 18px;
   }
   
   .color-sample4 {
-    background-color: var(--rich-black);
-    color: var(--lavender);
+    background-color: var(--lavender);
+    color: var(--prussian-blue);
     font-size: 1.5em;
     font-weight: bolder;
   }
@@ -168,6 +168,7 @@ body {
   
   .primary {
     background-color: var(--chocolate-cosmos);
+    color: var(--powder-blue);
   }
   .secondary {
     background-color: var(--powder-blue);
