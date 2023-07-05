@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME &bull; Site Planning Document &bull; Abdul Mahl</title>
+  <meta name="description" content="Bountiful Fresh Foods Site Planning Document">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+  <header>
+    <img id="logo-img" src="images/wave-haikei-fotor.png" alt="logo">
+    <h1>Bountiful Fresh Foods</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#section1">About</a></li>
+      <li><a href="#section2">Services</a></li>
+      <li><a href="#section3">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="section1">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+    <section id="section2">
+      <h2>Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+    <section id="section3">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&COPY; <span id="year"></span> &bull; BFF Site Planning Document &bull; All Rights Reserved</p>
+    <p class="last-updated">Last Updated: <span id="dateTime"></span></p>
+  </footer>
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
