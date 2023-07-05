@@ -1,248 +1,247 @@
 /* CSS Styling for the Website Planning Document */
 :root {
-    --prussian-blue: #182F4E;
-    --fire-engine-red: #D0252A;
-    --powder-blue: #BBCDE5;
-    --chocolate-cosmos: #6C0F23;
-    --rich-black: #0B2027;
-    --lavender: #DFD9E2;
+  --prussian-blue: #182F4E;
+  --fire-engine-red: #D0252A;
+  --powder-blue: #BBCDE5;
+  --chocolate-cosmos: #6C0F23;
+  --rich-black: #0B2027;
+  --lavender: #DFD9E2;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
   
-  header, nav, main, footer {
-    padding: 20px;
-  }
+header, nav, main, footer {
+  padding: 20px;
+}
   
-  header, footer {
-    background-color: var(--prussian-blue);
-    color: var(--lavender);
-    width: 100%;
-  }
+header, footer {
+  background-color: var(--prussian-blue);
+  color: var(--lavender);
+  width: 100%;
+}
 
-  img#logo-img {
-    width: 40%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+img#logo-img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  h1 {
-    font-size: 1.8rem;
-  }
+h1 {
+  font-size: 1.8rem;
+}
 
-  h2 {
-    text-align: center;
-    border-bottom: 1px solid #878;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-    padding: 25px 0;
-  }
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #878;
+}
 
-  .nav2 {
-    padding: 20px 0;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
   
-  nav ul li a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: #333;
-    text-decoration: underline;
-    text-shadow: 3px 3px 5px #686;
-  }
-  
-  nav ul li a:hover {
-    color: #686;
-    text-shadow: none;
-  }
-  
-  main section, nav {
-    margin-bottom: 20px;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  footer {
-    background-color: var(--prussian-blue);
-    color: #fff;
-    text-align: center;
-  }
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 25px 0;
+}
 
-  /* Typography and Design Start */
+.nav2 {
+  padding: 20px 0;
+}
 
-  .typo {
-    font-family: "Ubuntu";
-    padding: 10px;
-    background-color: var(--lavender);
-    text-align: center;
-  }
+nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+  text-decoration: underline;
+  text-shadow: 3px 3px 5px #686;
+}
   
-  #typo-table  {
-    margin: 10px;
-    font-size: 10px;
-  }
-  
-  #typo-table tbody tr th {
-    font-size: large;
-    font-weight: bolder;
-    background-color: var(--powder-blue);
-    color: var(--rich-black);
-  }
-  
-  #typo-table tbody tr th, #typo-table tr td  {
-    border: 1px solid #000;
-    padding: 15px;
-    width: 200px;
-  }
-  
-  #typo-table tr td:nth-child(1),
-  #typo-table tr td:nth-child(2) {
-    font-size: 13px;
-  }
-  
-  .color-sample1 {
-    background-color: var(--chocolate-cosmos);
-    color: var(--powder-blue);
-    font-size: 25px;
-  }
-  
-  .color-sample2 {
-    background-color: var(--powder-blue);
-    color: var(--rich-black);
-    font-size: 19px;
-  }
-  
-  .color-sample3, .color-sample4 {
-    background-color: var(--prussian-blue);
-    color: var(--lavender);
-    font-size: 18px;
-  }
-  
-  .color-sample4 {
-    background-color: var(--lavender);
-    color: var(--prussian-blue);
-    font-size: 1.5em;
-    font-weight: bolder;
-  }
-  
-  .color-sample5 {
-    font-size: 13px;
-  }
-  
-  .schema {
-    font-family: "Ubuntu";
-    padding: 10px;
-    background-color: var(--lavender);
-    text-align: center;
-  }
-  
-  .colors {
-    width: 100%;
-    min-width: 30px;
-    margin: 30px auto;
-    text-align: center;
-  }
-  .colors th {
-    background-color: var(--powder-blue);
-    color: var(--rich-black);
-  }
-  .colors td {
-    width: 25%;
-    height: 3em;
-  }
-  
-  .primary {
-    background-color: var(--chocolate-cosmos);
-    color: var(--powder-blue);
-  }
-  .secondary {
-    background-color: var(--powder-blue);
-    color: var(--rich-black);
-  }
-  .accent1 {
-    background-color: var(--prussian-blue);
-    color: #fff;
-  }
-  .accent2 {
-    background-color: var(--lavender);
-  }
-  /* Typography and Design End */
+nav ul li a:hover {
+  color: #686;
+  text-shadow: none;
+}
 
-  /* Styling of Site Map Start */
-  .sitemap {
-    display: grid;
-    justify-content: center;
-  
-    grid-template-columns: repeat(6, 15%);
-    grid-template-rows: 3em 1.5em 1.5em 3em;
-    grid-template-areas: ". . home home . ."
-      ". . . top . ."
-      ". left left right right ."
-      "page2 page2 . . page3 page3";
-  }
-  .sitemap > div {
-  
-    text-align: center;
-  
-  }
-  .sm-home {
-    grid-area: home;
-    background-color: #ccc;
-    line-height: 3em;
-  }
-  .sm-page2 {
-    grid-area: page2;
-    background-color: #ccc;
-    line-height: 3em;
-  }
-  .sm-page3 {
-    grid-area: page3;
-    background-color: #ccc;
-    line-height: 3em;
-  }
-  
-  .top {
-    grid-area: top;
-    border-left: 1px solid;
-  }
-  
-  .left {
-    grid-area: left;
-    border-top: 1px solid;
-    border-left: 1px solid;
-  }
-  
-  .right {
-    grid-area: right;
-    border-top: 1px solid;
-    border-right: 1px solid;
-  }
-  /* Styling of Site Map End */
+main section, nav {
+  margin-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
 
-  /* Styling for the wireframes Start */
+footer {
+  background-color: var(--prussian-blue);
+  color: #fff;
+  text-align: center;
+}
+
+/* Typography and Design Start */
+
+.typo {
+  font-family: "Ubuntu";
+  padding: 10px;
+  background-color: var(--lavender);
+  text-align: center;
+}
+
+#typo-table  {
+  margin: 10px;
+  font-size: 10px;
+}
+  
+#typo-table tbody tr th {
+  font-size: large;
+  font-weight: bolder;
+  background-color: var(--powder-blue);
+  color: var(--rich-black);
+}
+
+#typo-table tbody tr th, #typo-table tr td  {
+  border: 1px solid #000;
+  padding: 15px;
+  width: 200px;
+}
+
+#typo-table tr td:nth-child(1),
+#typo-table tr td:nth-child(2) {
+  font-size: 13px;
+}
+  
+.color-sample1 {
+  background-color: var(--chocolate-cosmos);
+  color: var(--powder-blue);
+  font-size: 25px;
+}
+
+.color-sample2 {
+  background-color: var(--powder-blue);
+  color: var(--rich-black);
+  font-size: 19px;
+}
+
+.color-sample3, .color-sample4 {
+  background-color: var(--prussian-blue);
+  color: var(--lavender);
+  font-size: 18px;
+}
+
+.color-sample4 {
+  background-color: var(--lavender);
+  color: var(--prussian-blue);
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.color-sample5 {
+  font-size: 13px;
+}
+
+.schema {
+  font-family: "Ubuntu";
+  padding: 10px;
+  background-color: var(--lavender);
+  text-align: center;
+}
+
+.colors {
+  width: 100%;
+  min-width: 30px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: var(--powder-blue);
+  color: var(--rich-black);
+}
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--chocolate-cosmos);
+  color: var(--powder-blue);
+}
+
+.secondary {
+  background-color: var(--powder-blue);
+  color: var(--rich-black);
+}
+.accent1 {
+  background-color: var(--prussian-blue);
+  color: #fff;
+}
+.accent2 {
+  background-color: var(--lavender);
+}
+/* Typography and Design End */
+
+/* Styling of Site Map Start */
+.sitemap {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+  ". . . top . ."
+  ". left left right right ."
+  "page2 page2 . . page3 page3";
+}
+
+.sitemap > div {
+  text-align: center;
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+  
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+/* Styling of Site Map End */
+
+/* Styling for the wireframes Start */
 img#base, img#medium, img#large {
-    width: 100%;
-    padding: 10px 0;
+  width: 100%;
+  padding: 10px 0;
 }
 
 div.base, div.medium, div.large {
-    text-align: center;
-    font-size: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
 }
-
-  /* Styling for the wireframes End */
-  
+/* Styling for the wireframes End */
