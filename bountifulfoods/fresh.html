@@ -31,9 +31,41 @@
         <div class="container">
             <div class="my-background">
                 <img loading="lazy" id="hero-img" src="images/fruits2.jpg" alt="fruits image">
-                <a href="https://abdulmahl.github.io/wdd230/Bountiful Foods/fresh.html"> <p class="mix-drink">Mix Your Drink</p> </a>
             </div>
         </div>
+
+        <form action="">
+
+            <fieldset>
+                <legend>Mix Your Drink</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name <input type="text" name="lname"></label>
+                <label class="top">Cell-Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="example@hotmail.com" required></label>
+
+                <label class="top">
+                         
+                    <div class="fruitOption">
+                        <label for="fruit1">Pick a Fruit</label>
+                        <select name="selectFruit"></select>
+                    </div>
+                    
+                    <div class="fruitOption">
+                        <label for="fruit2">Pick a Fruit</label>
+                        <select name="selectFruit"></select>
+                    </div>
+
+                    <div class="fruitOption">
+                        <label for="fruit3">Pick a Fruit</label>
+                        <select name="selectFruit"></select>
+                    </div>
+
+                </label>
+                
+            </fieldset>
+    
+        </form>
+       
 
     </main>
     <div class="footer-logo-container">
@@ -58,7 +90,6 @@
         <p>Last Updated: <span id="dateTime"></span></p>
     </footer>
     <script src="scripts/app.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/lazyloading.js"></script>
+    <script src="scripts/fruit.js"></script>
 </body>
 </html>

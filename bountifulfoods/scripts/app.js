@@ -10,8 +10,6 @@ const fullYear = document.querySelector('#year');
 fullYear.textContent = date.getFullYear();
 document.querySelector("#dateTime").textContent = fullDateandTime;
 
-
-
 let toggleMenu = function() {
     document.querySelector("#primaryNav").classList.toggle("open");
     document.querySelector("#hamburgerBtn").classList.toggle("open");

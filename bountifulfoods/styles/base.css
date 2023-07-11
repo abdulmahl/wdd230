@@ -242,3 +242,49 @@ img#footer-logo-img {
     font-size: 1.6rem;
     font-family: 'Amatic SC';
 }
+
+/* Styling for the Fresh page Start*/
+form fieldset {
+    margin: 2rem auto;
+    border: thin solid var(--fire-engine-red);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 90%;
+}
+
+form legend {
+    color: var(--chocolate-cosmos);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-family: 'Amatic SC'; 
+    font-size: 2rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: var(--fire-engine-red);
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: thin solid var(--powder-blue);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--rich-black);
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.fruitOption {
+    padding: 10px 0;
+}
+
+select {
+    font-family: 'Amatic SC';
+    font-size: 1.6rem;
+}
