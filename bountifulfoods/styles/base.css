@@ -249,7 +249,7 @@ form fieldset {
     border: thin solid var(--fire-engine-red);
     border-radius: 10px;
     padding: .5rem 2%;
-    width: 90%;
+    width: 95%;
 }
 
 form legend {
@@ -264,13 +264,13 @@ form label.top {
     display: block;
     padding-top: 1rem;
     color: var(--fire-engine-red);
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 form label.top input, form label.top select {
     appearance: none;
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: thin solid var(--powder-blue);
     border-radius: 4px;
     padding: .75rem;
@@ -278,13 +278,30 @@ form label.top input, form label.top select {
     width: 100%;
     max-width: 100%;
     background-color: rgba(0, 0, 0, .1);
+    font-family: 'Amatic SC';
 }
 
-.fruitOption {
+div.fruitOption {
     padding: 10px 0;
 }
 
-select {
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: var(--chocolate-cosmos);
+    color: var(--powder-blue);
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 95%;
+    font-size: 1.9rem;
     font-family: 'Amatic SC';
-    font-size: 1.6rem;
+}
+  
+  form input.submitBtn:hover {
+    background-color: var(--prussian-blue);
+    color: var(--lavender);
+    font-family: 'Ubuntu';
+    cursor: pointer;
 }
