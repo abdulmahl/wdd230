@@ -38,7 +38,7 @@ formElement.addEventListener('submit', function(e) {
     feedbackElement.append(phoneNumber);
 
     let h3 = document.createElement('h3');
-    h3.textContent = 'Fruit Combination:';
+    h3.textContent = 'Fruit Combination';
     h3.style.padding = '20px 0px 0px 0px';
     feedbackElement.append(h3);
 
