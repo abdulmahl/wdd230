@@ -64,6 +64,10 @@ formElement.addEventListener('submit', function(e) {
     document.body.classList.toggle('moveDown');
 
     let info = document.createElement('ul');
+    let nutritionalInfo = document.createElement('h3');
+    nutritionalInfo.textContent = 'Nutritional Information';
+    nutritionalInfo.style.padding = '15px 0px 0px 0px';
+    feedbackElement.append(nutritionalInfo);
 
     fetch(fruitUrl).then(fruitData => fruitData.json()).then(data => {
         // Filter only necessary data
@@ -89,8 +93,8 @@ formElement.addEventListener('submit', function(e) {
         feedbackElement.append(info);
 
         let formDate = document.createElement('p');
-        formDate.innerText = `Date And Time: 
-        ${fullDateandTime}`;
+        formDate.innerText = `Date And Time: ${fullDateandTime}`;
+        formDate.style.padding = '15px 0px 0px 0px';
         feedbackElement.append(formDate);
     });
 });
