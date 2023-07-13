@@ -59,7 +59,7 @@ formElement.addEventListener('submit', function(e) {
     // make the feedback element visible.
     feedbackElement.style.display = 'block';
     feedbackElement.style.textAlign = 'center';
-    feedbackElement.style.fontSize = '1.5rem';
+    feedbackElement.style.fontSize = '1.9rem';
     feedbackElement.style.fontFamily = 'Amatic SC';
     feedbackElement.style.padding = '10px';
     
