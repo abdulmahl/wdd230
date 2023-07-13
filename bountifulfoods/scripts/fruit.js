@@ -20,6 +20,9 @@ fetch(fruitUrl)
 
 // get the feedback div element so we can do something with it.
 const feedbackElement = document.querySelector('#feedback');
+feedbackElement.style.margin = '0px auto 20px auto';
+feedbackElement.style.backgroundColor = '#6C0F23';
+feedbackElement.style.color = '#BBCDE5';
 // get the form so we can read what was entered in it.
 const formElement = document.forms[0];
 // add a 'listener' to wait for a submission of our form. When that happens run the code below.
@@ -46,6 +49,7 @@ formElement.addEventListener('submit', function(e) {
     let combo = [];
     elements.forEach(element => {
         let fruit = document.createElement('li');
+        fruit.style.listStyle = 'none';
         fruit.innerText = element.value;
         fruitList.append(fruit);
         combo.push(fruit.innerText);
@@ -54,11 +58,10 @@ formElement.addEventListener('submit', function(e) {
 
     // make the feedback element visible.
     feedbackElement.style.display = 'block';
-    feedbackElement.style.margin = '9px 0px';
     feedbackElement.style.textAlign = 'center';
     feedbackElement.style.fontSize = '1.5rem';
     feedbackElement.style.fontFamily = 'Amatic SC';
-    feedbackElement.style.padding = '0px 0px 20px 0px';
+    feedbackElement.style.padding = '10px';
     
     // add a class to move everything down so our message doesn't cover it.
     document.body.classList.toggle('moveDown');
@@ -69,25 +72,27 @@ formElement.addEventListener('submit', function(e) {
     nutritionalInfo.style.padding = '15px 0px 0px 0px';
     feedbackElement.append(nutritionalInfo);
 
+    const submitBtn = document.querySelector('.submitBtn');
+
     fetch(fruitUrl).then(fruitData => fruitData.json()).then(data => {
-        // Filter only necessary data
+        // Filter out the all the needed json data.
         let nutritions = data.filter(fruit => {
-            // Return only selected fruits
+            // Display all the items the user selected. 
             return combo.includes(fruit.name);
         }).map(fruit => {
-            // Return only nutritions
+            // Return all the nutritional information for the user to see.
             return fruit.nutritions;
         });
-    
-        // Create nutritional list
+        
+        submitBtn.style.display = 'none';
         Object.keys(nutritions[0]).forEach(key => {
-            // Add up values
             let value = 0;
             nutritions.forEach(nutrition => {
                 value += nutrition[key];
             });
             let li = document.createElement('li');
             li.innerText = `${key}: ${value.toFixed(2)}`;
+            li.style.listStyle = 'none';
             info.append(li);
         });
         feedbackElement.append(info);

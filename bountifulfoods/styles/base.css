@@ -236,6 +236,7 @@ img#footer-logo-img {
     gap: 10px;
     color: var(--chocolate-cosmos);
     padding: 10px;
+    padding-top: 0px 0px 20px 0px;
 }
 
 .footer-logo-container h1 {
@@ -290,18 +291,37 @@ form input.submitBtn {
     border: none;
     background-color: var(--chocolate-cosmos);
     color: var(--powder-blue);
-    border-radius: 1rem;
-    padding: .75rem;
+    border-radius: .6rem;
+    padding: .5em 1em;
     margin: 0 auto 20px;
     width: 100%;
-    max-width: 95%;
+    max-width: 75%;
     font-size: 1.9rem;
     font-family: 'Amatic SC';
 }
   
-  form input.submitBtn:hover {
+form input.submitBtn:hover {
     background-color: var(--prussian-blue);
     color: var(--lavender);
     font-family: 'Ubuntu';
     cursor: pointer;
+    border:  0;
+    outline: 3px solid var(--lavender);
+    outline-offset: -5px;
+    transition: 500ms;
 }
+
+#feedback {
+    display: block;
+    width:  85%;
+}
+/* Styling for the Fresh page End*/
+
+/* Styling for the About us page Start */
+
+.aboutus-container img {
+    width: 100%;
+}
+
+
+/* Styling for the About us page End */
