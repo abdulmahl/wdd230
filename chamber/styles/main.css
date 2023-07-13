@@ -736,11 +736,11 @@ div.cards {
   color: var(--lapis-lazuli);
 }
 
-/* .google-map {
+.google-map {
   width: 85%;
   margin: 0 auto;
   height: 200px;
-} */
+}
 
 .stats-randburg, .last-visited {
   text-align: center;

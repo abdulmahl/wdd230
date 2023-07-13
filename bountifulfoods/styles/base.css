@@ -318,10 +318,29 @@ form input.submitBtn:hover {
 /* Styling for the Fresh page End*/
 
 /* Styling for the About us page Start */
-
-.aboutus-container img {
-    width: 100%;
+.aboutus-container, .main-contact {
+    padding: 10px;
+    font-size: 1.3rem;
 }
 
+.about-us {
+    color: var(--prussian-blue);
+    font-size: 1.9rem;
+    font-family: 'Ubuntu';
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
 
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px 7px 10px;
+}
+
+.google-map {
+    width: 85%;
+    margin: 0 auto;
+    height: 200px;
+}
+  
 /* Styling for the About us page End */
