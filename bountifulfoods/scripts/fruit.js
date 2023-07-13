@@ -18,16 +18,16 @@ fetch(fruitUrl)
         });
     });
 
-// get the feedback div element so we can do something with it.
+//* get the feedback div element so we can do something with it.
 const feedbackElement = document.querySelector('#feedback');
 feedbackElement.style.margin = '0px auto 20px auto';
 feedbackElement.style.backgroundColor = '#6C0F23';
 feedbackElement.style.color = '#BBCDE5';
-// get the form so we can read what was entered in it.
+//* get the form so we can read what was entered in it.
 const formElement = document.forms[0];
-// add a 'listener' to wait for a submission of our form. When that happens run the code below.
+//* add a 'listener' to wait for a submission of our form. When that happens run the code below.
 formElement.addEventListener('submit', function(e) {
-    // stop the form from doing the default action.
+    //* Prevent default action.
     e.preventDefault();
 
     feedbackElement.innerHTML = `Ordered by: ${formElement.fname.value}! <br>`;
@@ -56,14 +56,14 @@ formElement.addEventListener('submit', function(e) {
     })
     feedbackElement.append(fruitList);
 
-    // make the feedback element visible.
+    //* make the feedback element visible, add some styling dynamically.
     feedbackElement.style.display = 'block';
     feedbackElement.style.textAlign = 'center';
     feedbackElement.style.fontSize = '1.9rem';
     feedbackElement.style.fontFamily = 'Amatic SC';
     feedbackElement.style.padding = '10px';
     
-    // add a class to move everything down so our message doesn't cover it.
+    //* add a class to move everything down so our message doesn't cover it.
     document.body.classList.toggle('moveDown');
 
     let info = document.createElement('ul');
@@ -75,12 +75,12 @@ formElement.addEventListener('submit', function(e) {
     const submitBtn = document.querySelector('.submitBtn');
 
     fetch(fruitUrl).then(fruitData => fruitData.json()).then(data => {
-        // Filter out the all the needed json data.
+        //* Filter out the all the needed json data.
         let nutritions = data.filter(fruit => {
-            // Display all the items the user selected. 
+            //* Display all the items the user selected. 
             return combo.includes(fruit.name);
         }).map(fruit => {
-            // Return all the nutritional information for the user to see.
+            //* Return all the nutritional information for the user to see.
             return fruit.nutritions;
         });
         
