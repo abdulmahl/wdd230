@@ -327,7 +327,7 @@ form input.submitBtn:hover {
     font-size: 1.3rem;
 }
 
-.about-us {
+.about-us, .reachus {
     color: var(--prussian-blue);
     font-size: 1.9rem;
     font-family: 'Ubuntu';
@@ -342,7 +342,7 @@ form input.submitBtn:hover {
 }
 
 .google-map {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     height: 200px;
 }
