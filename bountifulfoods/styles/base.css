@@ -147,15 +147,19 @@ p.description2 {
     font-weight: bolder;
     color: var(--powder-blue);
     background-color: var(--chocolate-cosmos);
-    padding: 0 7px 0 7px;
+    padding: .5em;
     border-radius: 10px;
     text-shadow: 1px 1px 5px var(--prussian-blue);
 }
 
 .mix-drink:hover {
-    background-color: var(--powder-blue);
-    color: var(--chocolate-cosmos);
+    background-color: var(--prussian-blue);
+    color: var(--lavender);
     text-shadow: 1px 1px 5px var(--rich-black);
+    border:  0;
+    outline: 3px solid var(--lavender);
+    outline-offset: -5px;
+    transition: 500ms;
 }
 
 img#hero-img {
@@ -342,5 +346,4 @@ form input.submitBtn:hover {
     margin: 0 auto;
     height: 200px;
 }
-  
 /* Styling for the About us page End */
