@@ -317,7 +317,7 @@ form input.submitBtn:hover {
 
 #feedback {
     display: block;
-    width:  85%;
+    width:  100%;
 }
 /* Styling for the Fresh page End*/
 
@@ -333,6 +333,7 @@ form input.submitBtn:hover {
     font-family: 'Ubuntu';
     text-align: center;
     padding: 15px 0px 10px 0px;
+    border: 1px solid var(--prussian-blue);
 }
 
 .social-icons {
@@ -345,5 +346,6 @@ form input.submitBtn:hover {
     width: 100%;
     margin: 0 auto;
     height: 200px;
+    margin-bottom: 30px;
 }
 /* Styling for the About us page End */

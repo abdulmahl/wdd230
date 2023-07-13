@@ -116,13 +116,17 @@
         font-size: 5rem;
         top: 77%;
         right: -3%;
-        border-radius: 20px;
-        padding: 0 9px 0 9px;
+        border-radius: 10px;
+        padding: 10px;
     }
 
     .mix-drink:hover {
-        background-color: var(--lavender);
-        color: var(--prussian-blue);
+        background-color: var(--prussian-blue);
+        color: var(--lavender);
+        border: 0;
+        outline: 5px solid var(--lavender);
+        outline-offset: -9px;
+        transition: 500ms;
     }
 
     div.day-card {
@@ -141,5 +145,48 @@
 
     .forecast {
        font-size: 4rem;
+    }
+
+    .aboutus-container, .main-contact {
+        padding: 20px;
+        font-size: 1.5rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .google-map {
+        height: 400px;
+    }
+
+    form fieldset {
+        margin: 2rem auto;
+        border: thin solid var(--fire-engine-red);
+        border-radius: 10px;
+        padding: .5rem 2%;
+        width: 55%;
+    }
+
+    form input.submitBtn {
+        border-radius: 1rem;
+        padding: .7em 1.3em;
+        margin: 0 auto 30px;
+        max-width: 55%;
+        font-size: 2.2rem;
+    }
+
+    #feedback {
+        width:  55%;
+        border-radius: 10px;
+    }
+
+    form legend {
+        margin: 0 2rem;
+        padding: 0 .7rem;
+        font-size: 2.5rem;
+    }
+    
+    form label.top {
+        padding-top: 1.6rem;
+        font-size: 1.4rem;
     }
 }
