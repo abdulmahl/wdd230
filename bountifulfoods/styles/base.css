@@ -156,7 +156,7 @@ p.description2 {
     background-color: var(--prussian-blue);
     color: var(--lavender);
     text-shadow: 1px 1px 5px var(--rich-black);
-    border:  0;
+    border: 0;
     outline: 3px solid var(--lavender);
     outline-offset: -5px;
     transition: 500ms;
