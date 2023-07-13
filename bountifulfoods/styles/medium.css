@@ -163,6 +163,8 @@
 
     #feedback {
         width:  85%;
+        border-radius: 10px;
+        font-size: 1.7rem;
     }
 
     form legend {
