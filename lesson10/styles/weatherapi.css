@@ -27,10 +27,9 @@ main {
 }
 
 img#weather-icon {
-    width: 15%;
+    width: 25%;
     aspect-ratio: 3/2;
     object-fit: contain;
-    mix-blend-mode: color-burn;
 }
 
 main h2 {
