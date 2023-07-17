@@ -240,7 +240,7 @@ img#footer-logo-img {
     gap: 10px;
     color: var(--chocolate-cosmos);
     padding: 10px;
-    padding-top: 0px 0px 20px 0px;
+    padding-top: 20px;
 }
 
 .footer-logo-container h1 {
