@@ -91,7 +91,7 @@ formElement.addEventListener('submit', function(e) {
                 value += nutrition[key];
             });
             let li = document.createElement('li');
-            li.innerText = `${key}: ${value.toFixed(2)}`;
+            li.innerText = `${key}: ${value.toFixed(1)}mg / 330ml`;
             li.style.listStyle = 'none';
             info.append(li);
         });
