@@ -4,9 +4,9 @@ document.querySelector("#year").textContent = date.getFullYear();
 
 const list = document.querySelector("ul");
 const input = document.querySelector("input");
-const buttton = document.querySelector("button");
+const button = document.querySelector("button");
 
-buttton.addEventListener("click", () => {
+button.addEventListener("click", () => {
     const myBook = input.value;
     input.value = "";
     
