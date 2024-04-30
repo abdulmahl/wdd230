@@ -38,18 +38,18 @@ if (dayOfWeek === 1 || dayOfWeek === 2) {
 }
 
 // Display a number of visits for user to see.
-const visitsDisplay = document.querySelector(".visits");
+// const visitsDisplay = document.querySelector(".visits");
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
-if (numVisits !== 0) {
-  visitsDisplay.textContent = `This is visit number ${numVisits + 1}`;
-} else {
-  visitsDisplay.textContent = `This is your first visit`;
-}
+// let numVisits = Number(window.localStorage.getItem("visits-ls"));
+// if (numVisits !== 0) {
+//   visitsDisplay.textContent = `This is visit number ${numVisits + 1}`;
+// } else {
+//   visitsDisplay.textContent = `This is your first visit`;
+// }
 
-numVisits++;
+// numVisits++;
 
-localStorage.setItem("visits-ls", numVisits);
+// localStorage.setItem("visits-ls", numVisits);
 
 function toggleDarkMode() {
   const body = document.body;
